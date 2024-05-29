@@ -1,4 +1,4 @@
-# Adrig Technologies 
+# Adrig Technologies
 
 ## Code Formatting with Prettier and Husky
 
