@@ -1,38 +1,34 @@
 import { NavbarLinksTypes } from "../types"
 
-export const navbarLinks = [
+export const navbarLinks: NavbarLinksTypes[] = [
   {
     id: 1,
-    label: "Ai Products     ",
+    label: "Ai Products",
     url: "/",
-    assets: [
-      {
-        id: 1,
-        image: "",
-        label: "",
-      },
-    ],
   },
   {
     id: 2,
     label: "Services",
     url: "services",
-    assets: [
-      {
-        id: 1,
-        image: "",
-        label: "",
-      },
-    ],
   },
   {
     id: 3,
     label: "Industries",
-    url: "/about",
+    url: "/industries",
   },
   {
     id: 4,
-    label: "Contact",
-    url: "/contact",
+    label: "Insights",
+    url: "/insights",
+  },
+  {
+    id: 5,
+    label: "Work",
+    url: "/work",
+  },
+  {
+    id: 6,
+    label: "About",
+    url: "/about",
   },
 ]

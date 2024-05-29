@@ -3,3 +3,31 @@ export type NavbarLinksTypes = {
   label: string
   url: string
 }
+
+export type CountUpAnimationType = {
+  initialValue: number
+  targetValue: number
+  text: string
+}
+
+export type HomepageCompaniesServicesType = {
+  id: number
+  image: string
+  title: string
+  description: string
+  urlPath: string
+}
+
+export type IndustriesType = {
+  id: number
+  image: string
+  title: string
+  urlPath: string
+}
+
+export type StepsToFollowType = {
+  id: number
+  image: any
+  title: string
+  description: string
+}

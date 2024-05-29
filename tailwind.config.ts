@@ -52,9 +52,6 @@ const config = {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
-        pitchBlue: {
-          DEFAULT: "var(--pitchBlue)",
-        },
       },
       borderRadius: {
         lg: "var(--radius)",
