@@ -3,7 +3,7 @@ import AI_Powered_App_Development from "@/assets/images/AI-powered-App-Developme
 import AI_Strategy_Counsulting from "@/assets/images/AIML-Strategy-Consulting.svg"
 import BankingFinanceIcon from "@/assets/images/Banking-Finance-icon.svg"
 import BlockChainHome from "@/assets/images/blockchainhome.svg"
-import ConsumerElectronicsIcon from "@/assets/images/Consumer-electronics-icon.svg"
+import ConsumerElectronicsIcon from "@/assets/images/Consumer-Electronics-icon.svg"
 import Custom_Software_Development from "@/assets/images/Custom-Software-Development-icon.svg"
 import Data_Engineering from "@/assets/images/Data-Engineering-2.svg"
 import DedicatedTeamIcon from "@/assets/images/Dedicated-Team-Icon.svg"
