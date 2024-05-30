@@ -5,7 +5,7 @@ import RightArrowTransitionButton from "../RightArrowTransitionButton"
 
 const HeroSection = () => {
   return (
-    <div className="w-full bg-[#051c2c]">
+    <div className="w-full bg-pantone">
       <div className="grid grid-cols-2 mx-auto pt-20 pb-24 px-32">
         <section className="col-span-1 w-full flex flex-col justify-center space-y-10">
           <span className="text-5xl font-normal font-serif text-white leading-tight">
