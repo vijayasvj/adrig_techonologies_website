@@ -1,7 +1,23 @@
+type Asset = {
+  id: number
+  label: string
+  image: string
+  url: string
+}
+
+export type SubLink = {
+  id: number
+  label: string
+  url: string
+  image?: string
+  assets?: Asset[]
+}
+
 export type NavbarLinksTypes = {
   id: number
   label: string
   url: string
+  assets?: SubLink[]
 }
 
 export type CountUpAnimationType = {
