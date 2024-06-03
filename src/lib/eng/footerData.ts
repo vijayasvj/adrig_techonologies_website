@@ -43,106 +43,44 @@ export const footerData = [
     subcategories: [
       {
         id: 1,
-        label: "AI Development",
+        label: "Generative AI",
         url: "/",
       },
       {
         id: 2,
-        label: "AI Consulting",
+        label: "AI",
         url: "/",
       },
       {
         id: 3,
+        label: "Software development",
+        url: "/",
+      },
+      {
+        id: 4,
         label: "Game Development",
         url: "/",
       },
-      // {
-      //     id: 4,
-      //     label: "Case Studies",
-      //     url: "/case-studies",
-      // },
-      // {
-      //     id: 5,
-      //     label: "Work",
-      //     url: "/work",
-      // },
-      // {
-      //     id: 6,
-      //     label: "Community",
-      //     url: "/community",
-      // },
-    ],
-  },
-  {
-    id: 3,
-    label: "Industries",
-    subcategories: [
       {
-        id: 1,
-        label: "Finance",
+        id: 5,
+        label: "Talent Acquisition",
         url: "/",
       },
       {
-        id: 2,
-        label: "Insurance",
+        id: 6,
+        label: "IoT",
         url: "/",
       },
       {
-        id: 3,
-        label: "Manufacturing",
-        url: "/",
-      },
-      // {
-      //     id: 4,
-      //     label: "Case Studies",
-      //     url: "/case-studies",
-      // },
-      // {
-      //     id: 5,
-      //     label: "Work",
-      //     url: "/work",
-      // },
-      // {
-      //     id: 6,
-      //     label: "Community",
-      //     url: "/community",
-      // },
-    ],
-  },
-  {
-    id: 4,
-    label: "Portfolio",
-    subcategories: [
-      {
-        id: 1,
-        label: "TraceRx",
+        id: 7,
+        label: "Web3",
         url: "/",
       },
       {
-        id: 2,
-        label: "ESPN",
+        id: 8,
+        label: "Blockchain",
         url: "/",
       },
-      {
-        id: 3,
-        label: "Filecoin",
-        url: "/",
-      },
-      // {
-      //     id: 4,
-      //     label: "Case Studies",
-      //     url: "/case-studies",
-      // },
-      // {
-      //     id: 5,
-      //     label: "Work",
-      //     url: "/work",
-      // },
-      // {
-      //     id: 6,
-      //     label: "Community",
-      //     url: "/community",
-      // },
     ],
   },
   {
@@ -167,17 +105,17 @@ export const footerData = [
       // {
       //     id: 4,
       //     label: "Case Studies",
-      //     url: "/case-studies",
+      //     url: "/",
       // },
       // {
       //     id: 5,
       //     label: "Work",
-      //     url: "/work",
+      //     url: "/",
       // },
       // {
       //     id: 6,
       //     label: "Community",
-      //     url: "/community",
+      //     url: "/",
       // },
     ],
   },
@@ -203,48 +141,45 @@ export const footerData = [
       // {
       //     id: 4,
       //     label: "Case Studies",
-      //     url: "/case-studies",
+      //     url: "/",
       // },
       // {
       //     id: 5,
       //     label: "Work",
-      //     url: "/work",
+      //     url: "/",
       // },
       // {
       //     id: 6,
       //     label: "Community",
-      //     url: "/community",
+      //     url: "/",
       // },
     ],
   },
 ]
 
 export const footerContactUsData = {
-  phone: "415-301-2880",
-  contactWebsites: ["info@leewayhertz.com", "jobs@leewayhertz.com"],
-  address: `388 Market Street,
-              Suite 1300,
-              San Francisco, California 94111`,
+  phone: "9942105301",
+  contactWebsites: ["jerome.ignatius@adrig.co.in"],
   socialMedia: [
-    {
-      id: 1,
-      icon: Twitter,
-      url: "/",
-    },
+    // {
+    //   id: 1,
+    //   icon: Twitter,
+    //   url: "/",
+    // },
     {
       id: 2,
       icon: Linkedin,
-      url: "/",
+      url: "https://www.linkedin.com/company/adrig/",
     },
-    {
-      id: 3,
-      icon: Facebook,
-      url: "/",
-    },
+    // {
+    //   id: 3,
+    //   icon: Facebook,
+    //   url: "/",
+    // },
     {
       id: 4,
       icon: Instagram,
-      url: "/",
+      url: "https://www.instagram.com/adrig.ai/",
     },
   ],
 }

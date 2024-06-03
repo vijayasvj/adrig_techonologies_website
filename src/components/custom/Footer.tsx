@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <section className="w-full bg-pantone pt-16 pb-10 flex flex-col items-center space-y-10">
       <div className="w-2/3 mx-auto grid grid-cols-5 text-white">
-        <div className="w-full col-span-4 grid grid-cols-3 gap-6">
+        <div className="w-full col-span-4 grid grid-cols-2 gap-6">
           {footerData.map((section) => (
             <section
               className="col-span-1 w-full flex flex-col space-y-2"
@@ -39,19 +39,16 @@ const Footer = () => {
               <span className="text-blue-300 font-semibold">
                 {contactData.phone}
               </span>
-              <span className="text-blue-300 font-semibold">
+              <Link
+                href={`mailto:${contactData.contactWebsites[0]}`}
+                className="text-blue-300 font-semibold"
+              >
                 {contactData.contactWebsites[0]}
-              </span>
-              <span className="text-blue-300 font-semibold">
-                {contactData.contactWebsites[1]}
-              </span>
+              </Link>
             </div>
             <p className="leading-loose">
-              388 Market Street
-              <br />
-              Suite 1300
-              <br />
-              San Francisco, California 94111
+              ADRIG - Algorithmic Descent Result in Growth | ADRIG AI Pvt. Ltd.{" "}
+              <br /> Chennai, India
             </p>
             <div className="flex items-center space-x-2">
               {contactData.socialMedia.map((link) => (
