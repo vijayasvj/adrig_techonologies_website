@@ -4,7 +4,7 @@ export const navbarLinks: NavbarLinksTypes[] = [
   {
     id: 1,
     label: "AI Products",
-    url: "https://www.leewayhertz.com/enterprise-generative-ai-platform/",
+    url: "/",
     assets: [
       {
         id: 1,
@@ -67,7 +67,7 @@ export const navbarLinks: NavbarLinksTypes[] = [
   {
     id: 2,
     label: "Services",
-    url: "https://www.leewayhertz.com/services/",
+    url: "/",
     assets: [
       {
         id: 1,
@@ -238,8 +238,64 @@ export const navbarLinks: NavbarLinksTypes[] = [
         ],
       },
       {
+        id: 6,
+        label: "Software Development",
+        url: "https://www.leewayhertz.com/software-development-company/",
+        assets: [
+          {
+            id: 1,
+            label: "Software Development",
+            image:
+              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2022/06/13030720/Group-81.svg",
+            url: "https://www.leewayhertz.com/software-development-company/",
+          },
+          {
+            id: 2,
+            label: "SaaS Development",
+            image:
+              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2022/06/13030721/Group-82.svg",
+            url: "https://www.leewayhertz.com/saas-development-company/",
+          },
+          {
+            id: 3,
+            label: "Software Consulting",
+            image:
+              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2022/06/13042859/Group-83-1.svg",
+            url: "https://www.leewayhertz.com/software-consulting-company/",
+          },
+          {
+            id: 4,
+            label: "UI/UX Design Service",
+            image:
+              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2022/06/13030719/Group-84.svg",
+            url: "https://www.leewayhertz.com/ui-ux-design-services/",
+          },
+          {
+            id: 5,
+            label: "Enterprise Software Development",
+            image:
+              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2022/06/13030717/Group-99.svg",
+            url: "https://www.leewayhertz.com/enterprise-software-development-company/",
+          },
+          {
+            id: 6,
+            label: "Web Application Development",
+            image:
+              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2022/06/13043058/Group-88-1.svg",
+            url: "https://www.leewayhertz.com/web-application-development/",
+          },
+          {
+            id: 7,
+            label: "Digital Transformation",
+            image:
+              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2022/06/13043214/Group-87-1.svg",
+            url: "https://www.leewayhertz.com/digital-transformation-services/",
+          },
+        ],
+      },
+      {
         id: 3,
-        label: "Data Engineering",
+        label: "Game Development",
         url: "https://www.leewayhertz.com/data-engineering-services/",
         assets: [
           {
@@ -297,6 +353,132 @@ export const navbarLinks: NavbarLinksTypes[] = [
             image:
               "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2023/07/11233337/Big-Data-Consulting-menu.svg",
             url: "https://www.leewayhertz.com/big-data-consulting-company/",
+          },
+        ],
+      },
+      {
+        id: 7,
+        label: "Talent Acquisition",
+        url: "https://www.leewayhertz.com/hire-dedicated-developers/",
+        assets: [
+          {
+            id: 1,
+            label: "Hire ML Developers",
+            image:
+              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2023/09/28012619/Hire-Machine-Learning-Developers-menu.svg",
+            url: "https://www.leewayhertz.com/hire-machine-learning-developers/",
+          },
+          {
+            id: 2,
+            label: "DevOps Engineers",
+            image:
+              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2022/06/13030727/Group-91.svg",
+            url: "https://www.leewayhertz.com/hire-devops-engineer/",
+          },
+          {
+            id: 3,
+            label: "Offshore Engineers",
+            image:
+              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2022/06/13040611/Group-92-1.svg",
+            url: "https://www.leewayhertz.com/hire-offshore-engineer/",
+          },
+          {
+            id: 4,
+            label: "App Developer",
+            image:
+              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2022/06/13030717/Group-99.svg",
+            url: "https://www.leewayhertz.com/app-development-company-united-states/",
+          },
+          {
+            id: 5,
+            label: "Hire Golang Developers",
+            image:
+              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2023/12/21225849/Hire-Golang-Developers-menu.png",
+            url: "https://www.leewayhertz.com/hire-golang-developers/",
+          },
+          {
+            id: 6,
+            label: "Blockchain Developer",
+            image:
+              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2022/06/13040737/Group-93-1.svg",
+            url: "https://www.leewayhertz.com/blockchain-developers/",
+          },
+          {
+            id: 7,
+            label: "Hire Dedicated Developers",
+            image:
+              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2022/06/13041414/Group-96-1.svg",
+            url: "https://www.leewayhertz.com/hire-dedicated-developers/",
+          },
+          {
+            id: 8,
+            label: "Hire Cosmos Developers",
+            image:
+              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2023/12/21230104/Hire-Cosmos-Developers-menu.png",
+            url: "https://www.leewayhertz.com/hire-cosmos-developers/",
+          },
+          {
+            id: 9,
+            label: "Hire Stellar Developers",
+            image:
+              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2022/06/13030726/Group-94.svg",
+            url: "https://www.leewayhertz.com/hire-stellar-developers/",
+          },
+          {
+            id: 10,
+            label: "Full Stack Developer",
+            image:
+              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2022/06/13040954/Group-97-1.svg",
+            url: "https://www.leewayhertz.com/hire-full-stack-developer/",
+          },
+        ],
+      },
+      {
+        id: 8,
+        label: "Internet of Things(IOT)",
+        url: "https://www.leewayhertz.com/iot-development-company/",
+        assets: [
+          {
+            id: 1,
+            label: "IoT Development",
+            image:
+              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2022/06/13030724/Group-28.svg",
+            url: "https://www.leewayhertz.com/iot-development-company/",
+          },
+          {
+            id: 2,
+            label: "Industrial IoT Solutions",
+            image:
+              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2022/06/13030722/Group-29.svg",
+            url: "https://www.leewayhertz.com/industrial-iot-solutions/",
+          },
+          {
+            id: 3,
+            label: "Firmware Development",
+            image:
+              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2022/06/13030724/Group-30.svg",
+            url: "https://www.leewayhertz.com/firmware-development-company/",
+          },
+          {
+            id: 4,
+            label: "IoT Healthcare Software",
+            image:
+              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2022/06/13030725/Group-32.svg",
+            url: "https://www.leewayhertz.com/iot-healthcare-software-development/",
+          },
+          {
+            id: 5,
+            label: "IoT Product Development",
+            image:
+              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2022/06/13030721/Group-31-2.svg",
+            url: "https://www.leewayhertz.com/iot-product-development/",
+          },
+          {
+            id: 1,
+            label: "Hardware Design",
+            image:
+              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2022/06/13030723/Group-33-3.svg",
+            url: "https://www.leewayhertz.com/iot-hardware-design-services/",
           },
         ],
       },
@@ -468,868 +650,21 @@ export const navbarLinks: NavbarLinksTypes[] = [
           },
         ],
       },
-      {
-        id: 6,
-        label: "Software Devolopment",
-        url: "https://www.leewayhertz.com/software-development-company/",
-        assets: [
-          {
-            id: 1,
-            label: "Software Development",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2022/06/13030720/Group-81.svg",
-            url: "https://www.leewayhertz.com/software-development-company/",
-          },
-          {
-            id: 2,
-            label: "SaaS Development",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2022/06/13030721/Group-82.svg",
-            url: "https://www.leewayhertz.com/saas-development-company/",
-          },
-          {
-            id: 3,
-            label: "Software Consulting",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2022/06/13042859/Group-83-1.svg",
-            url: "https://www.leewayhertz.com/software-consulting-company/",
-          },
-          {
-            id: 4,
-            label: "UI/UX Design Service",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2022/06/13030719/Group-84.svg",
-            url: "https://www.leewayhertz.com/ui-ux-design-services/",
-          },
-          {
-            id: 5,
-            label: "Enterprise Software Development",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2022/06/13030717/Group-99.svg",
-            url: "https://www.leewayhertz.com/enterprise-software-development-company/",
-          },
-          {
-            id: 6,
-            label: "Web Application Development",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2022/06/13043058/Group-88-1.svg",
-            url: "https://www.leewayhertz.com/web-application-development/",
-          },
-          {
-            id: 7,
-            label: "Digital Transformation",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2022/06/13043214/Group-87-1.svg",
-            url: "https://www.leewayhertz.com/digital-transformation-services/",
-          },
-        ],
-      },
-      {
-        id: 7,
-        label: "Hire Developers",
-        url: "https://www.leewayhertz.com/hire-dedicated-developers/",
-        assets: [
-          {
-            id: 1,
-            label: "Hire ML Developers",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2023/09/28012619/Hire-Machine-Learning-Developers-menu.svg",
-            url: "https://www.leewayhertz.com/hire-machine-learning-developers/",
-          },
-          {
-            id: 2,
-            label: "DevOps Engineers",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2022/06/13030727/Group-91.svg",
-            url: "https://www.leewayhertz.com/hire-devops-engineer/",
-          },
-          {
-            id: 3,
-            label: "Offshore Engineers",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2022/06/13040611/Group-92-1.svg",
-            url: "https://www.leewayhertz.com/hire-offshore-engineer/",
-          },
-          {
-            id: 4,
-            label: "App Developer",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2022/06/13030717/Group-99.svg",
-            url: "https://www.leewayhertz.com/app-development-company-united-states/",
-          },
-          {
-            id: 5,
-            label: "Hire Golang Developers",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2023/12/21225849/Hire-Golang-Developers-menu.png",
-            url: "https://www.leewayhertz.com/hire-golang-developers/",
-          },
-          {
-            id: 6,
-            label: "Blockchain Developer",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2022/06/13040737/Group-93-1.svg",
-            url: "https://www.leewayhertz.com/blockchain-developers/",
-          },
-          {
-            id: 7,
-            label: "Hire Dedicated Developers",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2022/06/13041414/Group-96-1.svg",
-            url: "https://www.leewayhertz.com/hire-dedicated-developers/",
-          },
-          {
-            id: 8,
-            label: "Hire Cosmos Developers",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2023/12/21230104/Hire-Cosmos-Developers-menu.png",
-            url: "https://www.leewayhertz.com/hire-cosmos-developers/",
-          },
-          {
-            id: 9,
-            label: "Hire Stellar Developers",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2022/06/13030726/Group-94.svg",
-            url: "https://www.leewayhertz.com/hire-stellar-developers/",
-          },
-          {
-            id: 10,
-            label: "Full Stack Developer",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2022/06/13040954/Group-97-1.svg",
-            url: "https://www.leewayhertz.com/hire-full-stack-developer/",
-          },
-        ],
-      },
-      {
-        id: 8,
-        label: "Internet of Things(IOT)",
-        url: "https://www.leewayhertz.com/iot-development-company/",
-        assets: [
-          {
-            id: 1,
-            label: "IoT Development",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2022/06/13030724/Group-28.svg",
-            url: "https://www.leewayhertz.com/iot-development-company/",
-          },
-          {
-            id: 2,
-            label: "Industrial IoT Solutions",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2022/06/13030722/Group-29.svg",
-            url: "https://www.leewayhertz.com/industrial-iot-solutions/",
-          },
-          {
-            id: 3,
-            label: "Firmware Development",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2022/06/13030724/Group-30.svg",
-            url: "https://www.leewayhertz.com/firmware-development-company/",
-          },
-          {
-            id: 4,
-            label: "IoT Healthcare Software",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2022/06/13030725/Group-32.svg",
-            url: "https://www.leewayhertz.com/iot-healthcare-software-development/",
-          },
-          {
-            id: 5,
-            label: "IoT Product Development",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2022/06/13030721/Group-31-2.svg",
-            url: "https://www.leewayhertz.com/iot-product-development/",
-          },
-          {
-            id: 1,
-            label: "Hardware Design",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2022/06/13030723/Group-33-3.svg",
-            url: "https://www.leewayhertz.com/iot-hardware-design-services/",
-          },
-        ],
-      },
     ],
   },
   {
     id: 3,
-    label: "Industries",
-    url: "https://www.leewayhertz.com/industries/",
-    assets: [
-      {
-        id: 1,
-        label: "Finance",
-        url: "https://www.leewayhertz.com/fintech-software-development/",
-        assets: [
-          {
-            id: 1,
-            label: "Fintech Software Development",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2024/04/26053632/Group-43-1.svg",
-            url: "https://www.leewayhertz.com/fintech-software-development/",
-          },
-          {
-            id: 2,
-            label: "AI Use Cases for Banking and Finance",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2024/04/26053800/Group-45.svg",
-            url: "https://www.leewayhertz.com/ai-use-cases-in-banking-and-finance/",
-          },
-          {
-            id: 3,
-            label: "AI in Due Diligence",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2024/05/14211035/Group-3013.svg",
-            url: "https://www.leewayhertz.com/ai-in-due-diligence/",
-          },
-          {
-            id: 4,
-            label: "AI for Financial Compliance",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2024/04/26054240/Group-47.svg",
-            url: "https://www.leewayhertz.com/ai-in-financial-compliance/",
-          },
-          {
-            id: 5,
-            label: "GenAI for Finance and Banking",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2024/04/28234913/Group-76-1.svg",
-            url: "https://www.leewayhertz.com/generative-ai-in-finance-and-banking/",
-          },
-          {
-            id: 6,
-            label: "GenAI for Asset Management",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2024/04/28235216/Group-77.svg",
-            url: "https://www.leewayhertz.com/generative-ai-in-asset-management/",
-          },
-          {
-            id: 7,
-            label: "AI Loan Underwriting",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2024/04/28235331/Group-50-1.svg",
-            url: "https://www.leewayhertz.com/ai-loan-underwriting/",
-          },
-          {
-            id: 8,
-            label: "AI-based Credit Scoring",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2024/04/28235705/Group-79.svg",
-            url: "https://www.leewayhertz.com/ai-based-credit-scoring/",
-          },
-          {
-            id: 9,
-            label: "AI for Financial Planning",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2024/04/29000954/Group-74-1.svg",
-            url: "https://www.leewayhertz.com/ai-in-financial-planning/",
-          },
-          {
-            id: 10,
-            label: "AI for Financial Modeling",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2024/04/29001139/Group-56.svg",
-            url: "https://www.leewayhertz.com/ai-in-financial-modeling/",
-          },
-          {
-            id: 11,
-            label: "AI for Financial Document Processing",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2024/04/29001250/Group-57.svg",
-            url: "https://www.leewayhertz.com/ai-for-financial-document-processing/",
-          },
-          {
-            id: 12,
-            label: "AI for Private Equity",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2024/04/29001139/Group-56.svg",
-            url: "https://www.leewayhertz.com/ai-use-cases-in-private-equity-and-principal-investment/",
-          },
-        ],
-      },
-      {
-        id: 2,
-        label: "Insurance",
-        url: "https://www.leewayhertz.com/insurance-software-development/",
-        assets: [
-          {
-            id: 1,
-            label: "Insurance Software Development",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2024/04/26055506/Group-62.svg",
-            url: "https://www.leewayhertz.com/insurance-software-development/",
-          },
-          {
-            id: 2,
-            label: "AI for Insurance",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2024/04/26055849/Group-81.svg",
-            url: "https://www.leewayhertz.com/ai-for-insurance/",
-          },
-          {
-            id: 3,
-            label: "AI for insurance Claims Processing",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2024/04/26055959/Group-59.svg",
-            url: "https://www.leewayhertz.com/insurance-claim-processing-using-ai/",
-          },
-          {
-            id: 4,
-            label: "AI for Claims Processing",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2024/04/26060429/Group-65.svg",
-            url: "https://www.leewayhertz.com/ai-in-claims-processing/",
-          },
-          {
-            id: 5,
-            label: "GenAI for Insurance",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2024/04/29012737/Group-66-1.svg",
-            url: "https://www.leewayhertz.com/generative-ai-in-insurance/",
-          },
-          {
-            id: 6,
-            label: "AI for Fraud Detection",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2024/04/29013201/Group-67.svg",
-            url: "https://www.leewayhertz.com/ai-in-fraud-detection/",
-          },
-          {
-            id: 7,
-            label: "Build Enterprise AI solutions",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2024/04/29013327/Group-69.svg",
-            url: "https://www.leewayhertz.com/build-enterprise-ai-solutions-for-insurance/",
-          },
-        ],
-      },
-      {
-        id: 3,
-        label: "Manufacturing",
-        url: "https://www.leewayhertz.com/manufacturing-software-development/ ",
-        assets: [
-          {
-            id: 1,
-            label: "Manufacturing Software Development",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2024/04/26062546/Group-35-1.svg",
-            url: "https://www.leewayhertz.com/manufacturing-software-development/",
-          },
-          {
-            id: 2,
-            label: "AI Use Cases for Manufacturing",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2024/04/26063412/Group-40.svg",
-            url: "https://www.leewayhertz.com/ai-use-cases-in-manufacturing/",
-          },
-          {
-            id: 3,
-            label: "AI for Demand Forecasting",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2024/04/26063531/Group-44.svg",
-            url: "https://www.leewayhertz.com/ai-in-demand-forecasting/",
-          },
-          {
-            id: 4,
-            label: "AI for Anomaly Detection",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2024/04/26063712/Group-43-2.svg",
-            url: "https://www.leewayhertz.com/ai-in-anomaly-detection/",
-          },
-          {
-            id: 5,
-            label: "GenAI for Manufacturing",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2024/04/29020248/Group-45-1.svg",
-            url: "https://www.leewayhertz.com/generative-ai-in-manufacturing/",
-          },
-          {
-            id: 6,
-            label: "AI for Predictive Maintenance",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2024/04/29020627/Group-38-1.svg",
-            url: "https://www.leewayhertz.com/ai-in-predictive-maintenance/",
-          },
-          {
-            id: 7,
-            label: "AI for Production Planning",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2024/04/29020834/Group-42-1.svg",
-            url: "https://www.leewayhertz.com/ai-in-production-planning/",
-          },
-          {
-            id: 8,
-            label: "AI for Product Lifecycle Management",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2024/04/29021003/Group-41-1.svg",
-            url: "https://www.leewayhertz.com/ai-in-product-lifecycle-management/",
-          },
-          {
-            id: 9,
-            label: "Build Enterprise AI Solutions",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2024/04/29021400/Group-39-1.svg",
-            url: "https://www.leewayhertz.com/build-enterprise-ai-solutions-for-manufacturing/",
-          },
-          {
-            id: 10,
-            label: "Build Predictive ML Models",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2024/04/29021542/Group-36.svg",
-            url: "https://www.leewayhertz.com/how-to-build-predictive-ml-model-for-manufacturing/",
-          },
-          {
-            id: 11,
-            label: "AI for Quality Control",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2024/04/29022753/Group-37.svg",
-            url: "https://www.leewayhertz.com/implement-ai-for-quality-control-and-defect-analysis/",
-          },
-        ],
-      },
-      {
-        id: 4,
-        label: "Logistics",
-        url: "https://www.leewayhertz.com/logistics-software-development/",
-        assets: [
-          {
-            id: 1,
-            label: "Logistics Software Development",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2024/04/26060958/Group-34.svg",
-            url: "https://www.leewayhertz.com/logistics-software-development/",
-          },
-          {
-            id: 2,
-            label: "AI for Logistics and Supply Chain",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2024/04/26061139/Group-25.svg",
-            url: "https://www.leewayhertz.com/ai-in-logistics-and-supply-chain/",
-          },
-          {
-            id: 3,
-            label: "AI for Fleet Management",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2024/04/26061246/Group-30-1.svg",
-            url: "https://www.leewayhertz.com/ai-in-fleet-management/",
-          },
-          {
-            id: 4,
-            label: "AI for Supply Chain Optimization",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2024/04/26061350/Group-29.svg",
-            url: "https://www.leewayhertz.com/ai-driven-supply-chain-optimization/",
-          },
-          {
-            id: 5,
-            label: "Automotive Supply Chain Optimization",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2024/04/29023233/Group-31-1.svg",
-            url: "https://www.leewayhertz.com/automotive-supply-chain-optimization-using-ai/",
-          },
-          {
-            id: 6,
-            label: "Fleet Management Using AI",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2024/04/29023506/Group-28.svg",
-            url: "https://www.leewayhertz.com/fleet-management-using-ai/",
-          },
-          {
-            id: 7,
-            label: "Efficient Route Optimization",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2024/04/29023614/Group-26.svg",
-            url: "https://www.leewayhertz.com/efficient-route-optimization-with-ai/",
-          },
-          {
-            id: 8,
-            label: "GenAI for Supply Chain",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2024/04/29023729/Group-27.svg",
-            url: "https://www.leewayhertz.com/generative-ai-in-supply-chain/",
-          },
-          {
-            id: 9,
-            label: "Build Enterprise AI solutions",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2024/04/29024054/Group-24-1.svg",
-            url: "https://www.leewayhertz.com/build-enterprise-ai-solutions-for-logistics/",
-          },
-          {
-            id: 10,
-            label: "AI for Operational Efficiency",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2024/04/29024213/Group-23-1.svg",
-            url: "https://www.leewayhertz.com/ai-for-operational-efficiency/",
-          },
-        ],
-      },
-      {
-        id: 5,
-        label: "Hospitality",
-        url: "https://www.leewayhertz.com/ai-use-cases-in-hospitality/",
-        assets: [
-          {
-            id: 1,
-            label: "AI for Hospitality",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2024/04/26070354/Group-55.svg",
-            url: "https://www.leewayhertz.com/ai-use-cases-in-hospitality/",
-          },
-          {
-            id: 2,
-            label: "Travel App Development",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2024/04/26070611/Group-63.svg",
-            url: "https://www.leewayhertz.com/travel-app-development/",
-          },
-          {
-            id: 3,
-            label: "GenAI for Travel",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2024/04/26070916/Group-64.svg",
-            url: "https://www.leewayhertz.com/generative-ai-in-travel/",
-          },
-          {
-            id: 4,
-            label: "AI for Personalized Travel",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2024/04/26071115/Group-60.svg",
-            url: "https://www.leewayhertz.com/ai-powered-personalized-travel-planning/",
-          },
-          {
-            id: 5,
-            label: "AI for Customer Support",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2024/04/29030227/Group-61.svg",
-            url: "https://www.leewayhertz.com/ai-in-customer-support/",
-          },
-          {
-            id: 6,
-            label: "AI for Sentiment Analysis",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2024/04/29031717/Group-62-2.svg",
-            url: "https://www.leewayhertz.com/ai-for-sentiment-analysis/",
-          },
-          {
-            id: 7,
-            label: "AI for Demand Forecasting",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2024/04/29031837/Group-59-1.svg",
-            url: "https://www.leewayhertz.com/ai-in-demand-forecasting/",
-          },
-          {
-            id: 8,
-            label: "AI for Market Research",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2024/04/29031946/Group-58.svg",
-            url: "https://www.leewayhertz.com/ai-in-market-research/",
-          },
-          {
-            id: 9,
-            label: "AI for Sales",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2024/04/29032305/Group-56-1.svg",
-            url: "https://www.leewayhertz.com/ai-in-sales/",
-          },
-          {
-            id: 10,
-            label: "AI for Price and Promo Optimization",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2024/04/29032533/Group-57-1.svg",
-            url: "https://www.leewayhertz.com/ai-powered-price-and-promo-optimization-strategies/",
-          },
-        ],
-      },
-      {
-        id: 6,
-        label: "Retail",
-        url: "https://www.leewayhertz.com/retail-software-development/",
-        assets: [
-          {
-            id: 1,
-            label: "Retail Software Development",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2024/04/26064504/Group-54.svg",
-            url: "https://www.leewayhertz.com/retail-software-development/",
-          },
-          {
-            id: 2,
-            label: "AI for Retail",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2024/04/26064717/Group-49.svg",
-            url: "https://www.leewayhertz.com/ai-in-retail/",
-          },
-          {
-            id: 3,
-            label: "AI for E-commerce",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2024/04/26064859/Group-48.svg",
-            url: "https://www.leewayhertz.com/ai-for-e-commerce/",
-          },
-          {
-            id: 4,
-            label: "AI for Fashion",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2024/04/26065010/Group-50.svg",
-            url: "https://www.leewayhertz.com/ai-use-cases-in-fashion/",
-          },
-          {
-            id: 5,
-            label: "Recommender System for Retail",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2024/04/29033505/Group-51.svg",
-            url: "https://www.leewayhertz.com/recommender-systems-for-retail-industry-using-ai/",
-          },
-          {
-            id: 6,
-            label: "AI for Store Replenishment",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2024/04/29033954/Group-47-1.svg",
-            url: "https://www.leewayhertz.com/ai-in-store-replenishment/",
-          },
-          {
-            id: 7,
-            label: "AI for Inventory Management",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2024/04/29034100/Group-53.svg",
-            url: "https://www.leewayhertz.com/ai-for-inventory-management-and-demand-forecasting/",
-          },
-          {
-            id: 8,
-            label: "AI for Predictive Analytics",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2024/04/29034200/Group-52.svg",
-            url: "https://www.leewayhertz.com/ai-for-predictive-analytics/",
-          },
-          {
-            id: 9,
-            label: "AI for Dynamic Pricing Solution",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2024/04/29034314/Group-46-1.svg",
-            url: "https://www.leewayhertz.com/ai-powered-dynamic-pricing-solution/",
-          },
-        ],
-      },
-      {
-        id: 7,
-        label: "Healthcare",
-        url: "https://www.leewayhertz.com/healthcare-software-development/",
-        assets: [
-          {
-            id: 1,
-            label: "Healthcare Software Development",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2024/04/26041726/Group-30.svg",
-            url: "https://www.leewayhertz.com/healthcare-software-development/",
-          },
-          {
-            id: 2,
-            label: "AI for Healthcare ",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2024/04/26042054/Group-31.svg",
-            url: "https://www.leewayhertz.com/ai-use-cases-in-healthcare/",
-          },
-          {
-            id: 3,
-            label: "AI for Medicine",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2024/04/26042303/Group-32.svg",
-            url: "https://www.leewayhertz.com/ai-in-medicine/",
-          },
-          {
-            id: 4,
-            label: "AI for Fraud Detection",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2024/04/26043114/Group-75.svg",
-            url: "https://www.leewayhertz.com/healthcare-fraud-detection-using-ai/",
-          },
-          {
-            id: 5,
-            label: "GenAI for Healthcare",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2024/04/26043340/Group-70.svg",
-            url: "https://www.leewayhertz.com/generative-ai-in-healthcare/",
-          },
-          {
-            id: 6,
-            label: "AI for Drug Discovery",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2024/04/26043728/Group-35.svg",
-            url: "https://www.leewayhertz.com/generative-ai-in-drug-discovery/",
-          },
-          {
-            id: 7,
-            label: "AI for Telemedicine",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2024/04/26043856/Group-38.svg",
-            url: "https://www.leewayhertz.com/ai-in-telemedicine/",
-          },
-          {
-            id: 8,
-            label: "Healthcare Enterprise AI Solutions",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2024/04/26044017/Group-39.svg",
-            url: "https://www.leewayhertz.com/enterprise-ai-solutions-for-healthcare/",
-          },
-          {
-            id: 9,
-            label: "AI for Customer Support",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2024/04/26044500/Group-41.svg",
-            url: "https://www.leewayhertz.com/ai-in-customer-support/",
-          },
-          {
-            id: 10,
-            label: "AI for Regulatory Compliance",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2024/04/26045726/Group-42.svg",
-            url: "https://www.leewayhertz.com/ai-for-regulatory-compliance/",
-          },
-        ],
-      },
-      {
-        id: 8,
-        label: "Consumer Electronics",
-        url: "https://www.leewayhertz.com/consumer-electronics-software-development/",
-        assets: [
-          {
-            id: 1,
-            label: "Software Development",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2024/04/26071548/Group-66.svg",
-            url: "https://www.leewayhertz.com/consumer-electronics-software-development/",
-          },
-          {
-            id: 2,
-            label: "AI for Product Design",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2024/04/26071714/Group-72.svg",
-            url: "https://www.leewayhertz.com/ai-for-product-design/",
-          },
-          {
-            id: 3,
-            label: "AI for Product Management",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2024/04/26071844/Group-71.svg",
-            url: "https://www.leewayhertz.com/ai-in-product-management/",
-          },
-          {
-            id: 4,
-            label: "AI for Production Planning",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2024/04/26072027/Group-65-1.svg",
-            url: "https://www.leewayhertz.com/ai-in-production-planning/",
-          },
-          {
-            id: 5,
-            label: "AI for Product Lifecycle Management",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2024/04/29034811/Group-70-1.svg",
-            url: "https://www.leewayhertz.com/ai-in-product-lifecycle-management/",
-          },
-          {
-            id: 6,
-            label: "AI for Market Research",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2024/04/29034944/Group-69-1.svg",
-            url: "https://www.leewayhertz.com/ai-in-market-research/",
-          },
-          {
-            id: 7,
-            label: "AI for Inventory Management",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2024/04/29035107/Group-68.svg",
-            url: "https://www.leewayhertz.com/ai-for-inventory-management-and-demand-forecasting/",
-          },
-          {
-            id: 8,
-            label: "AI Powered Dynamic Pricing",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2024/04/29035225/Group-67-2.svg",
-            url: "https://www.leewayhertz.com/ai-powered-dynamic-pricing-solution/",
-          },
-        ],
-      },
-      {
-        id: 9,
-        label: "Startup",
-        url: "https://www.leewayhertz.com/startup-product-development/",
-        assets: [
-          {
-            id: 1,
-            label: "Startup Product Development",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2024/04/26072307/Group-75-1.svg",
-            url: "https://www.leewayhertz.com/startup-product-development/",
-          },
-          {
-            id: 2,
-            label: "AI for Startup",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2024/04/26072427/Group-76.svg",
-            url: "https://www.leewayhertz.com/ai-for-startup/",
-          },
-          {
-            id: 3,
-            label: "AI for Product Development",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2024/04/26072602/Group-74.svg",
-            url: "https://www.leewayhertz.com/ai-in-product-development/",
-          },
-          {
-            id: 4,
-            label: "AI for Product Management",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2024/04/26072722/Group-73.svg",
-            url: "https://www.leewayhertz.com/ai-in-product-management/",
-          },
-          {
-            id: 5,
-            label: "AI for Product Lifecycle Management",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2024/04/29035559/Group-77-1.svg",
-            url: "https://www.leewayhertz.com/ai-in-product-management/",
-          },
-          {
-            id: 6,
-            label: "AI for Product Design",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2024/04/29035755/Group-78.svg",
-            url: "https://www.leewayhertz.com/ai-for-product-design/",
-          },
-          {
-            id: 7,
-            label: "GenAI for Business",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2024/04/29035909/Group-79-1.svg",
-            url: "https://www.leewayhertz.com/generative-ai-in-business/",
-          },
-          {
-            id: 8,
-            label: "AI Driven Development",
-            image:
-              "https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2024/04/29040030/Group-80.svg",
-            url: "https://www.leewayhertz.com/ai-driven-development/",
-          },
-        ],
-      },
-    ],
+    label: "Insights",
+    url: "/",
   },
   {
     id: 4,
-    label: "Insights",
-    url: "https://www.leewayhertz.com/insights/",
+    label: "Work",
+    url: "/",
   },
   {
     id: 5,
-    label: "Work",
-    url: "https://www.leewayhertz.com/app-development-work/",
-  },
-  {
-    id: 6,
     label: "Contact",
-    url: "https://www.leewayhertz.com/about-us/",
+    url: "/",
   },
 ]

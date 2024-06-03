@@ -31,11 +31,11 @@ const Navbar = () => {
             <Image
               src={Logo}
               alt="Adrig Technologies | AI Company"
-              className="w-[56px] h-[56px]"
+              className="w-[120px] h-[72px]"
             />
-            <span className="text-4xl font-mono text-blue-600 font-semibold">
+            {/* <span className="text-4xl font-mono text-blue-600 font-semibold">
               Adrig
-            </span>
+            </span> */}
           </Link>
         </div>
         <div className="flex items-center space-x-10 text-sm font-medium">

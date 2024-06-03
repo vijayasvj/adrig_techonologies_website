@@ -27,7 +27,7 @@ const ScrollUpButton = () => {
 
   return (
     isBackToTopButtonIsVisible && (
-      <section className="sticky z-50 top-[80%] w-full flex justify-end pr-4">
+      <section className="fixed z-50 top-[80%] w-full flex justify-end pr-4">
         <Button
           onClick={scrollToTop}
           className="bg-slate-50 text-slate-950 hover:bg-slate-900 hover:text-slate-50 ease-in-out duration-300 shadow-black rounded-xl"

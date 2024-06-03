@@ -29,11 +29,6 @@ import StartupIcon from "@/assets/images/Startups-icon.svg"
 import TeamExtensionIcon from "@/assets/images/Team-Extention-Icon.svg"
 import TechnologyIcon from "@/assets/images/Technology-icon.svg"
 import Web3Home from "@/assets/images/web3home.svg"
-import Consultation from "@/assets/lottie/Consultation.json"
-import ContactUs from "@/assets/lottie/ContactUs.json"
-import CostEstimation from "@/assets/lottie/CostEstimation.json"
-import HeroAnimation from "@/assets/lottie/heroAnimation1.json"
-import Rocket from "@/assets/lottie/Rocket.json"
 import ConsultancyIcon from "./icons/ConsultancyIcon"
 import ContactUsIcon from "./icons/ContactUsIcon"
 import CostEstimateIcon from "./icons/CostEstimateIcon"
@@ -216,7 +211,6 @@ import ProjectKickOffIcon from "./icons/ProjectKickOffIcon"
 // import Web3GameDevelopment from '@/assets/images/navbar/SERVICES/Web3/Web3 Game Development'
 
 export {
-  HeroAnimation,
   Logo,
   HomepageHeroImage,
   HomepageClientGraph,
@@ -242,10 +236,6 @@ export {
   DedicatedTeamIcon,
   TeamExtensionIcon,
   ProjectModelIcon,
-  Consultation,
-  ContactUs,
-  CostEstimation,
-  Rocket,
   ContactUsIcon,
   ConsultancyIcon,
   CostEstimateIcon,
