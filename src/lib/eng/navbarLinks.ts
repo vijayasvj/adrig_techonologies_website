@@ -617,19 +617,4 @@ export const navbarLinks: NavbarLinksTypes[] = [
       },
     ],
   },
-  // {
-  //   id: 3,
-  //   label: "Insights",
-  //   url: "/",
-  // },
-  // {
-  //   id: 4,
-  //   label: "Work",
-  //   url: "/",
-  // },
-  // {
-  //   id: 5,
-  //   label: "Contact",
-  //   url: "/",
-  // },
 ]
