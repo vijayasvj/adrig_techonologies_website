@@ -1,3 +1,3 @@
-import ContactPageContainer from "./ContactPageContainer"
+import ContactPageContainer from "./ContactPageContainer";
 
 export { ContactPageContainer }
