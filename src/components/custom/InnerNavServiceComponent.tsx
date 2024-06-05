@@ -35,7 +35,10 @@ const InnerNavServiceComponent = ({ navItem }: Props) => {
         <div className="col-span-5 w-full">
           {"id" in selectedInnerNavBar &&
           typeof selectedInnerNavBar.id === "number" ? (
-            <NavItemCardsContainer navItem={selectedInnerNavBar as SubLink} />
+            <NavItemCardsContainer
+              count={4}
+              navItem={selectedInnerNavBar as SubLink}
+            />
           ) : null}
         </div>
       </section>

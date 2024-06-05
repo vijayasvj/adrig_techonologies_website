@@ -31,11 +31,11 @@ const Navbar = () => {
             <Image
               src={Logo}
               alt="Adrig Technologies | AI Company"
-              className="w-[120px] h-[72px]"
+              className="w-[72px] h-[72px]"
             />
-            {/* <span className="text-4xl font-mono text-blue-600 font-semibold">
+            <span className="text-4xl font-serif uppercase text-blue-800 font-semibold">
               Adrig
-            </span> */}
+            </span>
           </Link>
         </div>
         <div className="flex items-center space-x-10 text-sm font-medium">
@@ -46,20 +46,20 @@ const Navbar = () => {
                 className="group"
                 onMouseEnter={() => selectedNavBarChangeHandler(navList)}
               >
-                <Link
+                {/* <Link
                   className="flex flex-col items-center uppercase"
                   href={navList.url}
-                >
-                  <div className="flex items-center space-x-2">
-                    <span>{navList.label}</span>
-                    {allowedNavBar.includes(navList.label) && (
-                      <ChevronDown className="w-4 stroke-1.5" />
-                    )}
-                  </div>
-                  {!allowedNavBar.includes(navList.label) && (
-                    <div className="bg-black h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
+                > */}
+                <div className="flex items-center uppercase space-x-2">
+                  <span>{navList.label}</span>
+                  {allowedNavBar.includes(navList.label) && (
+                    <ChevronDown className="w-4 stroke-1.5" />
                   )}
-                </Link>
+                </div>
+                {!allowedNavBar.includes(navList.label) && (
+                  <div className="bg-black h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
+                )}
+                {/* </Link> */}
               </li>
             ))}
           </ul>
@@ -70,9 +70,11 @@ const Navbar = () => {
                 handleSelectedNavBarLeave={handleSelectedNavBarLeave}
               />
             )}
-          <button className="uppercase bg-blue-700 text-white px-4 py-2 font-medium">
-            Contact Us
-          </button>
+          <Link href="/contact-us">
+            <button className="uppercase bg-blue-700 text-white px-4 py-2 font-medium">
+              Contact Us
+            </button>
+          </Link>
         </div>
       </div>
     </section>

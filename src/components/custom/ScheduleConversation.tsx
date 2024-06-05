@@ -1,19 +1,31 @@
-import React from "react"
-import Link from "next/link"
-import { Button } from "../ui/button"
+"use client"
+
+import React, { useEffect, useState } from "react"
+import { PopupWidget } from "react-calendly"
+import { CALENDLY_URL } from "@/lib/eum"
 
 const ScheduleConversation = () => {
+  const [rootElement, setRootElement] = useState<HTMLElement | null>(null)
+
+  useEffect(() => {
+    const root = document.getElementById("root")
+    if (root) {
+      setRootElement(root)
+    }
+  }, [])
+
   return (
-    <section className="fixed z-50 top-[92%] w-full flex justify-end pr-8">
-      <Link
-        target="_blank"
-        href="https://calendly.com/vj-as-entrepreneur/schedule-a-no-obligation-consultation"
-      >
-        <Button className="bg-blue-700 hover:bg-blue-900 text-sm font-bold shadow-md shadow-black w-fit px-10 py-6 rounded-3xl">
-          Schedule a conversation
-        </Button>
-      </Link>
-    </section>
+    <PopupWidget
+      url={CALENDLY_URL}
+      /*
+       * react-calendly uses React's Portal feature (https://reactjs.org/docs/portals.html) to render the popup modal. As a result, you'll need to
+       * specify the rootElement property to ensure the modal is inserted into the correct domNode.
+       */
+      rootElement={rootElement!}
+      text="Schedule a no obligation consultation"
+      color="#1d4ed8"
+      textColor="#ffffff"
+    />
   )
 }
 

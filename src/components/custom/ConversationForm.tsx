@@ -27,9 +27,10 @@ const formSchema = z.object({
 type Props = {
   title: string
   description: string
+  onFormSubmit: (value: any) => void
 }
 
-const ConversationForm = ({ title, description }: Props) => {
+const ConversationForm = ({ title, description, onFormSubmit }: Props) => {
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
     defaultValues: {
@@ -43,13 +44,13 @@ const ConversationForm = ({ title, description }: Props) => {
   })
 
   function onSubmit(values: z.infer<typeof formSchema>) {
-    console.log(values)
+    onFormSubmit(values)
   }
 
   return (
-    <section className="w-2/3 flex flex-col space-y-6 items-center pt-10">
+    <section className="w-full flex flex-col space-y-6 items-center pt-10">
       <span className="text-[32px] font-serif font-bold">{title}</span>
-      <p>{description}</p>
+      <p className="text-center">{description}</p>
       <Form {...form}>
         <form
           autoComplete="off"

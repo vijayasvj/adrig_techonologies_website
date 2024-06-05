@@ -1,9 +1,9 @@
-import { Homepage } from "@/components/custom/homepage"
+import { HomePageContainer } from "@/components/custom/HomePage"
 
 export default function Home() {
   return (
     <main className="flex w-full min-h-screen flex-col items-center justify-between">
-      <Homepage />
+      <HomePageContainer />
     </main>
   )
 }

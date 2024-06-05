@@ -4,16 +4,22 @@ import React from "react"
 import Image from "next/image"
 import { HomepageClientGraph } from "@/assets"
 import { engagementModelData } from "@/lib/eng/engagementModelsData"
+import {
+  ClientCompaniesComponent,
+  CompanyExperience,
+  HeroSection,
+  IndustriesSolutionComponent,
+  InsightsComponent,
+  Services,
+  StepsToFollowComponent,
+} from "."
 import ConversationForm from "../ConversationForm"
-import ClientCompaniesComponent from "./ClientCompaniesComponent"
-import CompanyExperience from "./CompanyExperience"
-import HeroSection from "./HeroSection"
-import IndustriesSolutionComponent from "./IndustriesSolutionComponent"
-import InsightsComponent from "./InsightsComponent"
-import Services from "./Services"
-import StepsToFollowComponent from "./StepsToFollowComponent"
 
-const Homepage = () => {
+const HomePageContainer = () => {
+  const formSubmitHandler = (data: any) => {
+    console.log(data)
+  }
+
   return (
     <div className="w-full flex flex-col items-center space-y-12 pb-10">
       <HeroSection />
@@ -48,13 +54,16 @@ const Homepage = () => {
         </div>
       </section>
       <StepsToFollowComponent />
-      <ConversationForm
-        title="What Can We Build for You?"
-        description="Let's discuss your ideas. We will send you an NDA before we talk. All the information is kept confidential."
-      />
+      <div className="w-2/3">
+        <ConversationForm
+          title="What Can We Build for You?"
+          description="Let's discuss your ideas. We will send you an NDA before we talk. All the information is kept confidential."
+          onFormSubmit={formSubmitHandler}
+        />
+      </div>
       <InsightsComponent />
     </div>
   )
 }
 
-export default Homepage
+export default HomePageContainer

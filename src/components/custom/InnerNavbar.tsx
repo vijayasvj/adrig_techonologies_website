@@ -16,8 +16,8 @@ const InnerNavbar = ({ navItem, handleSelectedNavBarLeave }: Props) => {
         className="absolute flex w-5/6 h-fit bg-gray-100 right-0 top-16"
       >
         {navItem.assets[0].image ? (
-          <section className="px-12 pb-20 pt-6 w-full">
-            <NavItemCardsContainer navItem={navItem} />
+          <section className="px-12 pb-10 pt-6 w-full">
+            <NavItemCardsContainer count={3} navItem={navItem} />
           </section>
         ) : (
           <InnerNavServiceComponent navItem={navItem} />
