@@ -15,8 +15,8 @@ const InnerNavServiceComponent = ({ navItem }: Props) => {
 
   return (
     navItem.assets && (
-      <section className="grid grid-cols-7 gap-4 px-4 pb-8 pt-6 text-sm font-bold top-0">
-        <ul className="flex flex-col space-y-2 items-start col-span-2">
+      <section className="flex items-start px-4 pb-8 pt-6 text-sm font-bold top-0">
+        <ul className="flex flex-col space-y-6 items-start w-1/5">
           {navItem.assets.map((navList) => (
             <li
               key={navList.id}
@@ -32,7 +32,7 @@ const InnerNavServiceComponent = ({ navItem }: Props) => {
             </li>
           ))}
         </ul>
-        <div className="col-span-5 w-full">
+        <div className="w-4/5">
           {"id" in selectedInnerNavBar &&
           typeof selectedInnerNavBar.id === "number" ? (
             <NavItemCardsContainer

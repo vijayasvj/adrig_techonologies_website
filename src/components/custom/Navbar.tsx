@@ -24,16 +24,16 @@ const Navbar = () => {
   }
 
   return (
-    <section className="sticky top-0 w-full bg-white/40 z-50 backdrop-blur-lg py-4 px-16 ease-in-out duration-500">
+    <section className="sticky top-0 w-full bg-white/40 z-50 backdrop-blur-lg px-16 ease-in-out duration-500">
       <div className="relative flex justify-between items-center">
         <div>
           <Link href="/" className="flex items-center">
             <Image
               src={Logo}
               alt="Adrig Technologies | AI Company"
-              className="w-[72px] h-[72px]"
+              className="w-[56px] h-[56px]"
             />
-            <span className="text-4xl font-serif uppercase text-blue-800 font-semibold">
+            <span className="text-2xl font-serif uppercase text-blue-800 font-semibold">
               Adrig
             </span>
           </Link>

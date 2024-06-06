@@ -13,7 +13,7 @@ const InnerNavbar = ({ navItem, handleSelectedNavBarLeave }: Props) => {
     navItem.assets && (
       <div
         onMouseLeave={handleSelectedNavBarLeave}
-        className="absolute flex w-5/6 h-fit bg-gray-100 right-0 top-16"
+        className="absolute flex w-5/6 h-fit bg-gray-100 right-0 top-14"
       >
         {navItem.assets[0].image ? (
           <section className="px-12 pb-10 pt-6 w-full">
