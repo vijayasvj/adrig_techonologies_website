@@ -19,7 +19,6 @@ import Logo from "@/assets/images/Logo.png"
 import Machine_Learning from "@/assets/images/Machine-Learning-icon.svg"
 import MachineLearningIcon from "@/assets/images/Machine-Learning-icon.svg"
 import ManufacturingIcon from "@/assets/images/Manufacturing-icon.svg"
-// // navbar images
 // //ai products
 import AICopilotForSales from "@/assets/images/navbar/AI_PRODUCTS/AI_Copilot_For_Sales.svg"
 import ComputerVisionERP from "@/assets/images/navbar/AI_PRODUCTS/ComputerVisionERP.png"
@@ -60,6 +59,9 @@ import HireDataScientist from "@/assets/images/navbar/SERVICES/Data Engineering/
 import MachineLearningDevelopment from "@/assets/images/navbar/SERVICES/Data Engineering/Machine Learning Development.svg"
 import MLandDataScienceConsulting from "@/assets/images/navbar/SERVICES/Data Engineering/ML and Data Science Consulting.svg"
 import MLModelEngineering from "@/assets/images/navbar/SERVICES/Data Engineering/ML Model Engineering.svg"
+//game development
+import GameDevelopment from "@/assets/images/navbar/SERVICES/Game_Development/GameDevelopment.png"
+import VR from "@/assets/images/navbar/SERVICES/Game_Development/VR.png"
 //Gen Ai
 import AdaptiveAIDevelopmentCompany from "@/assets/images/navbar/SERVICES/Generative AI/Adaptive AI Development Company.svg"
 import AIAgentDevelopment from "@/assets/images/navbar/SERVICES/Generative AI/AI Agent Development.svg"
@@ -110,6 +112,13 @@ import RustDevelopment from "@/assets/images/navbar/SERVICES/Web3/Rust Developme
 import StateofWeb3 from "@/assets/images/navbar/SERVICES/Web3/State of Web3.svg"
 import Web3Development from "@/assets/images/navbar/SERVICES/Web3/Web3 Development.svg"
 import Web3GameDevelopment from "@/assets/images/navbar/SERVICES/Web3/Web3 Game Development.svg"
+import AWS from "@/assets/images/partnershipCompanies/AWS.png"
+import Azure from "@/assets/images/partnershipCompanies/Azure.png"
+//partnership companies
+import DataDrone from "@/assets/images/partnershipCompanies/DataDrone.png"
+import ElanEnterprises from "@/assets/images/partnershipCompanies/ElanEnterprises.png"
+import GCP from "@/assets/images/partnershipCompanies/GCP.png"
+import LifcoBooks from "@/assets/images/partnershipCompanies/LifcoBooks.png"
 import ProjectModelIcon from "@/assets/images/Project-Based-Model-Icon.svg"
 import RetailEcommerceIcon from "@/assets/images/Retail-E-commerce-icon.svg"
 import SoftwareHome from "@/assets/images/softwarehome.svg"
@@ -309,4 +318,14 @@ export {
   StateofWeb3,
   Web3Development,
   Web3GameDevelopment,
+  GameDevelopment,
+  VR,
+
+  //partnership companies
+  DataDrone,
+  AWS,
+  Azure,
+  ElanEnterprises,
+  GCP,
+  LifcoBooks,
 }

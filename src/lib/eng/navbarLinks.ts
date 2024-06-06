@@ -7,7 +7,6 @@ import {
   AIasaService,
   AdaptiveAIDevelopmentCompany,
   AppDeveloper,
-  BigDataConsulting,
   BlockchainConsulting,
   BlockchainDeveloper,
   BlockchainDevelopment,
@@ -16,8 +15,6 @@ import {
   ComputerVisionERP,
   CosmosDevelopment,
   CryptoWalletDevelopmentSolution,
-  DataAnalyticsServices,
-  DataAnnotationServices,
   DataEngineeringServices,
   DevOpsEngineers,
   DigitalTransformation,
@@ -28,6 +25,7 @@ import {
   Eyeq,
   FirmwareDevelopment,
   FullStackDeveloper,
+  GameDevelopment,
   GenerativeAIConsultingCompany,
   GenerativeAIDevelopment,
   GenerativeAIIntegrationServices,
@@ -49,9 +47,7 @@ import {
   IoTHealthcareSoftware,
   IoTProductDevelopment,
   LargeLanguageModelDevelopment,
-  MLModelEngineering,
   MLOpsConsultingServices,
-  MLandDataScienceConsulting,
   MetaverseApplication,
   MetaverseAvatarDevelopment,
   MetaverseDevelopment,
@@ -73,6 +69,7 @@ import {
   TezosDevelopment,
   TransformerModelDevelopment,
   UIUXDesignService,
+  VR,
   Web3Development,
   WebApplicationDevelopment,
 } from "@/assets"
@@ -109,6 +106,7 @@ export const navbarLinks: NavbarLinksTypes[] = [
     label: "Services",
     url: "/",
     assets: [
+      // Generative AI
       {
         id: 1,
         label: "Generative AI",
@@ -188,6 +186,8 @@ export const navbarLinks: NavbarLinksTypes[] = [
           },
         ],
       },
+
+      // AI & ML
       {
         id: 2,
         label: "Artificial Intelligence & ML",
@@ -255,6 +255,8 @@ export const navbarLinks: NavbarLinksTypes[] = [
           },
         ],
       },
+
+      // Software Development
       {
         id: 6,
         label: "Software Development",
@@ -304,6 +306,8 @@ export const navbarLinks: NavbarLinksTypes[] = [
           },
         ],
       },
+
+      // Game Development
       {
         id: 3,
         label: "Game Development",
@@ -311,54 +315,20 @@ export const navbarLinks: NavbarLinksTypes[] = [
         assets: [
           {
             id: 1,
-            label: "Data Engineering Services",
-            image: DataEngineeringServices,
+            label: "Game Development",
+            image: GameDevelopment,
             url: "https://www.leewayhertz.com/data-engineering-services/",
           },
           {
             id: 2,
-            label: "Hire Data Scientist",
-            image: HireDataScientist,
+            label: "VR",
+            image: VR,
             url: "https://www.leewayhertz.com/hire-data-scientists/",
-          },
-          {
-            id: 3,
-            label: "Data Analytics Services",
-            image: DataAnalyticsServices,
-            url: "https://www.leewayhertz.com/data-analytics-services/",
-          },
-          {
-            id: 4,
-            label: "Data Annotation Services",
-            image: DataAnnotationServices,
-            url: "https://www.leewayhertz.com/data-annotation-services/",
-          },
-          {
-            id: 5,
-            label: "ML Model Engineering",
-            image: MLModelEngineering,
-            url: "https://www.leewayhertz.com/ml-model-engineering-services/",
-          },
-          {
-            id: 6,
-            label: "Machine Learning Development",
-            image: MLModelEngineering,
-            url: "https://www.leewayhertz.com/machine-learning-development-services/",
-          },
-          {
-            id: 7,
-            label: "ML and Data Science Consulting",
-            image: MLandDataScienceConsulting,
-            url: "https://www.leewayhertz.com/machine-learning-and-data-science-consulting-services/",
-          },
-          {
-            id: 8,
-            label: "Big Data Consulting",
-            image: BigDataConsulting,
-            url: "https://www.leewayhertz.com/big-data-consulting-company/",
           },
         ],
       },
+
+      // Talent Acquisition
       {
         id: 7,
         label: "Talent Acquisition",
@@ -426,6 +396,8 @@ export const navbarLinks: NavbarLinksTypes[] = [
           },
         ],
       },
+
+      // IOT
       {
         id: 8,
         label: "Internet of Things(IOT)",
@@ -469,6 +441,8 @@ export const navbarLinks: NavbarLinksTypes[] = [
           },
         ],
       },
+
+      // Web3
       {
         id: 4,
         label: "Web3",
@@ -536,6 +510,8 @@ export const navbarLinks: NavbarLinksTypes[] = [
           },
         ],
       },
+
+      // BlockChain
       {
         id: 5,
         label: "Blockchain",

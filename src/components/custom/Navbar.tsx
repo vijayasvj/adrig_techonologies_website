@@ -50,7 +50,7 @@ const Navbar = () => {
                   className="flex flex-col items-center uppercase"
                   href={navList.url}
                 > */}
-                <div className="flex items-center uppercase space-x-2">
+                <div className="flex items-center uppercase space-x-2 cursor-pointer">
                   <span>{navList.label}</span>
                   {allowedNavBar.includes(navList.label) && (
                     <ChevronDown className="w-4 stroke-1.5" />
