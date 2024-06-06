@@ -1,4 +1,4 @@
-import { HomePageContainer } from "@/components/custom/homePage"
+import { HomePageContainer } from "@/components/custom/homepage"
 
 export default function Home() {
   return (
