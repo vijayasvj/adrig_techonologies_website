@@ -24,9 +24,9 @@ export default function RootLayout({
       <body className={inter.className}>
         <div id="root">
           <Navbar />
-          <ScheduleConversation />
           <ScrollUpButton />
           {children}
+          <ScheduleConversation />
           <Footer />
         </div>
       </body>

@@ -47,3 +47,9 @@ export type StepsToFollowType = {
   title: string
   description: string
 }
+
+export type ServicePagePostType = {
+  id: string
+  title: string
+  date: string
+}

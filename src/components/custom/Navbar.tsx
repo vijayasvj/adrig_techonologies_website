@@ -24,7 +24,7 @@ const Navbar = () => {
   }
 
   return (
-    <section className="sticky top-0 w-full bg-white/40 z-50 backdrop-blur-lg px-16 ease-in-out duration-500">
+    <section className="sticky top-0 w-full bg-white/40 z-50 backdrop-blur-lg px-16 ease-in-out duration-500 border-b border-slate-300">
       <div className="relative flex justify-between items-center">
         <div>
           <Link href="/" className="flex items-center">

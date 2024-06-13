@@ -1,35 +1,50 @@
 "use client"
 
-import { useEffect, useState } from "react"
+import { useEffect, useState, useRef } from "react"
 import { CountUpAnimationType } from "@/lib/types"
 
-export const CountUpAnimation = ({
+const CountUpAnimation = ({
   initialValue,
   targetValue,
   text,
 }: CountUpAnimationType) => {
   const [count, setCount] = useState(initialValue)
+  const [animationStarted, setAnimationStarted] = useState(false)
   const duration = 2000
+  const containerRef = useRef(null)
+  const scrollThreshold = 360
 
   useEffect(() => {
-    let startValue = initialValue
-    const interval = Math.floor(duration / (targetValue - initialValue))
+    const handleScroll = () => {
+      if (!animationStarted && window.scrollY >= scrollThreshold) {
+        setAnimationStarted(true)
 
-    const counter = setInterval(() => {
-      startValue += 1
-      setCount(startValue)
-      if (startValue >= targetValue) {
-        clearInterval(counter)
+        let startValue = initialValue
+        const interval = Math.floor(duration / (targetValue - initialValue))
+
+        const counter = setInterval(() => {
+          startValue += 1
+          setCount(startValue)
+          if (startValue >= targetValue) {
+            clearInterval(counter)
+          }
+        }, interval)
+
+        return () => {
+          clearInterval(counter)
+        }
       }
-    }, interval)
-
-    return () => {
-      clearInterval(counter)
     }
-  }, [targetValue, initialValue])
+
+    window.addEventListener("scroll", handleScroll)
+    return () => window.removeEventListener("scroll", handleScroll)
+  }, [initialValue, targetValue, animationStarted, scrollThreshold])
 
   return (
-    <div className="flex flex-col space-y-2 items-center w-full">
+    <div
+      ref={containerRef}
+      className="flex flex-col space-y-2 items-center w-full"
+    >
       <span className="text-blue-600 text-5xl font-bold">
         {count >= targetValue ? `${count}+` : count}
       </span>
