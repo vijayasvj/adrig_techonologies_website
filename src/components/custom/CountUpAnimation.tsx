@@ -11,14 +11,15 @@ const CountUpAnimation = ({
   const [count, setCount] = useState(initialValue)
   const [animationStarted, setAnimationStarted] = useState(false)
   const duration = 2000
-  const containerRef = useRef(null)
+  const containerRef = useRef<HTMLDivElement | null>(null)
   const scrollThreshold = 360
 
   useEffect(() => {
     const handleScroll = () => {
-      if (!animationStarted && window.scrollY >= scrollThreshold) {
+      const xy = containerRef.current?.getBoundingClientRect()
+      if (!animationStarted && xy && window.scrollY - xy.top > -10) {
         setAnimationStarted(true)
-
+        console.log(window.scrollY - xy.top)
         let startValue = initialValue
         const interval = Math.floor(duration / (targetValue - initialValue))
 

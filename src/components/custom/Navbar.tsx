@@ -33,7 +33,7 @@ const Navbar = () => {
               alt="Adrig Technologies | AI Company"
               className="w-[56px] h-[56px]"
             />
-            <span className="text-2xl font-serif uppercase text-blue-800 font-semibold">
+            <span className="text-3xl font-serif uppercase text-blue-800 font-semibold">
               Adrig
             </span>
           </Link>

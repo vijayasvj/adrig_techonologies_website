@@ -1,20 +1,10 @@
 import React from "react"
-import { companyExperienceData } from "@/lib/eng/companyExperienceData"
-import CountUpAnimation from "../CountUpAnimation"
+import CountUpAnimationContainer from "../CountUpAnimationContainer"
 
 const CompanyExperience = () => {
   return (
     <div className="w-3/4 flex flex-col py-16 space-y-24">
-      <section className="flex items-start space-x-16 w-5/6 mx-auto">
-        {companyExperienceData.map((item) => (
-          <CountUpAnimation
-            key={item.id}
-            initialValue={item.initialValue}
-            targetValue={item.totalCount}
-            text={item.label}
-          />
-        ))}
-      </section>
+      <CountUpAnimationContainer />
       <div className="w-full flex flex-col space-y-4 items-center mx-auto">
         <p className="text-3xl font-semibold font-serif w-full text-center leading-snug">
           Building Innovative and Creative Solutions for the Fast-paced Digital

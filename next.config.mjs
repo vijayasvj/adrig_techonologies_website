@@ -4,6 +4,7 @@ const nextConfig = {
   images: {
     domains: [],
   },
+  pageExtensions: ["js", "jsx", "mdx", "ts", "tsx"],
 }
 
 export default nextConfig
