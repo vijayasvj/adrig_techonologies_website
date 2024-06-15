@@ -3,10 +3,12 @@
 import React, { useState, useEffect } from "react"
 import Image from "next/image"
 import Link from "next/link"
-import { MDXRemote, MDXRemoteSerializeResult } from "next-mdx-remote"
-import { serialize } from "next-mdx-remote/serialize"
 import CountUpAnimationContainer from "@/components/custom/CountUpAnimationContainer"
+import HeroContent from "../HeroContent"
+import { ClientCompaniesComponent, ServiceCard } from "../homepage"
+import type { MDXRemoteSerializeResult } from "next-mdx-remote";
 
+const MDXRemote = React.lazy(() => import("next-mdx-remote").then((module) => ({ default: module.MDXRemote })));
 type Props = {
   content: string
 }
@@ -17,6 +19,9 @@ type MDXComponents = {
 
 const components: MDXComponents = {
   CountUpAnimationContainer: (props) => <CountUpAnimationContainer />,
+  ClientCompaniesComponent: (_props) => <ClientCompaniesComponent />,
+  ServiceCard: (props) => <ServiceCard {...props} />,
+  HeroContent: (props) => <HeroContent {...props}/>,
   a: ({ href, ...props }) => (
     <Link href={href}>
       <a
@@ -36,6 +41,7 @@ const components: MDXComponents = {
   hr: (props) => <hr {...props} className="my-4 border-gray-200" />,
   li: (props) => <li {...props} className="text-md" />,
   img: (props) => (
+    // eslint-disable-next-line jsx-a11y/alt-text
     <Image {...props} className="object-contain mx-auto" loading="lazy" />
   ),
   code: (props) => <code {...props} className="font-mono text-sm" />,
@@ -49,6 +55,7 @@ const ServicePageContainer = ({ content }: Props) => {
 
   useEffect(() => {
     const fetchMDXSource = async () => {
+      const {serialize} = await import("next-mdx-remote/serialize");
       const serialized = await serialize(content)
       setMdxSource(serialized)
     }
@@ -57,7 +64,7 @@ const ServicePageContainer = ({ content }: Props) => {
   }, [content])
 
   return (
-    <div className="prose prose-2xl w-4/5 mx-auto py-24">
+    <div className="prose prose-base max-w-5xl container mt-8">
       <React.Suspense fallback={<div>Loading...</div>}>
         {mdxSource && <MDXRemote {...mdxSource} components={components} />}
       </React.Suspense>
