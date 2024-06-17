@@ -4,7 +4,7 @@ import fs from "fs"
 import matter from "gray-matter"
 import path from "path"
 import { ServicePagePostType } from "@/lib/types"
-import { ServicePageContainer } from "@/components/custom/serivcepage"
+import { ServicePageContainer } from "@/components/custom/servicepage"
 
 const servicesPageDirectory = path.join(
   process.cwd(),

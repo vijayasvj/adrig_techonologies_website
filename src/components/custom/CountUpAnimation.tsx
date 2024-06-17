@@ -10,41 +10,54 @@ const CountUpAnimation = ({
 }: CountUpAnimationType) => {
   const [count, setCount] = useState(initialValue)
   const [animationStarted, setAnimationStarted] = useState(false)
+  const [isVisible, setIsVisible] = useState(false)
   const duration = 2000
   const containerRef = useRef<HTMLDivElement | null>(null)
-  const scrollThreshold = 360
 
   useEffect(() => {
-    const handleScroll = () => {
-      const xy = containerRef.current?.getBoundingClientRect()
-      if (!animationStarted && xy && window.scrollY - xy.top > -10) {
-        setAnimationStarted(true)
-        console.log(window.scrollY - xy.top)
-        let startValue = initialValue
-        const interval = Math.floor(duration / (targetValue - initialValue))
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting && !animationStarted) {
+            setAnimationStarted(true)
+            setIsVisible(true)
+            let startValue = initialValue
+            const interval = Math.floor(duration / (targetValue - initialValue))
 
-        const counter = setInterval(() => {
-          startValue += 1
-          setCount(startValue)
-          if (startValue >= targetValue) {
-            clearInterval(counter)
+            const counter = setInterval(() => {
+              startValue += 1
+              setCount(startValue)
+              if (startValue >= targetValue) {
+                clearInterval(counter)
+              }
+            }, interval)
+
+            return () => {
+              clearInterval(counter)
+            }
           }
-        }, interval)
-
-        return () => {
-          clearInterval(counter)
-        }
+        })
+      },
+      {
+        threshold: 0.1,
       }
+    )
+
+    if (containerRef.current) {
+      observer.observe(containerRef.current)
     }
 
-    window.addEventListener("scroll", handleScroll)
-    return () => window.removeEventListener("scroll", handleScroll)
-  }, [initialValue, targetValue, animationStarted, scrollThreshold])
+    return () => {
+      if (containerRef.current) {
+        observer.unobserve(containerRef.current)
+      }
+    }
+  }, [initialValue, targetValue, animationStarted])
 
   return (
     <div
       ref={containerRef}
-      className="flex flex-col space-y-2 items-center w-full"
+      className={`flex flex-col space-y-2 items-center w-full transition-opacity duration-500 ${isVisible ? "opacity-100" : "opacity-0"}`}
     >
       <span className="text-blue-600 text-5xl font-bold">
         {count >= targetValue ? `${count}+` : count}

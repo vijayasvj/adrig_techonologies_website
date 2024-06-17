@@ -14,7 +14,10 @@ const HeroSection = () => {
           <p className="text-2xl w-full font-semibold text-slate-100">
             We build cutting-edge AI solutions for startups and enterprises
           </p>
-          <RightArrowTransitionButton buttonText="Get in touch" />
+          <RightArrowTransitionButton
+            buttonText="Get in touch"
+            navigateTo="#getInTouchNavigateTo"
+          />
         </section>
         <section className="col-span-1 w-full flex justify-center relative">
           <div className="w-[440px]">

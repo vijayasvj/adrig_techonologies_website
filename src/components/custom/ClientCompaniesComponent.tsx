@@ -1,6 +1,5 @@
 import React from "react"
 import Image from "next/image"
-import { HomepageClientCompanies } from "@/assets"
 import Marquee from "react-fast-marquee"
 import { partnerShipCompaniesData } from "@/lib/eng/partnerShipCompaniesData"
 

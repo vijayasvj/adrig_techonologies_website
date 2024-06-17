@@ -4,7 +4,7 @@ import CountUpAnimation from "./CountUpAnimation"
 
 const CountUpAnimationContainer = () => {
   return (
-    <section className="flex items-start space-x-16 w-5/6 mx-auto">
+    <section className="flex items-start space-x-16 w-full mx-auto py-10">
       {companyExperienceData.map((item) => (
         <CountUpAnimation
           key={item.id}

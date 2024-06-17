@@ -5,15 +5,15 @@ import Image from "next/image"
 import { HomepageClientGraph } from "@/assets"
 import { engagementModelData } from "@/lib/eng/engagementModelsData"
 import {
-  ClientCompaniesComponent,
   CompanyExperience,
   HeroSection,
   IndustriesSolutionComponent,
-  InsightsComponent,
   Services,
   StepsToFollowComponent,
 } from "."
+import ClientCompaniesComponent from "../ClientCompaniesComponent"
 import ConversationForm from "../ConversationForm"
+import InsightsComponent from "../InsightsComponent"
 
 const HomePageContainer = () => {
   const formSubmitHandler = (data: any) => {
@@ -54,14 +54,14 @@ const HomePageContainer = () => {
         </div>
       </section>
       <StepsToFollowComponent />
-      <div className="w-2/3">
+      <div className="w-2/3 flex flex-col space-y-24 items-center py-10">
         <ConversationForm
           title="What Can We Build for You?"
           description="Let's discuss your ideas. We will send you an NDA before we talk. All the information is kept confidential."
           onFormSubmit={formSubmitHandler}
         />
+        <InsightsComponent />
       </div>
-      <InsightsComponent />
     </div>
   )
 }
