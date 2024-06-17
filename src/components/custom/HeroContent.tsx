@@ -9,10 +9,12 @@ const HeroContent = ({
   buttonLabel,
   children,
   imgSrc,
+  navigateTo,
 }: PropsWithChildren<{
   title: string
   imgSrc?: string
   buttonLabel?: string
+  navigateTo: string
 }>) => {
   return (
     <div className="flex flex-col md:flex-row not-prose">
@@ -21,7 +23,7 @@ const HeroContent = ({
         <p className="text-md font-normal mb-4">{children}</p>
         <RightArrowTransitionButton
           buttonText={buttonLabel ?? defaultButtonLabel}
-          navigateTo="#getInTouchNavigateTo"
+          navigateTo={navigateTo}
         />
       </div>
       <div className="md:w-1/2">

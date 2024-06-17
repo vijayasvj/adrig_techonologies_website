@@ -9,7 +9,6 @@ type Props = {
 }
 
 const RightArrowTransitionButton = ({ buttonText, navigateTo }: Props) => {
-  console.log(navigateTo)
   return (
     <Link
       href={navigateTo}
