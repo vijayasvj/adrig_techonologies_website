@@ -18,7 +18,7 @@ const HeroContent = ({
     <div className="flex flex-col md:flex-row not-prose">
       <div className="prose p-4 md:w-1/2">
         <h1 className="text-4xl font-bold mb-4">{title}</h1>
-        <p className="text-md font-normal mb-4">{children}</p>
+        <div className="text-md font-normal mb-4">{children}</div>
         <RightArrowTransitionButton
           buttonText={buttonLabel ?? defaultButtonLabel}
           navigateTo="#getInTouchNavigateTo"
