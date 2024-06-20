@@ -2,9 +2,9 @@ import React from "react"
 import { notFound } from "next/navigation"
 import fs from "fs"
 import matter from "gray-matter"
+import { MDXRemote } from "next-mdx-remote/rsc"
 import path from "path"
 import { HomepageCompaniesServicesType, ServicePagePostType } from "@/lib/types"
-import { MDXRemote } from "next-mdx-remote/rsc"
 import ClientCompaniesComponent from "@/components/custom/ClientCompaniesComponent"
 import CountUpAnimationContainer from "@/components/custom/CountUpAnimationContainer"
 import HeroContent from "@/components/custom/HeroContent"
@@ -42,7 +42,7 @@ const getAllSortedServicesData = () => {
 async function getDynamicServiceData(service: string) {
   const fullPath = path.join(servicesPageDirectory, `${service}.mdx`)
   const fileContent = fs.readFileSync(fullPath, "utf8")
-
+  console.log(fileContent)
   const matterResult = matter(fileContent)
 
   const serviceDataWithHtml: ServicePagePostType & { content: string } = {
@@ -62,9 +62,26 @@ const components: MDXComponents = {
   ConversationForm: (props: any) => <>ConversationForm</>,
   ClientCompaniesComponent: (props: any) => <ClientCompaniesComponent />,
   InsightsComponent: (props: any) => <InsightsComponent />,
-  MainContent: (props: React.JSX.IntrinsicAttributes & { mainPara: string; subPara: string; getInTouchIncluded?: boolean }) => <MainContent {...props} />,
-  ServiceCard: (props: React.JSX.IntrinsicAttributes & { service: HomepageCompaniesServicesType }) => <ServiceCard {...props} />,
-  HeroContent: (props: React.JSX.IntrinsicAttributes & { title: string; imgSrc?: string; buttonLabel?: string } & { children?: React.ReactNode | undefined }) => <HeroContent {...props} />,
+  MainContent: (
+    props: React.JSX.IntrinsicAttributes & {
+      mainPara: string
+      subPara: string
+      getInTouchIncluded?: boolean
+    }
+  ) => <MainContent {...props} />,
+  ServiceCard: (
+    props: React.JSX.IntrinsicAttributes & {
+      service: HomepageCompaniesServicesType
+    }
+  ) => <ServiceCard {...props} />,
+  HeroContent: (
+    props: React.JSX.IntrinsicAttributes & {
+      navigateTo: string
+      title: string
+      imgSrc?: string
+      buttonLabel?: string
+    } & { children?: React.ReactNode | undefined }
+  ) => <HeroContent {...props} />,
 }
 
 const Page = async ({ params }: { params: { service: string } }) => {
@@ -77,7 +94,7 @@ const Page = async ({ params }: { params: { service: string } }) => {
 
   const { title, date, content } = await getDynamicServiceData(service)
 
-  return <MDXRemote source={content} components={components} />;
+  return <MDXRemote source={content} components={components} />
 }
 
 export default Page
