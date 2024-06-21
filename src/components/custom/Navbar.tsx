@@ -20,8 +20,9 @@ const Navbar = () => {
   const [selectedNavBar, setSelectedNavBar] = useState<NavbarLinksTypes | null>(
     null
   )
-  const [isSelectedNavBarOpen, setIsSelectedNavBarOpen] = useState(false)
-  const [isMenubarOpened, setIsMenubarOpened] = useState(true)
+  const [isSelectedNavBarOpen, setIsSelectedNavBarOpen] =
+    useState<boolean>(false)
+  const [isMenubarOpened, setIsMenubarOpened] = useState<boolean>(false)
   const allowedNavBar = ["AI Products", "Services", "Industries"]
 
   const handleNavBarChange = (navItem: NavbarLinksTypes) => {
