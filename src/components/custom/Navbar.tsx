@@ -24,7 +24,7 @@ const Navbar = () => {
   }
 
   return (
-    <section className="sticky top-0 w-full bg-white/40 z-50 backdrop-blur-lg px-16 ease-in-out duration-500 border-b border-slate-300">
+    <section className="sticky top-0 w-full bg-white/40 z-50 backdrop-blur-lg  sm:px-16 ease-in-out duration-500 border-b border-slate-300">
       <div className="relative flex justify-between items-center">
         <div>
           <Link href="/" className="flex items-center">
@@ -33,12 +33,12 @@ const Navbar = () => {
               alt="Adrig Technologies | AI Company"
               className="w-[56px] h-[56px]"
             />
-            <span className="text-3xl font-serif uppercase text-blue-800 font-semibold">
+            <span className="hidden sm:inline text-3xl font-serif uppercase text-blue-800 font-semibold">
               Adrig
             </span>
           </Link>
         </div>
-        <div className="flex items-center space-x-10 text-sm font-medium">
+        <div className="hidden md:flex items-center space-x-10 text-sm font-medium">
           <ul className="flex space-x-10 items-center">
             {navbarLinks.map((navList) => (
               <li

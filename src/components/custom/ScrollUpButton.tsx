@@ -30,7 +30,7 @@ const ScrollUpButton = () => {
       <section className="fixed z-50 top-[80%] w-full flex justify-end pr-4">
         <Button
           onClick={scrollToTop}
-          className="bg-slate-50 text-slate-950 hover:bg-slate-900 hover:text-slate-50 ease-in-out duration-300 shadow-black rounded-xl"
+          className="bg-slate-50 text-slate-950 hover:bg-slate-900 hover:text-slate-50 ease-in-out duration-300 shadow-black rounded-xl p-0 w-10 h-10"
         >
           <ArrowBigUpDash />
         </Button>

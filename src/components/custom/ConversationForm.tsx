@@ -50,10 +50,12 @@ const ConversationForm = ({ title, description, onFormSubmit }: Props) => {
   return (
     <section
       id="getInTouchNavigateTo"
-      className="w-full flex flex-col space-y-6 items-center pt-10"
+      className="w-full flex flex-col space-y-6 items-center pb-16 xl:pb-0 pt-10"
     >
-      <span className="text-[32px] font-serif font-bold">{title}</span>
-      <p className="text-center">{description}</p>
+      <span className="text-2xl sm:text-[32px] font-serif font-bold text-center">
+        {title}
+      </span>
+      <p className="text-center text-sm tsm:text-md">{description}</p>
       <Form {...form}>
         <form
           autoComplete="off"
@@ -64,7 +66,7 @@ const ConversationForm = ({ title, description, onFormSubmit }: Props) => {
             control={form.control}
             name="name"
             render={({ field }) => (
-              <FormItem className="col-span-1 relative bg-[#fbfbfb] border border-[#e7e7e7] text-[#333] text-lg p-4">
+              <FormItem className="col-span-2 sm:col-span-1 relative bg-[#fbfbfb] border border-[#e7e7e7] text-[#333] text-md sm:text-lg p-2 sm:p-4">
                 <FormControl>
                   <Input
                     placeholder="Name*"
@@ -80,7 +82,7 @@ const ConversationForm = ({ title, description, onFormSubmit }: Props) => {
             control={form.control}
             name="phoneNumber"
             render={({ field }) => (
-              <FormItem className="col-span-1 bg-[#fbfbfb] border border-[#e7e7e7] p-4">
+              <FormItem className="col-span-2 sm:col-span-1 bg-[#fbfbfb] border border-[e7e7e7] text-md sm:text-lg p-2 sm:p-4">
                 <FormControl>
                   <Input
                     placeholder="Phone"
@@ -95,7 +97,7 @@ const ConversationForm = ({ title, description, onFormSubmit }: Props) => {
             control={form.control}
             name="company"
             render={({ field }) => (
-              <FormItem className="col-span-1 bg-[#fbfbfb] border border-[#e7e7e7] p-4">
+              <FormItem className="col-span-2 sm:col-span-1 bg-[#fbfbfb] border border-[e7e7e7] text-md sm:text-lg p-2 sm:p-4">
                 <FormControl>
                   <Input
                     placeholder="Company"
@@ -110,7 +112,7 @@ const ConversationForm = ({ title, description, onFormSubmit }: Props) => {
             control={form.control}
             name="email"
             render={({ field }) => (
-              <FormItem className="col-span-1 relative bg-[#fbfbfb] border border-[#e7e7e7] p-4">
+              <FormItem className="col-span-2 sm:col-span-1 relative bg-[#fbfbfb] border border-[e7e7e7] text-md sm:text-lg p-2 sm:p-4">
                 <FormControl>
                   <Input
                     placeholder="Email*"
@@ -126,11 +128,11 @@ const ConversationForm = ({ title, description, onFormSubmit }: Props) => {
             control={form.control}
             name="description"
             render={({ field }) => (
-              <FormItem className="col-span-2 relative bg-[#fbfbfb] border border-[#e7e7e7] p-4">
+              <FormItem className="col-span-2 relative bg-[#fbfbfb] border border-[e7e7e7] text-md sm:text-lg p-2 sm:p-4">
                 <FormControl>
                   <Textarea
                     placeholder="Tell us about ur project*"
-                    className="bg-[#fbfbfb] text-sm border-0 shadow-none p-0 m-0 focus-visible:ring-0 focus-visible:ring-offset-0 h-56 min-h-32 max-h-72"
+                    className="bg-[#fbfbfb] text-sm border-0 shadow-none p-0 m-0 focus-visible:ring-0 focus-visible:ring-offset-0 h-36 sm:h-56 min-h-32 max-h-72"
                     {...field}
                   />
                 </FormControl>
@@ -149,7 +151,7 @@ const ConversationForm = ({ title, description, onFormSubmit }: Props) => {
                     onCheckedChange={field.onChange}
                   />
                 </FormControl>
-                <div className="space-y-1 leading-none">
+                <div className="space-y-1 leading-none text-xs sm:text-sm">
                   <FormLabel>
                     Send me the signed Non-Disclosure Agreement (NDA)
                   </FormLabel>

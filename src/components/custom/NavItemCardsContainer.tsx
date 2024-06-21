@@ -12,7 +12,7 @@ const NavItemCardsContainer = <T extends SubLink | NavbarLinksTypes>({
   count,
 }: Props<T>) => {
   return (
-    <section className={`grid grid-cols-${count} gap-4 text-sm font-bold`}>
+    <React.Fragment>
       {navItem.assets &&
         navItem.assets.map((item) => (
           // <Link
@@ -28,14 +28,14 @@ const NavItemCardsContainer = <T extends SubLink | NavbarLinksTypes>({
               <Image
                 src={item.image}
                 alt={item.label}
-                className="w-[240px] h-[140px] object-cover"
+                className="w-[120px] xl:w-[240px] xl:h-[140px] object-cover"
               />
             )}
-            <span>{item.label}</span>
+            <span className="text-center">{item.label}</span>
           </div>
           // </Link>
         ))}
-    </section>
+    </React.Fragment>
   )
 }
 

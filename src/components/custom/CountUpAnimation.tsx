@@ -57,12 +57,12 @@ const CountUpAnimation = ({
   return (
     <div
       ref={containerRef}
-      className={`flex flex-col space-y-2 items-center w-full transition-opacity duration-500 ${isVisible ? "opacity-100" : "opacity-0"}`}
+      className={`col-span-1 flex flex-col space-y-2 items-center w-full transition-opacity duration-500 ${isVisible ? "opacity-100" : "opacity-0"}`}
     >
-      <span className="text-blue-600 text-5xl font-bold">
+      <span className="text-blue-600 text-2xl md:text-5xl font-bold">
         {count >= targetValue ? `${count}+` : count}
       </span>
-      <span className="text-lg font-bold text-center">{text}</span>
+      <span className="text-sm md:text-lg font-bold text-center">{text}</span>
     </div>
   )
 }
