@@ -13,7 +13,7 @@ const InsightCard = ({ item }: Props) => {
       <Image src={item.image} alt={item.title} />
       <span className="text-2xl font-serif font-bold">{item.title}</span>
       <p className="leading-loose">{item.description}</p>
-      <ReadMoreButton url={item.urlPath} />
+      <ReadMoreButton url='/' />
     </section>
   )
 }
