@@ -8,11 +8,11 @@ const CountUpAnimation = ({
   targetValue,
   text,
 }: CountUpAnimationType) => {
-  const [count, setCount] = useState(initialValue)
-  const [animationStarted, setAnimationStarted] = useState(false)
-  const [isVisible, setIsVisible] = useState(false)
-  const duration = 2000
+  const [count, setCount] = useState<number>(initialValue)
+  const [animationStarted, setAnimationStarted] = useState<boolean>(false)
+  const [isVisible, setIsVisible] = useState<boolean>(false)
   const containerRef = useRef<HTMLDivElement | null>(null)
+  const duration = 2000
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -43,13 +43,14 @@ const CountUpAnimation = ({
       }
     )
 
-    if (containerRef.current) {
-      observer.observe(containerRef.current)
+    const currentRef = containerRef.current
+    if (currentRef) {
+      observer.observe(currentRef)
     }
 
     return () => {
-      if (containerRef.current) {
-        observer.unobserve(containerRef.current)
+      if (currentRef) {
+        observer.unobserve(currentRef)
       }
     }
   }, [initialValue, targetValue, animationStarted])
