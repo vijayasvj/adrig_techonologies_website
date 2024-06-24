@@ -6,6 +6,7 @@ import { MDXRemote } from "next-mdx-remote/rsc"
 import path from "path"
 import { HomepageCompaniesServicesType, ServicePagePostType } from "@/lib/types"
 import ClientCompaniesComponent from "@/components/custom/ClientCompaniesComponent"
+import ConversationForm from "@/components/custom/ConversationForm"
 import CountUpAnimationContainer from "@/components/custom/CountUpAnimationContainer"
 import HeroContent from "@/components/custom/HeroContent"
 import { ServiceCard } from "@/components/custom/homepage"
@@ -59,7 +60,7 @@ type MDXComponents = {
 }
 const components: MDXComponents = {
   CountUpAnimationContainer: (props: any) => <CountUpAnimationContainer />,
-  ConversationForm: (props: any) => <>ConversationForm</>,
+  ConversationForm: (props: any) => <ConversationForm {...props} />,
   ClientCompaniesComponent: (props: any) => <ClientCompaniesComponent />,
   InsightsComponent: (props: any) => <InsightsComponent />,
   MainContent: (
