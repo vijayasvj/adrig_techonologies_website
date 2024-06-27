@@ -26,7 +26,7 @@ const HomePageContainer = () => {
       <ClientCompaniesComponent />
       <CompanyExperience />
       <Services />
-      <section className="w-full py-10 flex flex-col space-y-6 items-center">
+      {/* <section className="w-full py-10 flex flex-col space-y-6 items-center">
         <span className="text-2xl sm:text-3xl font-serif font-bold">
           Big Brands Trust Us
         </span>
@@ -35,7 +35,7 @@ const HomePageContainer = () => {
           alt="Client Yearly Graph"
           className="xl:h-[640px] object-contain xl:object-fill"
         />
-      </section>
+      </section> */}
       <IndustriesSolutionComponent />
       <section className="xl:w-5/6 px-10 xl:px-0 py-10 flex flex-col space-y-10 sm:space-y-16 items-center">
         <span className="text-2xl sm:text-3xl font-serif font-bold">
