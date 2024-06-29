@@ -197,13 +197,13 @@ export const navbarLinks: NavbarLinksTypes[] = [
             id: 1,
             label: "AI Development",
             image: AIDevelopment,
-            url: "/services/ai-development-services-company",
+            url: "/services/ai-development",
           },
           {
             id: 2,
             label: "AI Consulting",
             image: AIConsulting,
-            url: "/services/ai-consulting-services-company",
+            url: "/services/ai-consulting",
           },
           {
             id: 3,
@@ -233,7 +233,7 @@ export const navbarLinks: NavbarLinksTypes[] = [
             id: 7,
             label: "Enterprise AI Development",
             image: EnterpriseAIDevelopment,
-            url: "/services/enterprise-ai-development-company",
+            url: "/services/ai-enterprise-ai-development-company",
           },
           {
             id: 8,

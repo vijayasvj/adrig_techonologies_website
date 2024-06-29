@@ -52,7 +52,7 @@ const ConversationForm = ({ title, description, onFormSubmit }: Props) => {
   return (
     <section
       id="getInTouchNavigateTo"
-      className="w-full flex flex-col space-y-6 items-center pb-16 xl:pb-0 pt-10"
+      className="flex flex-col space-y-6 items-center pb-16 xl:pb-0 pt-10"
     >
       <span className="text-2xl sm:text-[32px] font-serif font-bold text-center">
         {title}

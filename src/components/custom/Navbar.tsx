@@ -41,7 +41,7 @@ const Navbar = () => {
           <Image
             src={Logo}
             alt="Adrig Technologies | AI Company"
-            className="w-[40px] h-[40px] xl:w-[56px] xl:h-[56px]"
+            className="w-10 h-10 xl:w-14 xl:h-14"
           />
           <span className="text-2xl lg:text-3xl font-serif uppercase text-blue-800 font-semibold">
             Adrig
