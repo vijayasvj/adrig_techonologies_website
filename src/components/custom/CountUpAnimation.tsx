@@ -63,7 +63,9 @@ const CountUpAnimation = ({
       <span className="text-blue-600 text-2xl md:text-5xl font-bold">
         {count >= targetValue ? `${count}+` : count}
       </span>
-      <span className="text-sm md:text-lg font-bold text-center">{text}</span>
+      <span className="text-sm md:text-lg xl:text-xl font-bold text-center">
+        {text}
+      </span>
     </div>
   )
 }

@@ -1,7 +1,8 @@
 import React from "react"
+import { AboutContainer } from "@/components/custom/aboutpage"
 
 const page = () => {
-  return <div>about page</div>
+  return <AboutContainer />
 }
 
 export default page
