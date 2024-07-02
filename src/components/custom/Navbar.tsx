@@ -77,7 +77,7 @@ const Navbar = () => {
             />
           )}
           <Link href="/contact-us">
-            <Button className="uppercase bg-blue-700 text-white px-4 py-1 lg:py-2 font-medium">
+            <Button className="uppercase bg-blue-700 hover:bg-blue-800 text-white px-4 py-1 lg:py-2 font-medium">
               Contact Us
             </Button>
           </Link>

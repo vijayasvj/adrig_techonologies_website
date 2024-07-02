@@ -20,9 +20,9 @@ const WhoWeAre = () => {
         drive business growth.
         <br />
         <br />
-        Our motto, &quot;You Imagine It, We Build It,&apos; encapsulates our
-        business philosophy. From conceptualizing your idea to delivering the
-        final product, we do whatever it takes to ensure your project&quot;s
+        Our motto, <em>&quot;You Imagine It, We Build It&quot;</em> encapsulates
+        our business philosophy. From conceptualizing your idea to delivering
+        the final product, we do whatever it takes to ensure your project&apos;s
         success. Despite our founder and CEO being just 21, our core team
         collectively boasts over 40 years of experience. We have collaborated
         with numerous clients, including top Fortune 500 companies, and have
