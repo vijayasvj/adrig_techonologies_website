@@ -85,19 +85,19 @@ export const navbarLinks: NavbarLinksTypes[] = [
         id: 1,
         label: "Eyeq",
         image: Eyeq as unknown as string,
-        url: "/services/enterprise-generative-ai-platform",
+        url: "/ai-products/eye-q",
       },
       {
         id: 2,
         label: "Predicis",
         image: Predicis as unknown as string,
-        url: "/services/ai-copilot-for-sales",
+        url: "/ai-products/predicis",
       },
       {
         id: 3,
         label: "Computer Vision ERP",
         image: ComputerVisionERP as unknown as string,
-        url: "/services/ai-research-solution-for-due-diligence",
+        url: "/ai-products/cverp",
       },
     ],
   },
@@ -592,5 +592,10 @@ export const navbarLinks: NavbarLinksTypes[] = [
         ],
       },
     ],
+  },
+  {
+    id: 3,
+    label: "About",
+    url: "/about",
   },
 ]

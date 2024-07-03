@@ -41,7 +41,7 @@ const Navbar = () => {
           <Image
             src={Logo}
             alt="Adrig Technologies | AI Company"
-            className="w-[40px] h-[40px] xl:w-[56px] xl:h-[56px]"
+            className="w-10 h-10 xl:w-14 xl:h-14"
           />
           <span className="text-2xl lg:text-3xl font-serif uppercase text-blue-800 font-semibold">
             Adrig
@@ -55,12 +55,15 @@ const Navbar = () => {
                 className="group"
                 onMouseEnter={() => handleNavBarChange(navList)}
               >
-                <div className="flex items-center uppercase space-x-2 cursor-pointer">
+                <Link
+                  href={navList.url}
+                  className="flex items-center uppercase space-x-2 cursor-pointer"
+                >
                   <span>{navList.label}</span>
                   {allowedNavBar.includes(navList.label) && (
                     <ChevronDown className="w-4 stroke-1.5" />
                   )}
-                </div>
+                </Link>
                 {!allowedNavBar.includes(navList.label) && (
                   <div className="bg-black h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
                 )}
@@ -74,7 +77,7 @@ const Navbar = () => {
             />
           )}
           <Link href="/contact-us">
-            <Button className="uppercase bg-blue-700 text-white px-4 py-1 lg:py-2 font-medium">
+            <Button className="uppercase bg-blue-700 hover:bg-blue-800 text-white px-4 py-1 lg:py-2 font-medium">
               Contact Us
             </Button>
           </Link>

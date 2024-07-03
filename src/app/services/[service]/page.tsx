@@ -43,7 +43,6 @@ const getAllSortedServicesData = () => {
 async function getDynamicServiceData(service: string) {
   const fullPath = path.join(servicesPageDirectory, `${service}.mdx`)
   const fileContent = fs.readFileSync(fullPath, "utf8")
-  console.log(fileContent)
   const matterResult = matter(fileContent)
 
   const serviceDataWithHtml: ServicePagePostType & { content: string } = {
