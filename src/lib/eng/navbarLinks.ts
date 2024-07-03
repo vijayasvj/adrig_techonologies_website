@@ -191,37 +191,37 @@ export const navbarLinks: NavbarLinksTypes[] = [
       {
         id: 2,
         label: "Artificial Intelligence & ML",
-        url: "https://www.leewayhertz.com/ai-development-services-company/",
+        url: "/services/ai-development",
         assets: [
           {
             id: 1,
             label: "AI Development",
             image: AIDevelopment,
-            url: "https://www.leewayhertz.com/ai-development-services-company/",
+            url: "/services/ai-development",
           },
           {
             id: 2,
             label: "AI Consulting",
             image: AIConsulting,
-            url: "https://www.leewayhertz.com/ai-consulting-services-company/",
+            url: "/services/ai-consulting",
           },
           {
             id: 3,
             label: "Hire AI Engineers",
             image: HireAIEngineers,
-            url: "https://www.leewayhertz.com/hire-ai-engineers/",
+            url: "/services/ai-hire-ai-engineers",
           },
           {
             id: 4,
             label: "AI as a Service",
             image: AIasaService,
-            url: "https://www.leewayhertz.com/ai-as-a-service/",
+            url: "/services/ai-as-a-services",
           },
           {
             id: 5,
             label: "Hire Action Transformer Developers",
             image: HireTransformerDevelopers,
-            url: "https://www.leewayhertz.com/hire-action-transformer-developers/",
+            url: "/services/ai-hire-action-transformer-developers",
           },
           {
             id: 6,
@@ -233,25 +233,25 @@ export const navbarLinks: NavbarLinksTypes[] = [
             id: 7,
             label: "Enterprise AI Development",
             image: EnterpriseAIDevelopment,
-            url: "https://www.leewayhertz.com/enterprise-ai-development-company/",
+            url: "/services/ai-enterprise-ai-development-company",
           },
           {
             id: 8,
             label: "AI Chatbot Development Company",
             image: AIChatbotDevelopmentCompany,
-            url: "https://www.leewayhertz.com/ai-chatbot-development-company/",
+            url: "services/ai-chatbot-development-company",
           },
           {
             id: 9,
             label: "Enterprise AI Chatbot Development Company",
             image: EnterpriseAIChatbotDevelopmentCompany,
-            url: "https://www.leewayhertz.com/enterprise-ai-chatbot-development/",
+            url: "/services/ai-enterprise-ai-chatbot-development-company",
           },
           {
             id: 10,
             label: "Transformer Model Development",
             image: TransformerModelDevelopment,
-            url: "https://www.leewayhertz.com/transformer-model-development-services/",
+            url: "/services/ai-transformer-model-development-service",
           },
         ],
       },
@@ -311,19 +311,19 @@ export const navbarLinks: NavbarLinksTypes[] = [
       {
         id: 3,
         label: "Game Development",
-        url: "https://www.leewayhertz.com/data-engineering-services/",
+        url: "/services/game-development",
         assets: [
           {
             id: 1,
             label: "Game Development",
             image: GameDevelopment,
-            url: "https://www.leewayhertz.com/data-engineering-services/",
+            url: "/services/game-development",
           },
           {
             id: 2,
             label: "VR",
             image: VR,
-            url: "https://www.leewayhertz.com/hire-data-scientists/",
+            url: "/services/game-development-vr",
           },
         ],
       },
@@ -446,13 +446,13 @@ export const navbarLinks: NavbarLinksTypes[] = [
       {
         id: 4,
         label: "Web3",
-        url: "https://www.leewayhertz.com/web3-development-company/",
+        url: "/services/web3-development-company",
         assets: [
           {
             id: 1,
             label: "Web3 Development",
             image: Web3Development,
-            url: "https://www.leewayhertz.com/web3-development-company/",
+            url: "/services/web3-development-company",
           },
           {
             id: 2,
