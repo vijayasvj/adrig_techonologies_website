@@ -447,13 +447,11 @@ export const navbarLinks: NavbarLinksTypes[] = [
         id: 4,
         label: "Web3",
         url: "/services/web3-development-company",
-        url: "/services/web3-development-company",
         assets: [
           {
             id: 1,
             label: "Web3 Development",
             image: Web3Development,
-            url: "/services/web3-development-company",
             url: "/services/web3-development-company",
           },
           {
