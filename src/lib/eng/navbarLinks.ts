@@ -191,7 +191,7 @@ export const navbarLinks: NavbarLinksTypes[] = [
       {
         id: 2,
         label: "Artificial Intelligence & ML",
-        url: "/services/ai-development-services-company",
+        url: "/services/ai-development",
         assets: [
           {
             id: 1,
@@ -209,19 +209,19 @@ export const navbarLinks: NavbarLinksTypes[] = [
             id: 3,
             label: "Hire AI Engineers",
             image: HireAIEngineers,
-            url: "/services/hire-ai-engineers",
+            url: "/services/ai-hire-ai-engineers",
           },
           {
             id: 4,
             label: "AI as a Service",
             image: AIasaService,
-            url: "/services/ai-as-a-service",
+            url: "/services/ai-as-a-services",
           },
           {
             id: 5,
             label: "Hire Action Transformer Developers",
             image: HireTransformerDevelopers,
-            url: "/services/hire-action-transformer-developers",
+            url: "/services/ai-hire-action-transformer-developers",
           },
           {
             id: 6,
@@ -239,19 +239,19 @@ export const navbarLinks: NavbarLinksTypes[] = [
             id: 8,
             label: "AI Chatbot Development Company",
             image: AIChatbotDevelopmentCompany,
-            url: "/services/ai-chatbot-development-company",
+            url: "services/ai-chatbot-development-company",
           },
           {
             id: 9,
             label: "Enterprise AI Chatbot Development Company",
             image: EnterpriseAIChatbotDevelopmentCompany,
-            url: "/services/enterprise-ai-chatbot-development",
+            url: "/services/ai-enterprise-ai-chatbot-development-company",
           },
           {
             id: 10,
             label: "Transformer Model Development",
             image: TransformerModelDevelopment,
-            url: "/services/transformer-model-development-services",
+            url: "/services/ai-transformer-model-development-service",
           },
         ],
       },
@@ -311,19 +311,19 @@ export const navbarLinks: NavbarLinksTypes[] = [
       {
         id: 3,
         label: "Game Development",
-        url: "/services/data-engineering-services",
+        url: "/services/game-development",
         assets: [
           {
             id: 1,
             label: "Game Development",
             image: GameDevelopment,
-            url: "/services/data-engineering-services",
+            url: "/services/game-development",
           },
           {
             id: 2,
             label: "VR",
             image: VR,
-            url: "/services/hire-data-scientists",
+            url: "/services/game-development-vr",
           },
         ],
       },
