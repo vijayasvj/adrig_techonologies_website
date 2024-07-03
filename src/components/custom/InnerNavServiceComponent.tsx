@@ -1,4 +1,5 @@
 import React, { useState } from "react"
+import Link from "next/link"
 import { ChevronRight } from "lucide-react"
 import { NavbarLinksTypes, SubLink } from "@/lib/types"
 import NavItemCardsContainer from "./NavItemCardsContainer"
@@ -23,12 +24,12 @@ const InnerNavServiceComponent = ({ navItem }: Props) => {
               className={`group w-full ${selectedInnerNavBar.label === navList.label ? "text-blue-700" : ""}`}
               onMouseEnter={() => setSelectedInnerNavBar(navList)}
             >
-              {/* <Link className="w-full" href={navList.url}> */}
-              <div className="flex w-full justify-start items-center space-x-2">
-                <span className="text-xs xl:text-md">{navList.label}</span>
-                <ChevronRight className="w-[10px] xl:w-[20px] stroke-1.5" />
-              </div>
-              {/* </Link> */}
+              <Link className="w-full" href={navList.url}>
+                <div className="flex w-full justify-start items-center space-x-2">
+                  <span className="text-xs xl:text-md">{navList.label}</span>
+                  <ChevronRight className="w-[10px] xl:w-[20px] stroke-1.5" />
+                </div>
+              </Link>
             </li>
           ))}
         </ul>
