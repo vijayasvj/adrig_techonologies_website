@@ -3,9 +3,11 @@ import { stepsToFollowData } from "@/lib/eng/stepsToFollowData"
 
 const StepsToFollowComponent = () => {
   return (
-    <section className="w-full py-10 flex flex-col space-y-16 items-center">
-      <span className="text-3xl font-serif font-bold">Get Started Today</span>
-      <div className="w-5/6 grid grid-cols-4 gap-10 mx-auto">
+    <section className="xl:w-5/6 px-10 xl:px-0 py-10 flex flex-col space-y-10 sm:space-y-16 items-center">
+      <span className="text-2xl sm:text-3xl font-serif font-bold">
+        Get Started Today
+      </span>
+      <div className="w-full grid grid-cols-1 lg:grid-cols-4 gap-10 mx-auto">
         {stepsToFollowData.map((steps) => (
           <section key={steps.id} className="w-full col-span-1">
             <div className="flex flex-col space-y-4 items-start">
@@ -19,7 +21,9 @@ const StepsToFollowComponent = () => {
                 <steps.image />
               </div>
               <span className="text-lg font-bold">{steps.title}</span>
-              <p className="leading-loose">{steps.description}</p>
+              <p className="leading-loose text-sm sm:text-md">
+                {steps.description}
+              </p>
             </div>
           </section>
         ))}
