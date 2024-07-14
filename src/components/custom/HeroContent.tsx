@@ -22,9 +22,9 @@ const HeroContent = ({
         <h1 className="text-3xl font-serif font-bold mb-4 leading-tight">
           {title}
         </h1>
-        <p className="text-lg font-normal leading-loose mb-4 text-justify">
+        <div className="text-lg font-normal leading-loose mb-4 text-justify">
           {children}
-        </p>
+        </div>
         <RightArrowTransitionButton
           buttonText={buttonLabel ?? defaultButtonLabel}
           navigateTo={navigateTo}

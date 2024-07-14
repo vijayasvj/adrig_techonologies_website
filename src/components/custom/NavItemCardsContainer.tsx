@@ -16,11 +16,11 @@ const NavItemCardsContainer = <T extends SubLink | NavbarLinksTypes>({
     <React.Fragment>
       {navItem.assets &&
         navItem.assets.map((item) => (
-          <Link
-            key={item.id}
-            href={item.url}
-            className="col-span-1 flex flex-col items-start space-y-2"
-          >
+          // <Link
+          //   key={item.id}
+          //   href={item.url}
+          //   className="col-span-1 flex flex-col items-start space-y-2"
+          // >
             <div
               key={item.id}
               className="col-span-1 flex flex-col items-center  space-y-2"
@@ -34,7 +34,7 @@ const NavItemCardsContainer = <T extends SubLink | NavbarLinksTypes>({
               )}
               <span className="text-center">{item.label}</span>
             </div>
-          </Link>
+          // </Link>
         ))}
     </React.Fragment>
   )

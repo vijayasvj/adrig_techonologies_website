@@ -32,6 +32,7 @@ export type HomepageCompaniesServicesType = {
   title: string
   description: string
   urlPath: string
+  isBulletinIncluded?: boolean
 }
 
 export type IndustriesType = {

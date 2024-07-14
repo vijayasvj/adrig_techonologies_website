@@ -8,20 +8,20 @@ type CompanyExperienceDataType = {
 export const companyExperienceData: CompanyExperienceDataType = [
   {
     id: 1,
-    initialValue: 4,
-    totalCount: 300,
+    initialValue: 1,
+    totalCount: 72,
     label: "AI Developers",
   },
   {
     id: 2,
-    initialValue: 2,
-    totalCount: 160,
+    initialValue: 0,
+    totalCount: 18,
     label: "Software Product Delivered",
   },
   {
     id: 3,
-    initialValue: 1,
-    totalCount: 50,
+    initialValue: 0,
+    totalCount: 22,
     label: "AI Solutions",
   },
   {
