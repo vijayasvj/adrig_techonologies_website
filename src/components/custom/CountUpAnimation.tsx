@@ -8,11 +8,11 @@ const CountUpAnimation = ({
   targetValue,
   text,
 }: CountUpAnimationType) => {
-  const [count, setCount] = useState(initialValue)
-  const [animationStarted, setAnimationStarted] = useState(false)
-  const [isVisible, setIsVisible] = useState(false)
-  const duration = 2000
+  const [count, setCount] = useState<number>(initialValue)
+  const [animationStarted, setAnimationStarted] = useState<boolean>(false)
+  const [isVisible, setIsVisible] = useState<boolean>(false)
   const containerRef = useRef<HTMLDivElement | null>(null)
+  const duration = 2000
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -43,13 +43,14 @@ const CountUpAnimation = ({
       }
     )
 
-    if (containerRef.current) {
-      observer.observe(containerRef.current)
+    const currentRef = containerRef.current
+    if (currentRef) {
+      observer.observe(currentRef)
     }
 
     return () => {
-      if (containerRef.current) {
-        observer.unobserve(containerRef.current)
+      if (currentRef) {
+        observer.unobserve(currentRef)
       }
     }
   }, [initialValue, targetValue, animationStarted])
@@ -57,12 +58,14 @@ const CountUpAnimation = ({
   return (
     <div
       ref={containerRef}
-      className={`flex flex-col space-y-2 items-center w-full transition-opacity duration-500 ${isVisible ? "opacity-100" : "opacity-0"}`}
+      className={`col-span-1 flex flex-col space-y-2 items-center w-full transition-opacity duration-500 ${isVisible ? "opacity-100" : "opacity-0"}`}
     >
-      <span className="text-blue-600 text-5xl font-bold">
+      <span className="text-blue-600 text-2xl md:text-5xl font-bold">
         {count >= targetValue ? `${count}+` : count}
       </span>
-      <span className="text-lg font-bold text-center">{text}</span>
+      <span className="text-sm md:text-lg xl:text-xl font-bold text-center">
+        {text}
+      </span>
     </div>
   )
 }

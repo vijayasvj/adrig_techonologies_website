@@ -1,3 +1,4 @@
+import AboutUsBanner from "@/assets/images/About_Us_Banner.png"
 import AI_Co_Pilot from "@/assets/images/ai-co-pilot.svg"
 import AI_Powered_App_Development from "@/assets/images/AI-powered-App-Development.svg"
 import AI_Strategy_Counsulting from "@/assets/images/AIML-Strategy-Consulting.svg"
@@ -126,6 +127,12 @@ import StartupIcon from "@/assets/images/Startups-icon.svg"
 import TeamExtensionIcon from "@/assets/images/Team-Extention-Icon.svg"
 import TechnologyIcon from "@/assets/images/Technology-icon.svg"
 import Web3Home from "@/assets/images/web3home.svg"
+import Bansali from "@/assets/images/wellWishers/Bansali.png"
+// wellwishers
+import DebashisDas from "@/assets/images/wellWishers/DebashisDas.png"
+import Geetha from "@/assets/images/wellWishers/Geetha.png"
+import GirijaRaghavan from "@/assets/images/wellWishers/GirijaRaghavan.png"
+import Prabhu from "@/assets/images/wellWishers/Prabhu.png"
 import ConsultancyIcon from "./icons/ConsultancyIcon"
 import ContactUsIcon from "./icons/ContactUsIcon"
 import CostEstimateIcon from "./icons/CostEstimateIcon"
@@ -165,77 +172,7 @@ export {
   GPT_Insight,
   Generative_AI_Insight,
   AICopilotForSales,
-  // AIforInventoryManagement,
-  // AIforMarketResearch,
-  // AIforProductLifecycleManagement,
-  // AIforProductManagement,
-  // AIPoweredDynamicPricing,
-  // AIforFinancialDocumentProcessing,
-  // AIforFinancialModeling,
-  // AIforFinancialPlanning,
-  // AIforPrivateEquity,
-  // AIinDueDiligence,
-  // AILoanUnderwriting,
-  // AIUseCasesforBankingandFinance,
-  // AIbasedCreditScoring,
-  // FintechSoftwareDevelopment,
-  // GenAIforAssetManagement,
-  // GenAIforFinanceandBanking,
-  // AIforFraudDetection,
-  // AIforHealthcare,
-  // AIforMedicine,
-  // AIforRegulatoryCompliance,
-  // AIforTelemedicine,
-  // AIforDrugDiscovery,
-  // enAIforHealthcare,
-  // HealthcareEnterpriseAISolutions,
-  // HealthcareSoftwareDevelopment,
-  // AIforCustomerSupport,
-  // AIforHospitality,
-  // AIforPersonalizedTravel,
-  // AIforPriceandPromoOptimization,
-  // AIforSales,
-  // AIforSentimentAnalysis,
-  // GenAIforTravel,
-  // TravelAppDevelopment,
-  // AIforClaimsProcessing,
-  // AIforinsuranceClaimsProcessing,
-  // AIforInsurance,
-  // GenAIforInsurance,
-  // InsuranceSoftwareDevelopment,
-  // AIforFleetManagement,
-  // AIforLogisticsandSupplyChain,
-  // AIforOperationalEfficiency,
-  // AIforSupplyChainOptimization,
-  // AutomotiveSupplyChainOptimization,
-  // EfficientRouteOptimization,
-  // FleetManagementUsingAI,
-  // GenAIforSupplyChain,
-  // LogisticsSoftwareDevelopment,
-  // AIforDemandForecasting,
-  // AIforPredictiveMaintenance,
-  // AIforProductionPlanning,
-  // AIforQualityControl,
-  // AIUseCasesforManufacturing,
-  // BuildEnterpriseAISolutions,
-  // BuildPredictiveMLModels,
-  // GenAIforManufacturing,
-  // AIforAnomalyDetection,
-  // ManufacturingSoftwareDevelopment,
-  // AIforDynamicPricingSolution,
-  // AIforEcommerce,
-  // AIforFashion,
-  // AIforPredictiveAnalytics,
-  // AIforRetail,
-  // AIforStoreReplenishment,
-  // RecommenderSystemforRetail,
-  // RetailSoftwareDevelopment,
-  // AIDrivenDevelopment,
-  // AIforProductDesign,
-  // AIforProductDevelopment,
-  // AIforStartup,
-  // GenAIforBusiness,
-  // StartupProductDevelopment,
+  AboutUsBanner,
 
   ////AI Products
   Eyeq,
@@ -328,4 +265,11 @@ export {
   ElanEnterprises,
   GCP,
   LifcoBooks,
+
+  //well-wishers
+  DebashisDas,
+  Bansali,
+  Geetha,
+  GirijaRaghavan,
+  Prabhu,
 }

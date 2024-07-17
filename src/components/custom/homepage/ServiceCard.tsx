@@ -19,7 +19,7 @@ const ServiceCard = ({ service }: Props) => {
         />
       </div>
       <span className="text-lg font-bold">{service.title}</span>
-      <p className="leading-loose text-md">{service.description}</p>
+      <p className="leading-loose text-sm sm:text-md">{service.description}</p>
     </section>
   )
 }
