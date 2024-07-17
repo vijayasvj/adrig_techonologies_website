@@ -13,7 +13,7 @@ const MainContent = ({
   getInTouchIncluded = false,
 }: Props) => {
   return (
-    <section className="w-full py-10 flex flex-col space-y-12">
+    <section className="w-full py-10 flex flex-col space-y-8">
       <div className="flex flex-col items-center">
         <p className="text-3xl font-semibold text-center py-3 !m-0">
           {mainPara}

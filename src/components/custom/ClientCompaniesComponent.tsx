@@ -5,8 +5,12 @@ import { partnerShipCompaniesData } from "@/lib/eng/partnerShipCompaniesData"
 
 const ClientCompaniesComponent = () => {
   return (
-    <section className="w-full py-8 lg:py-10 px-2">
-      <Marquee>
+    <section className="w-[90%] mx-auto py-8 lg:py-10 px-2">
+      <Marquee
+      gradient={true}
+      gradientColor="rgba(229, 243, 255, 0.22)"
+      gradientWidth={16}
+      className="h-[240px]">
         {partnerShipCompaniesData.map((company) => (
           <Image
             key={company.id}

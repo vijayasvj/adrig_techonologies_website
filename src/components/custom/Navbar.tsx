@@ -52,18 +52,18 @@ const Navbar = () => {
             {navbarLinks.map((navList) => (
               <li
                 key={navList.id}
-                className="group"
+                className="group flex items-center uppercase space-x-2 cursor-pointer"
                 onMouseEnter={() => handleNavBarChange(navList)}
               >
-                <Link
+                {/* <Link
                   href={navList.url}
                   className="flex items-center uppercase space-x-2 cursor-pointer"
-                >
+                > */}
                   <span>{navList.label}</span>
                   {allowedNavBar.includes(navList.label) && (
                     <ChevronDown className="w-4 stroke-1.5" />
                   )}
-                </Link>
+                {/* </Link> */}
                 {!allowedNavBar.includes(navList.label) && (
                   <div className="bg-black h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
                 )}
