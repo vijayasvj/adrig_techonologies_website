@@ -191,7 +191,7 @@ export const navbarLinks: NavbarLinksTypes[] = [
       {
         id: 2,
         label: "Artificial Intelligence & ML",
-        url: "/services/ai-development",
+        url: "/services",
         assets: [
           {
             id: 1,
@@ -260,7 +260,7 @@ export const navbarLinks: NavbarLinksTypes[] = [
       {
         id: 6,
         label: "Software Development",
-        url: "/service",
+        url: "/services",
         assets: [
           {
             id: 1,
@@ -332,7 +332,7 @@ export const navbarLinks: NavbarLinksTypes[] = [
       {
         id: 7,
         label: "Talent Acquisition",
-        url: "/service",
+        url: "/services",
         assets: [
           {
             id: 1,
@@ -401,7 +401,7 @@ export const navbarLinks: NavbarLinksTypes[] = [
       {
         id: 8,
         label: "Internet of Things(IOT)",
-        url: "/service",
+        url: "/services",
         assets: [
           {
             id: 1,
@@ -434,7 +434,7 @@ export const navbarLinks: NavbarLinksTypes[] = [
             url: "/services/iot-product-development",
           },
           {
-            id: 1,
+            id: 6,
             label: "Hardware Design",
             image: HardwareDesign,
             url: "/services/iot-hardware-design-services",

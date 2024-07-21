@@ -1,7 +1,7 @@
 <HeroContent
   title="Generative AI Consulting Company"
   navigateTo="/contact-us"
-  buttonLabel="Schedule a conversation"
+  buttonLabel="Schedule a conversation"
 >
   We provide comprehensive consulting services for generative AI, empowering you
   to leverage the potential of this technology to enhance your operations and
@@ -17,15 +17,8 @@
 
 <CountUpAnimationContainer />
 
-<div
-  style={{
-    display: "flex",
-    justifyContent: "center",
-    alignItems: "center",
-    gap: "20px",
-  }}
->
-  <div># Our Generative AI Integration Services</div>
+<div className="w-full text-center">
+  # Our Generative AI Integration Services
 </div>
 
 <section className="grid grid-cols-2 gap-10 w-full py-16">
@@ -33,7 +26,8 @@
     <ServiceCard
       service={{
         id: 1,
-        image: "",
+        image:
+          "/servicesPage/GenerativeAIUseCaseIdentificationandFeasibilityAssessment.svg",
         title: "Use Case Identification and Feasibility Evaluation",
         description:
           "Our team helps identify potential applications for generative AI that could benefit your company. We perform feasibility analyses to evaluate the viability and possible impact of implementing generative AI solutions. This provides you with valuable information to make well-informed decisions about adopting this technology.",
@@ -45,7 +39,7 @@
     <ServiceCard
       service={{
         id: 2,
-        image: "",
+        image: "/servicesPage/GenerativeAITechnologyAssessmentandSelection.svg",
         title: "Technology Assessment and Selection",
         description:
           "We thoroughly evaluate a wide range of generative AI technologies and tools, including models like GPT, Llama, PaLM, Gemini, Claude, Mistral, and Mixtral. We analyze their capabilities and how well they align with the unique needs of your organization, ensuring that the selected solution is the most suitable and can be effectively implemented.",
@@ -57,7 +51,7 @@
     <ServiceCard
       service={{
         id: 3,
-        image: "",
+        image: "/servicesPage/ComplianceandSecurityConsultation.svg",
         title: "Compliance and Security Consultation",
         description:
           "Utilizing our expertise in crucial regulations such as GDPR, CCPA, and HIPAA, we safeguard the privacy of data for your generative AI system, guaranteeing compliance. This approach minimizes potential risks while upholding the highest level of data integrity.",
@@ -69,7 +63,7 @@
     <ServiceCard
       service={{
         id: 4,
-        image: "",
+        image: "/servicesPage/DataEngineering1.svg",
         title: "Data Engineering",
         description:
           "Data engineering is the process of preparing data for model training. We utilize sophisticated data engineering tools and methods to prepare your data. Then, by drawing on our machine learning expertise, we use this prepared data to construct tailored custom models. These models are designed to carry out specific tasks, such as predictive analysis.",
@@ -81,7 +75,7 @@
     <ServiceCard
       service={{
         id: 5,
-        image: "",
+        image: "/servicesPage/CustomLLMDevelopment.svg",
         title: "Custom LLM Development",
         description:
           "Our experts specialize in tailoring large language models (LLMs) to meet the specific requirements of your business. We begin by choosing the most suitable pre-trained model based on your needs, then prepare your proprietary data and employ fine-tuning techniques to train the model with your data. This ensures that your custom LLM provides accurate, domain-specific responses.",
@@ -93,7 +87,7 @@
     <ServiceCard
       service={{
         id: 6,
-        image: "",
+        image: "/servicesPage/GenerativeAISolutionDevelopment.svg",
         title: "Generative AI Solution Development",
         description:
           "We develop powerful generative AI solutions for a wide range of applications, such as recommendation systems and research tools for due diligence. Additionally, we create AI-driven assistants and agents that enable businesses to streamline their operations, gain valuable insights, and achieve unprecedented efficiency.",
@@ -105,7 +99,7 @@
     <ServiceCard
       service={{
         id: 7,
-        image: "",
+        image: "/servicesPage/GenerativeAIIntegration.svg",
         title: "Generative AI Integration",
         description:
           "We collaborate closely with your company to guarantee a seamless integration of generative AI solutions within your current systems and workflows. Our aim is to reduce any disruptions and optimize the advantages of generative AI, allowing you to harness its functionalities without impediments or complexities.",
@@ -117,7 +111,7 @@
     <ServiceCard
       service={{
         id: 8,
-        image: "",
+        image: "/servicesPage/MaintenanceandSupport1.svg",
         title: "Maintenance and Support",
         description:
           "Our team is responsible for maintaining and supporting your AI solutions. We work to ensure that your systems continue to function properly, optimize their performance, and adapt to evolving requirements. This includes handling software updates, refining algorithms, and offering responsive technical assistance. Our objective is to guarantee that your generative AI solutions consistently operate at the highest level of efficiency.",
@@ -133,23 +127,14 @@
   getInTouchIncluded={true}
 />
 
-<div
-  style={{
-    display: "flex",
-    justifyContent: "center",
-    alignItems: "center",
-    gap: "20px",
-  }}
->
-  <div># AI Models We Have Expertise In</div>
-</div>
+<div className="w-full text-center"># Our Generative AI Expertise</div>
 
 <section className="grid grid-cols-2 gap-10 w-full py-16">
   <section className="w-full col-span-1 cursor-pointer">
     <ServiceCard
       service={{
         id: 1,
-        image: "",
+        image: "/servicesPage/DeepLearningandNaturalLanguageProcessing.svg",
         title: "Deep Learning and Natural Language Processing",
         description:
           "Our extensive knowledge and proficiency in deep learning and Natural Language Processing (NLP) provide us with the essential groundwork to develop cutting-edge generative AI solutions that excel across diverse areas and deliver outstanding outcomes for your company.",
@@ -161,7 +146,7 @@
     <ServiceCard
       service={{
         id: 2,
-        image: "",
+        image: "/servicesPage/ComputerVisionandImageSynthesis.svg",
         title: "Computer Vision and Image Synthesis",
         description:
           "Leveraging our extensive knowledge of computer vision algorithms, deep neural network architectures, and image processing methods, we develop highly capable AI systems that thrive in tasks like object identification, image classification, semantic partitioning, and various other applications.",
@@ -173,7 +158,7 @@
     <ServiceCard
       service={{
         id: 3,
-        image: "",
+        image: "/servicesPage/ReinforcementLearningandSimulation.svg",
         title: "Reinforcement Learning and Simulation",
         description:
           "Reinforcement Learning and Simulation by thoroughly comprehending reinforcement learning algorithms and simulation methods, we can develop intelligent systems capable of learning and making optimal choices through ongoing interactions with their surroundings.",
@@ -185,7 +170,7 @@
     <ServiceCard
       service={{
         id: 4,
-        image: "",
+        image: "/servicesPage/DataEngineering.svg",
         title: "Data Engineering",
         description:
           "Our data engineering team possesses extensive expertise in managing large and intricate datasets, which serves as the foundation for training expansive generative AI models. Additionally, we employ generative methods to generate high-quality synthetic data, enabling model training in environments with limited data availability.",
@@ -195,23 +180,14 @@
   </section>
 </section>
 
-<div
-  style={{
-    display: "flex",
-    justifyContent: "center",
-    alignItems: "center",
-    gap: "20px",
-  }}
->
-  <div># Why Choose ADRIG ?</div>
-</div>
+<div className="w-full text-center"># Why Choose ADRIG ?</div>
 
 <section className="grid grid-cols-2 gap-10 w-full py-16">
   <section className="w-full col-span-1 cursor-pointer">
     <ServiceCard
       service={{
         id: 1,
-        image: "",
+        image: "/servicesPage/ExpertiseinGenerativeAI.svg",
         title: "Expertise in Generative AI",
         description:
           "We offer specialized solutions that showcase the latest advancements in generative artificial intelligence. Our team excels at creating customized generative AI systems, similar to popular models like OpenAI's ChatGPT, Google's Bard, Stability AI's Stable Diffusion, and Midjourney. We empower businesses to leverage the cutting-edge capabilities of generative AI technology.",
@@ -223,7 +199,7 @@
     <ServiceCard
       service={{
         id: 2,
-        image: "",
+        image: "/servicesPage/CustomizedSolutions.svg",
         title: "Customized Solutions",
         description:
           "We recognize that every business has distinct needs. We take pride in providing customized generative AI solutions that are aligned with your organizational objectives and address your particular issues. By shaping our services to your requirements, we optimize the effectiveness and influence of generative AI within your company.",
@@ -235,7 +211,7 @@
     <ServiceCard
       service={{
         id: 3,
-        image: "",
+        image: "/servicesPage/EndtoendSupport.svg",
         title: "End-to-end Support",
         description:
           "Our generative AI consulting services encompass the full range of support, from strategic planning and development to deployment and ongoing assistance. We offer complete guidance throughout the project's duration, guaranteeing a smooth process and maximizing the benefits you derive from leveraging generative AI technologies.",
@@ -247,7 +223,7 @@
     <ServiceCard
       service={{
         id: 4,
-        image: "",
+        image: "/servicesPage/ResponsibleAIPractices.svg",
         title: "Responsible AI Practices",
         description:
           "We are committed to creating generative AI solutions that adhere to ethical principles, are transparent in their operations, and comply with relevant regulations. Ensuring the security, reliability, and privacy of our users is a top priority, as we understand that responsible AI practices are essential for building trust and achieving long-term success.",
@@ -257,15 +233,8 @@
   </section>
 </section>
 
-<div
-  style={{
-    display: "flex",
-    justifyContent: "center",
-    alignItems: "center",
-    gap: "20px",
-  }}
->
-  <div># Our Approach to Generative AI Consulting</div>
+<div className="w-full text-center">
+  # Our Approach to Generative AI Consulting
 </div>
 
 <section className="grid grid-cols-2 gap-10 w-full py-16">
@@ -273,7 +242,7 @@
     <ServiceCard
       service={{
         id: 1,
-        image: "",
+        image: "/servicesPage/DataAnalysisandGenerativeModelSelection.svg",
         title: "Data Analysis and Generative Model Selection",
         description:
           "We start by thoroughly examining your current data, software, and technological setup. This assessment allows us to recognize chances for implementing generative AI models like Generative Adversarial Networks (GANs), Variational Autoencoders (VAEs), or Recurrent Neural Networks (RNNs) in your processes. Considering your distinctive business environment, we determine the most appropriate generative AI solutions to improve your operational productivity.",
@@ -285,7 +254,7 @@
     <ServiceCard
       service={{
         id: 2,
-        image: "",
+        image: "/servicesPage/ExperimentalDevelopmentPilotProject.svg",
         title: "Experimental Development - Pilot Project",
         description:
           "We create a small-scale prototype or a Minimum Viable Product (MVP) to showcase the potential of generative AI in your business environment. This may involve testing generative models for tasks such as content generation, anomaly detection, or product recommendations. By experimenting, we can identify areas for enhancing the generative AI system to better suit your specific requirements.",
@@ -297,7 +266,7 @@
     <ServiceCard
       service={{
         id: 3,
-        image: "",
+        image: "/servicesPage/FullscaleGenerativeAIDeployment.svg",
         title: "Full-scale Generative AI Deployment",
         description:
           "The expert team initiates the comprehensive deployment of the generative AI system after the pilot project receives approval from all involved parties. With great care and precision, we guarantee a smooth and successful implementation, enabling you to harness the transformative potential of generative AI to boost productivity and accomplish your business goals.",
@@ -309,7 +278,7 @@
     <ServiceCard
       service={{
         id: 4,
-        image: "",
+        image: "/servicesPage/MonitoringandPerformanceEnhancement.svg",
         title: "Monitoring and Performance Enhancement",
         description:
           "Monitoring and Optimization after the generative AI system is implemented, we set up monitoring processes to track its performance and maintain its ongoing effectiveness. Our team closely observes the system's output, analyzing crucial metrics and making essential modifications to optimize its performance. We proactively detect any problems and take immediate action to improve the system's capabilities.",
@@ -319,21 +288,11 @@
   </section>
 </section>
 
-<div
-  style={{
-    display: "flex",
-    justifyContent: "center",
-    alignItems: "center",
-    gap: "20px",
-  }}
->
-  <div># Industry Verticals We Serv</div>
-  <div>
-    Our generative AI consulting services cater to a wide range of industry
-    verticals, helping businesses across diverse sectors harness the power of
-    generative AI to drive innovation, optimize operations, and achieve their
-    goals.
-  </div>
+<div className="w-full flex flex-col items-center justify-center text-center">
+  # Industry Verticals We Serve Our generative AI consulting services cater to a
+  wide range of industry verticals, helping businesses across diverse sectors
+  harness the power of generative AI to drive innovation, optimize operations,
+  and achieve their goals.
 </div>
 
 <section className="grid grid-cols-2 gap-10 w-full py-16">
@@ -341,7 +300,7 @@
     <ServiceCard
       service={{
         id: 1,
-        image: "",
+        image: "/servicesPage/BankingFinance.svg",
         title: "Banking and Finance",
         description:
           "In the banking and financial industry, our generative AI solutions offer advanced data analysis, fraud prevention, and personalized customer interactions. This assists financial organizations in streamlining their operations, efficiently managing risks, and providing customized financial products and services.",
@@ -353,7 +312,7 @@
     <ServiceCard
       service={{
         id: 2,
-        image: "",
+        image: "/servicesPage/Retail.svg",
         title: "Retail",
         description:
           "In the retail sector, our GenAI offerings bolster customer interaction, inventory control, and demand prediction. This results in heightened customer satisfaction, lowered expenses, and greater profitability by harnessing data-driven insights.",
@@ -365,7 +324,7 @@
     <ServiceCard
       service={{
         id: 3,
-        image: "",
+        image: "/servicesPage/Healthcare.svg",
         title: "Healthcare",
         description:
           "In the healthcare domain, our products and services assist with medical diagnosis, treatment suggestions, and patient care. By leveraging artificial intelligence (AI) capabilities, healthcare professionals can improve patient outcomes, optimize administrative workflows, and advance medical research and innovation.",
@@ -377,7 +336,7 @@
     <ServiceCard
       service={{
         id: 4,
-        image: "",
+        image: "/servicesPage/SupplyChainLogistics.svg",
         title: "Supply Chain and Logistics",
         description:
           "Our AI-powered solutions are designed to streamline supply chain and logistics processes. By enhancing route planning, inventory management, and demand forecasting, our technology helps organizations reduce operational expenses, boost efficiency, and deliver better customer experiences.",
@@ -389,7 +348,7 @@
     <ServiceCard
       service={{
         id: 5,
-        image: "",
+        image: "/servicesPage/Insurance.svg",
         title: "Insurance",
         description:
           "In the insurance industry, our offerings assist with underwriting, claims handling, and risk evaluation. This allows insurance providers to offer more precise pricing, quicker claims processing, and enhanced customer experiences.",
@@ -401,7 +360,7 @@
     <ServiceCard
       service={{
         id: 6,
-        image: "",
+        image: "/servicesPage/TravelTourism.svg",
         title: "Travel",
         description:
           "Our AI solutions optimize customer support, recommendation systems, and pricing approaches for the travel industry. This results in enhanced customer experiences, higher booking volumes, and increased revenue for travel companies overall.",
@@ -413,7 +372,7 @@
     <ServiceCard
       service={{
         id: 7,
-        image: "",
+        image: "/servicesPage/Automotive11.svg",
         title: "Automotive",
         description:
           "Our generative AI solutions can revolutionize your automotive business by enhancing vehicle design, automating processes, advancing research and development, and improving quality control. These innovations optimize operational efficiency, minimize downtime, and enhance customer satisfaction and safety.",
@@ -425,7 +384,7 @@
     <ServiceCard
       service={{
         id: 8,
-        image: "",
+        image: "/servicesPage/Hospitality11.svg",
         title: "Hospitality",
         description:
           "Our artificial intelligence solutions for the hospitality industry can help personalize customer experiences, optimize business operations, and refine marketing approaches. This allows hospitality companies to use their resources more effectively, foster guest loyalty, and enhance overall customer satisfaction and profitability.",
@@ -437,7 +396,7 @@
     <ServiceCard
       service={{
         id: 9,
-        image: "",
+        image: "/servicesPage/Manufacturing (1).svg",
         title: "Manufacturing",
         description:
           "In the manufacturing industry, our generative AI technologies optimize production workflows, improve quality assurance, and expedite product creation. Incorporating GenAI enhances efficiency and fosters innovation, providing companies with a competitive advantage.",
@@ -449,10 +408,10 @@
     <ServiceCard
       service={{
         id: 10,
-        image: "",
-        title: "Media and Entertainment",
+        image: "/servicesPage/RealEstate11.svg",
+        title: "Real Estate",
         description:
-          "In the media and entertainment sector, our GenAI solutions improve the creation of content, optimize the distribution process, and personalize customer experiences. This allows media companies to engage their audiences more effectively and drive ongoing innovation.",
+          "Our generative AI solutions provide a competitive edge for real estate businesses. From property valuation and market analysis to personalized property recommendations and virtual staging, our custom-built GenAI solutions help streamline operations, enhance customer experiences, and enable confident, data-driven decisions.",
         urlPath: "ai-in-media-and-entertainment/",
       }}
     />
@@ -461,10 +420,10 @@
     <ServiceCard
       service={{
         id: 11,
-        image: "",
-        title: "Generative AI Integration",
+        image: "/servicesPage/Ecommerce.svg",
+        title: "E-commerce.",
         description:
-          "We effortlessly integrate generative AI technologies into your current technological framework, optimizing your internal processes and public-facing systems. We understand the importance of a seamless implementation and work tirelessly to guarantee our integration approach minimizes any disruption to your ongoing activities, enabling your organization to flourish in the quickly changing technological environment.",
+          "Our generative AI solutions for e-commerce drive sales and enhance customer experiences by personalizing product recommendations, optimizing pricing strategies, automating inventory management and more. With data-driven insights, we help businesses stay ahead in today’s competitive online marketplace.",
         urlPath: "generative-ai-integration-service/",
       }}
     />
@@ -473,7 +432,7 @@
     <ServiceCard
       service={{
         id: 12,
-        image: "",
+        image: "/servicesPage/Legal1.svg",
         title: "Legal",
         description:
           "In the legal industry, our GenAI solutions assist with a variety of tasks, including case analysis, case forecasting, and legal research. This allows law firms to optimize their processes, enhance case strategies, and increase the effectiveness of their services, ultimately benefiting both legal professionals and their clients.",
@@ -483,133 +442,8 @@
   </section>
 </section>
 
-<div
-  style={{
-    display: "flex",
-    justifyContent: "center",
-    alignItems: "center",
-    gap: "20px",
-  }}
->
-  <div># Generative AI Tech Stack</div>
-</div>
+<div className="w-full text-center"># Generative AI Tech Stack</div>
 
-<div
-  style={{
-    display: "flex",
-    justifyContent: "center",
-    alignItems: "center",
-    gap: "20px",
-  }}
->
-  <div># As Mentioned in</div>
-</div>
+<div className="w-full text-center"># As Mentioned in</div>
 
 <ClientCompaniesComponent />
-
-<section className="grid grid-cols-3 gap-10 w-full py-16">
-  <section className="w-full col-span-1 cursor-pointer">
-    <ServiceCard
-      service={{
-        id: 1,
-        image: "",
-        title: "Dedicated Development Team",
-        description:
-          "Our skilled development team utilizes state-of-the-art artificial intelligence and machine learning technologies to provide our clients with exceptional services and personalized solutions.",
-        urlPath: "",
-      }}
-    />
-  </section>
-  <section className="w-full col-span-1 cursor-pointer">
-    <ServiceCard
-      service={{
-        id: 2,
-        image: "",
-        title: "Team Extension",
-        description:
-          "Our team extension approach is intended to help clients who want to grow their teams by providing the specific skills and knowledge required for their initiatives.",
-        urlPath: "/",
-      }}
-    />
-  </section>
-  <section className="w-full col-span-1 cursor-pointer">
-    <ServiceCard
-      service={{
-        id: 3,
-        image: "",
-        title: "Project-based Model",
-        description:
-          "Our client-focused, project-driven methodology, bolstered by our skilled software development team, is committed to encouraging collaboration with clients and attaining their unique project goals.",
-        urlPath: "",
-      }}
-    />
-  </section>
-</section>
-
-<div
-  style={{
-    display: "flex",
-    justifyContent: "center",
-    alignItems: "center",
-    gap: "20px",
-  }}
->
-  <div># Get Started Today</div>
-</div>
-
-<section className="grid grid-cols-4 gap-10 w-full py-16">
-  <section className="w-full col-span-1 cursor-pointer">
-    <ServiceCard
-      service={{
-        id: 1,
-        image: "",
-        title: "1. Get in Touch",
-        description:
-          "Complete the contact form secured by a non-disclosure agreement, select a time on our calendar, and arrange a video conference with our specialists.",
-        urlPath: "",
-      }}
-    />
-  </section>
-  <section className="w-full col-span-1 cursor-pointer">
-    <ServiceCard
-      service={{
-        id: 2,
-        image: "",
-        title: "2. Get a Consultation",
-        description:
-          "Get on a call with our team to know the feasibility of your project idea.",
-        urlPath: "",
-      }}
-    />
-  </section>
-  <section className="w-full col-span-1 cursor-pointer">
-    <ServiceCard
-      service={{
-        id: 3,
-        image: "",
-        title: "3. Get a Cost Estimate",
-        description:
-          "Based on the project requirements, we share a project proposal with budget and timeline estimates.",
-        urlPath: "",
-      }}
-    />
-  </section>
-  <section className="w-full col-span-1 cursor-pointer">
-    <ServiceCard
-      service={{
-        id: 4,
-        image: "",
-        title: "4. Project Kickoff",
-        description:
-          "Once the project is signed, we bring together a team from a range of disciplines to kick start your project.",
-        urlPath: "",
-      }}
-    />
-  </section>
-</section>
-
-<MainContent
-  mainPara="Start a conversation by filling the form"
-  subPara="Once you let us know your requirement, our technical expert will schedule a call and discuss your idea in detail post sign of an NDA."
-
-/>
