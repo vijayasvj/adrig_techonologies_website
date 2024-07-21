@@ -110,7 +110,7 @@ export const navbarLinks: NavbarLinksTypes[] = [
       {
         id: 1,
         label: "Generative AI",
-        url: "/services",
+        url: "/services/generative-ai-development-company",
         assets: [
           {
             id: 1,
@@ -191,7 +191,7 @@ export const navbarLinks: NavbarLinksTypes[] = [
       {
         id: 2,
         label: "Artificial Intelligence & ML",
-        url: "/services",
+        url: "/services/ai-development",
         assets: [
           {
             id: 1,
@@ -260,7 +260,7 @@ export const navbarLinks: NavbarLinksTypes[] = [
       {
         id: 6,
         label: "Software Development",
-        url: "/services",
+        url: "/services/software-development-company",
         assets: [
           {
             id: 1,
@@ -332,7 +332,7 @@ export const navbarLinks: NavbarLinksTypes[] = [
       {
         id: 7,
         label: "Talent Acquisition",
-        url: "/services",
+        url: "/services/hire-machine-learning-developers",
         assets: [
           {
             id: 1,
@@ -401,7 +401,7 @@ export const navbarLinks: NavbarLinksTypes[] = [
       {
         id: 8,
         label: "Internet of Things(IOT)",
-        url: "/services",
+        url: "/services/iot-development-company",
         assets: [
           {
             id: 1,
@@ -512,85 +512,85 @@ export const navbarLinks: NavbarLinksTypes[] = [
       },
 
       // BlockChain
-      {
-        id: 5,
-        label: "Blockchain",
-        url: "/services/blockchain-consulting-services",
-        assets: [
-          {
-            id: 1,
-            label: "Blockchain Development",
-            image: BlockchainDevelopment,
-            url: "/services/blockchain-development-company",
-          },
-          {
-            id: 2,
-            label: "Blockchain Consulting",
-            image: BlockchainConsulting,
-            url: "/services/blockchain-consulting-services",
-          },
-          {
-            id: 3,
-            label: "Substrate Development",
-            image: SubstrateDevelopment,
-            url: "/services/substrate-development-services",
-          },
-          {
-            id: 4,
-            label: "Ethereum Blockchain Services",
-            image: EthereumBlockchainServices,
-            url: "/services/ethereum",
-          },
-          {
-            id: 5,
-            label: "Hyperledger Development",
-            image: HyperledgerDevelopment,
-            url: "/services/hyperledger-blockchain-development-services",
-          },
-          {
-            id: 6,
-            label: "Golang Development",
-            image: GolangDevelopment,
-            url: "/services/golang-development-company",
-          },
-          {
-            id: 7,
-            label: "Cosmos Development",
-            image: CosmosDevelopment,
-            url: "/services/cosmos-development-company",
-          },
-          {
-            id: 8,
-            label: "Solana Development",
-            image: SolanaDevelopment,
-            url: "/services/solana-blockchain-development-company",
-          },
-          {
-            id: 9,
-            label: "Tezos Development",
-            image: TezosDevelopment,
-            url: "/services/tezos-development",
-          },
-          {
-            id: 10,
-            label: "Stellar Development",
-            image: StellarDevelopment,
-            url: "/services/stellar-blockchain",
-          },
-          {
-            id: 11,
-            label: "Smart Contract Audit",
-            image: SmartContractAudit,
-            url: "/services/smart-contract-audit-company",
-          },
-          {
-            id: 12,
-            label: "Crypto Wallet Development Solution",
-            image: CryptoWalletDevelopmentSolution,
-            url: "/services/crypto-wallet-development-solution",
-          },
-        ],
-      },
+      // {
+      //   id: 5,
+      //   label: "Blockchain",
+      //   url: "/services/blockchain-consulting-services",
+      //   assets: [
+      //     {
+      //       id: 1,
+      //       label: "Blockchain Development",
+      //       image: BlockchainDevelopment,
+      //       url: "/services/blockchain-development-company",
+      //     },
+      //     {
+      //       id: 2,
+      //       label: "Blockchain Consulting",
+      //       image: BlockchainConsulting,
+      //       url: "/services/blockchain-consulting-services",
+      //     },
+      //     {
+      //       id: 3,
+      //       label: "Substrate Development",
+      //       image: SubstrateDevelopment,
+      //       url: "/services/substrate-development-services",
+      //     },
+      //     {
+      //       id: 4,
+      //       label: "Ethereum Blockchain Services",
+      //       image: EthereumBlockchainServices,
+      //       url: "/services/ethereum",
+      //     },
+      //     {
+      //       id: 5,
+      //       label: "Hyperledger Development",
+      //       image: HyperledgerDevelopment,
+      //       url: "/services/hyperledger-blockchain-development-services",
+      //     },
+      //     {
+      //       id: 6,
+      //       label: "Golang Development",
+      //       image: GolangDevelopment,
+      //       url: "/services/golang-development-company",
+      //     },
+      //     {
+      //       id: 7,
+      //       label: "Cosmos Development",
+      //       image: CosmosDevelopment,
+      //       url: "/services/cosmos-development-company",
+      //     },
+      //     {
+      //       id: 8,
+      //       label: "Solana Development",
+      //       image: SolanaDevelopment,
+      //       url: "/services/solana-blockchain-development-company",
+      //     },
+      //     {
+      //       id: 9,
+      //       label: "Tezos Development",
+      //       image: TezosDevelopment,
+      //       url: "/services/tezos-development",
+      //     },
+      //     {
+      //       id: 10,
+      //       label: "Stellar Development",
+      //       image: StellarDevelopment,
+      //       url: "/services/stellar-blockchain",
+      //     },
+      //     {
+      //       id: 11,
+      //       label: "Smart Contract Audit",
+      //       image: SmartContractAudit,
+      //       url: "/services/smart-contract-audit-company",
+      //     },
+      //     {
+      //       id: 12,
+      //       label: "Crypto Wallet Development Solution",
+      //       image: CryptoWalletDevelopmentSolution,
+      //       url: "/services/crypto-wallet-development-solution",
+      //     },
+      //   ],
+      // },
     ],
   },
   // {

@@ -28,7 +28,7 @@ export type CountUpAnimationType = {
 
 export type HomepageCompaniesServicesType = {
   id: number
-  image: string
+  image?: string
   title: string
   description: string
   urlPath: string

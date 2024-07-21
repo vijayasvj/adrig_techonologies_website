@@ -59,7 +59,9 @@ const HomePageContainer = () => {
           ))}
         </div>
       </section>
-      <StepsToFollowComponent />
+      <div className="w-full xl:w-5/6">
+        <StepsToFollowComponent />
+      </div>
       <div className="xl:w-2/3 flex flex-col xl:space-y-24 items-center px-4 sm:px-10 xl:px-0 py-6 sm:py-10">
         <ConversationForm
           title="What Can We Build for You?"

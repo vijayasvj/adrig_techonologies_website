@@ -3,7 +3,7 @@ import { stepsToFollowData } from "@/lib/eng/stepsToFollowData"
 
 const StepsToFollowComponent = () => {
   return (
-    <section className="xl:w-5/6 px-10 xl:px-0 py-10 flex flex-col space-y-10 sm:space-y-16 items-center">
+    <section className="w-full px-10 xl:px-0 py-10 flex flex-col space-y-10 sm:space-y-16 items-center">
       <span className="text-2xl sm:text-3xl font-serif font-bold">
         Get Started Today
       </span>

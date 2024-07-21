@@ -9,7 +9,10 @@ import ClientCompaniesComponent from "@/components/custom/ClientCompaniesCompone
 import ConversationForm from "@/components/custom/ConversationForm"
 import CountUpAnimationContainer from "@/components/custom/CountUpAnimationContainer"
 import HeroContent from "@/components/custom/HeroContent"
-import { ServiceCard } from "@/components/custom/homepage"
+import {
+  ServiceCard,
+  StepsToFollowComponent,
+} from "@/components/custom/homepage"
 import InsightsComponent from "@/components/custom/InsightsComponent"
 import MainContent from "@/components/custom/MainContent"
 
@@ -59,6 +62,7 @@ type MDXComponents = {
 }
 const components: MDXComponents = {
   CountUpAnimationContainer: (props: any) => <CountUpAnimationContainer />,
+  StepsToFollowComponent: () => <StepsToFollowComponent />,
   ConversationForm: (props: any) => <ConversationForm {...props} />,
   ClientCompaniesComponent: (props: any) => <ClientCompaniesComponent />,
   InsightsComponent: (props: any) => <InsightsComponent />,
@@ -82,6 +86,13 @@ const components: MDXComponents = {
       buttonLabel?: string
     } & { children?: React.ReactNode | undefined }
   ) => <HeroContent {...props} />,
+  h1: (props: any) => <h1 style={{ textAlign: "center" }} {...props} />,
+  h2: (props: any) => <h2 style={{ textAlign: "center" }} {...props} />,
+  h3: (props: any) => <h3 style={{ textAlign: "center" }} {...props} />,
+  h4: (props: any) => <h4 style={{ textAlign: "center" }} {...props} />,
+  h5: (props: any) => <h5 style={{ textAlign: "center" }} {...props} />,
+  h6: (props: any) => <h6 style={{ textAlign: "center" }} {...props} />,
+  p: (props: any) => <p style={{ textAlign: "start" }} {...props} />,
 }
 
 const Page = async ({ params }: { params: { service: string } }) => {
