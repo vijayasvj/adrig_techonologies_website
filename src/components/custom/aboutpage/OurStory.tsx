@@ -10,7 +10,7 @@ const OurStory = () => {
       <div className="w-full grid grid-cols-2 gap-10">
         <div className="h-full w-full relative col-span-1">
           <Image
-            src="https://images.unsplash.com/photo-1527066579998-dbbae57f45ce?q=80&w=1885&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            src="/about-us-banner.jpg"
             alt="Our Story"
             fill
             className="object-cover"

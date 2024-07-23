@@ -12,10 +12,10 @@ const InsightCard = ({ item }: Props) => {
     <section className="col-span-1 w-full h-fit flex flex-col items-start space-y-4 lg:space-y-6">
       {item.image && (
         <Image
-        src={item.image}
-        alt={item.title}
-        className="w-full h-fit sm:h-96 lg:h-fit object-contain xl:object-cover"
-      />
+          src={item.image}
+          alt={item.title}
+          className="w-full h-fit sm:h-96 lg:h-fit object-contain xl:object-cover"
+        />
       )}
       <span className="text-xl lg:text-2xl font-serif font-bold">
         {item.title}

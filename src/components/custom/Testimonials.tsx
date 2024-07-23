@@ -7,7 +7,7 @@ const testimonialsData = [
   {
     id: 1,
     comment:
-      "Working with [Your Company] was a fantastic experience. Their team demonstrated exceptional skill and creativity, delivering a project that perfectly aligned with our vision. The end product exceeded our expectations in every way, and we have seen significant improvements in our business operations as a result. Highly recommend their services!",
+      "Working with Adrig was a fantastic experience. Their team demonstrated exceptional skill and creativity, delivering a project that perfectly aligned with our vision. The end product exceeded our expectations in every way, and we have seen significant improvements in our business operations as a result. Highly recommend their services!",
     name: "Prabhu Chandra",
     image: Prabhu,
     company: "CEO of Datadrone",
@@ -15,7 +15,7 @@ const testimonialsData = [
   {
     id: 2,
     comment:
-      "From start to finish, the team at [Your Company] was professional, responsive, and dedicated to our project's success. They took the time to understand our needs and delivered a solution that was both innovative and practical. The positive feedback from our stakeholders has been overwhelming, and we couldn’t be happier with the outcome.",
+      "From start to finish, the team at Adrig was professional, responsive, and dedicated to our project's success. They took the time to understand our needs and delivered a solution that was both innovative and practical. The positive feedback from our stakeholders has been overwhelming, and we couldn’t be happier with the outcome.",
     name: "Geetha S",
     image: Geetha,
     company: "VIT",
@@ -23,7 +23,7 @@ const testimonialsData = [
   {
     id: 3,
     comment:
-      "As an advisor to many businesses, I've seen a wide range of projects, but the work done by [Your Company] truly stands out. Their ability to combine strategic insight with creative execution is impressive. Their projects not only meet the clients' needs but also inspire and set new benchmarks in the industry. Their dedication and passion are truly inspiring.",
+      "As an advisor to many businesses, I've seen a wide range of projects, but the work done by Adrig truly stands out. Their ability to combine strategic insight with creative execution is impressive. Their projects not only meet the clients' needs but also inspire and set new benchmarks in the industry. Their dedication and passion are truly inspiring.",
     name: "Girija Ragavan",
     image: GirijaRaghavan,
     company: "Advisor",
@@ -31,7 +31,7 @@ const testimonialsData = [
   {
     id: 4,
     comment:
-      "I had the privilege of advising on a project handled by [Your Company], and I was thoroughly impressed by their professionalism and innovative approach. Their commitment to excellence and client satisfaction is evident in every aspect of their work. It's rare to see such a high level of dedication and talent, and it's clear why they are leaders in their field.",
+      "I had the privilege of advising on a project handled by Adrig, and I was thoroughly impressed by their professionalism and innovative approach. Their commitment to excellence and client satisfaction is evident in every aspect of their work. It's rare to see such a high level of dedication and talent, and it's clear why they are leaders in their field.",
     name: "Debasish Das",
     image: DebashisDas,
     company: "Senior Advisor",
@@ -39,7 +39,7 @@ const testimonialsData = [
   {
     id: 5,
     comment:
-      "At [Your Company], we pride ourselves on delivering exceptional value to our clients, and this is reflected in the outstanding feedback we consistently receive. Our team's dedication to excellence and innovation ensures that every project not only meets but exceeds client expectations. It's incredibly rewarding to see our clients achieve their goals and grow their businesses with our support.",
+      "At Adrig, we pride ourselves on delivering exceptional value to our clients, and this is reflected in the outstanding feedback we consistently receive. Our team's dedication to excellence and innovation ensures that every project not only meets but exceeds client expectations. It's incredibly rewarding to see our clients achieve their goals and grow their businesses with our support.",
     name: "N.k Bansali",
     image: Bansali,
     company: " CFO of Bansali and Co",

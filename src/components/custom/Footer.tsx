@@ -53,9 +53,9 @@ const Footer = () => {
               </p>
               <div className="flex items-center justify-center sm:justify-start space-x-2">
                 {contactData.socialMedia.map((link) => (
-                  <Link href={link.url} key={link.id}>
+                  <a href={link.url} key={link.id}>
                     <link.icon />
-                  </Link>
+                  </a>
                 ))}
               </div>
             </div>

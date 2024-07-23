@@ -1,5 +1,7 @@
+"use client"
+
 import React from "react"
-import Link from "next/link"
+import ConversationForm from "../ConversationForm"
 import RightArrowTransitionButton from "../RightArrowTransitionButton"
 
 const CverpContainer = () => {
@@ -13,13 +15,11 @@ const CverpContainer = () => {
         />
       </header>
 
-      <section id="about" className="container mx-auto my-10 text-center px-6">
+      <section
+        id="about"
+        className="container mx-auto my-10 text-center flex flex-col space-y-4"
+      >
         <h2 className="text-blue-900 text-3xl font-bold mb-6">About CV-ERP</h2>
-        <img
-          src="https://via.placeholder.com/800x400"
-          alt="CV-ERP Overview"
-          className="mx-auto rounded-lg mb-6"
-        />
         <p className="text-lg">
           <strong>CV-ERP</strong> is a state-of-the-art computer vision-based
           ERP module designed for educational institutions, specifically
@@ -39,7 +39,7 @@ const CverpContainer = () => {
         <div className="flex flex-wrap justify-around gap-6">
           <div className="feature bg-white p-6 rounded-lg shadow-md w-full md:w-1/2 lg:w-1/4 text-left transition-transform transform hover:translate-y-[-10px]">
             <img
-              src="https://via.placeholder.com/400x300"
+              src="/aboutPage/facialrecognition.jpg"
               alt="Facial Recognition"
               className="rounded-lg mb-4"
             />
@@ -54,7 +54,7 @@ const CverpContainer = () => {
           </div>
           <div className="feature bg-white p-6 rounded-lg shadow-md w-full md:w-1/2 lg:w-1/4 text-left transition-transform transform hover:translate-y-[-10px]">
             <img
-              src="https://via.placeholder.com/400x300"
+              src="/aboutPage/realtimesurvillence.jpg"
               alt="Real-time Surveillance"
               className="rounded-lg mb-4"
             />
@@ -69,7 +69,7 @@ const CverpContainer = () => {
           </div>
           <div className="feature bg-white p-6 rounded-lg shadow-md w-full md:w-1/2 lg:w-1/4 text-left transition-transform transform hover:translate-y-[-10px]">
             <img
-              src="https://via.placeholder.com/400x300"
+              src="/aboutPage/automatedpayroll.jpg"
               alt="Automated Payroll"
               className="rounded-lg mb-4"
             />
@@ -90,12 +90,12 @@ const CverpContainer = () => {
         className="container mx-auto my-10 text-center px-6"
       >
         <h2 className="text-blue-900 text-3xl font-bold mb-6">How It Works</h2>
-        <div className="flex flex-wrap justify-around gap-6">
+        <div className="flex space-x-10">
           <div className="step bg-white p-6 rounded-lg shadow-md w-full md:w-1/3 text-center transition-transform transform hover:translate-y-[-10px]">
             <img
-              src="https://via.placeholder.com/200x200"
+              src="/aboutPage/installation.jpg"
               alt="Step 1"
-              className="mx-auto rounded-full mb-4"
+              className="mx-auto rounded-full mb-4 h-[160px]"
             />
             <h3 className="text-blue-900 text-xl font-bold mb-2">
               Step 1: Installation
@@ -107,9 +107,9 @@ const CverpContainer = () => {
           </div>
           <div className="step bg-white p-6 rounded-lg shadow-md w-full md:w-1/3 text-center transition-transform transform hover:translate-y-[-10px]">
             <img
-              src="https://via.placeholder.com/200x200"
+              src="/aboutPage/monitoring.jpg"
               alt="Step 2"
-              className="mx-auto rounded-full mb-4"
+              className="mx-auto rounded-full mb-4 h-[160px]"
             />
             <h3 className="text-blue-900 text-xl font-bold mb-2">
               Step 2: Monitoring
@@ -121,9 +121,9 @@ const CverpContainer = () => {
           </div>
           <div className="step bg-white p-6 rounded-lg shadow-md w-full md:w-1/3 text-center transition-transform transform hover:translate-y-[-10px]">
             <img
-              src="https://via.placeholder.com/200x200"
+              src="/aboutPage/automation.jpg"
               alt="Step 3"
-              className="mx-auto rounded-full mb-4"
+              className="mx-auto rounded-full mb-4 h-[160px]"
             />
             <h3 className="text-blue-900 text-xl font-bold mb-2">
               Step 3: Automation
@@ -136,27 +136,13 @@ const CverpContainer = () => {
         </div>
       </section>
 
-      <section id="demo" className="container mx-auto my-10 text-center px-6">
-        <h2 className="text-blue-900 text-3xl font-bold mb-6">
-          Book a Free Demo
-        </h2>
-        <img
-          src="https://via.placeholder.com/800x400"
-          alt="Free Demo"
-          className="mx-auto rounded-lg mb-6"
+      <div className="w-full flex flex-col xl:space-y-24 items-center px-4 sm:px-10 xl:px-0 py-6 sm:py-10">
+        <ConversationForm
+          title="What Can We Build for You?"
+          description="Let's discuss your ideas. We will send you an NDA before we talk. All the information is kept confidential."
+          onFormSubmit={() => {}}
         />
-        <p className="text-lg">
-          Experience the efficiency and accuracy of CV-ERP for yourself.{" "}
-          <Link
-            href="/contact-us"
-            className="text-blue-600 hover:underline hover:underline-offset-4"
-          >
-            Book a Free Demo
-          </Link>{" "}
-          today and see how our computer vision-based ERP module can enhance
-          your institution&apos;s staff management.
-        </p>
-      </section>
+      </div>
     </div>
   )
 }

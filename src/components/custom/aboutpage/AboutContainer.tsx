@@ -11,7 +11,7 @@ import WellWishers from "./WellWishers"
 
 const AboutContainer = () => {
   return (
-    <div className="w-5/6 mx-auto flex flex-col items-center space-y-24 py-10">
+    <div className="w-5/6 mx-auto flex flex-col items-center space-y-4 py-10">
       <HeroContent
         title="At ADRIG, We Keep Pushing Boundaries with Unyielding Innovation
 "
@@ -27,11 +27,13 @@ const AboutContainer = () => {
       </HeroContent>
       <ClientCompaniesComponent />
       <CountUpAnimationContainer />
-      <WhoWeAre />
-      <OurStory />
-      <WellWishers />
-      <Testimonials />
-      <ContactUs />
+      <div className="w-full flex flex-col items-center space-y-24">
+        <WhoWeAre />
+        <OurStory />
+        <WellWishers />
+        <Testimonials />
+        <ContactUs />
+      </div>
     </div>
   )
 }
