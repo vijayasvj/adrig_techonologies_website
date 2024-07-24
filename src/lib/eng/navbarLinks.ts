@@ -607,9 +607,9 @@ export const navbarLinks: NavbarLinksTypes[] = [
       // },
     ],
   },
-  {
-    id: 3,
-    label: "About",
-    url: "/about",
-  },
+  // {
+  //   id: 3,
+  //   label: "About",
+  //   url: "/about",
+  // },
 ]
