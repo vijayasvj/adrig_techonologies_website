@@ -59,28 +59,28 @@ export const homepageCompaniesServices: HomepageCompaniesServicesType[] = [
       "We develop sophisticated AI agents using cutting-edge tools like crewAI and AutoGen Studio. These intelligent AI agents can handle a wide range of tasks, such as analysis, research, code generation, audits, and reviews. Our custom AI agent systems, built using premier models and comprehensive skill sets, can be designed as either a single-agent or a multi-agent solution to enhance productivity throughout your organization.",
     urlPath: "ai-agent-development-company/",
   },
-  {
-    id: 7,
-    image: Web3Home,
-    title: "Web3 Development",
-    description:
-      "We develop a wide range of Web3 solutions, including decentralized finance platforms, decentralized autonomous organizations, non-fungible token marketplaces, and metaverse environments, as well as cryptocurrencies, digital wallets, and cross-chain bridges. Our goal is to empower businesses to succeed in the decentralized digital world. We strictly adhere to industry standards and regulatory frameworks, ensuring that the solutions we create meet the highest levels of security, scalability, and interoperability.",
-    urlPath: "web3-development-company/",
-  },
-  {
-    id: 8,
-    image: BlockChainHome,
-    title: "Blockchain Development",
-    description:
-      "We offer a comprehensive range of blockchain development services to meet the diverse needs of our clients. Our expertise spans various blockchain protocols, including Ethereum, Solana, Stellar, and Cosmos, enabling us to create compatible solutions that allow users to fully leverage the capabilities of their preferred blockchain platform. This includes designing smart contracts, developing custom decentralized applications (dApps), and seamlessly integrating blockchain technology into existing systems.",
-    urlPath: "blockchain-development-company/",
-  },
-  {
-    id: 9,
-    image: BlockChainHome,
-    title: "Software Consulting",
-    description:
-      "Our software consulting services offer strategic direction and technical knowledge to assist organizations in navigating the intricacies of the ever-evolving tech industry. Our team works closely with your organization to analyze your existing systems and procedures, pinpoint areas requiring optimization and improvement, and develop tailored software solutions that align with your goals and objectives.",
-    urlPath: "software-consulting-company/",
-  },
+  // {
+  //   id: 7,
+  //   image: Web3Home,
+  //   title: "Web3 Development",
+  //   description:
+  //     "We develop a wide range of Web3 solutions, including decentralized finance platforms, decentralized autonomous organizations, non-fungible token marketplaces, and metaverse environments, as well as cryptocurrencies, digital wallets, and cross-chain bridges. Our goal is to empower businesses to succeed in the decentralized digital world. We strictly adhere to industry standards and regulatory frameworks, ensuring that the solutions we create meet the highest levels of security, scalability, and interoperability.",
+  //   urlPath: "web3-development-company/",
+  // },
+  // {
+  //   id: 8,
+  //   image: BlockChainHome,
+  //   title: "Blockchain Development",
+  //   description:
+  //     "We offer a comprehensive range of blockchain development services to meet the diverse needs of our clients. Our expertise spans various blockchain protocols, including Ethereum, Solana, Stellar, and Cosmos, enabling us to create compatible solutions that allow users to fully leverage the capabilities of their preferred blockchain platform. This includes designing smart contracts, developing custom decentralized applications (dApps), and seamlessly integrating blockchain technology into existing systems.",
+  //   urlPath: "blockchain-development-company/",
+  // },
+  // {
+  //   id: 9,
+  //   image: BlockChainHome,
+  //   title: "Software Consulting",
+  //   description:
+  //     "Our software consulting services offer strategic direction and technical knowledge to assist organizations in navigating the intricacies of the ever-evolving tech industry. Our team works closely with your organization to analyze your existing systems and procedures, pinpoint areas requiring optimization and improvement, and develop tailored software solutions that align with your goals and objectives.",
+  //   urlPath: "software-consulting-company/",
+  // },
 ]

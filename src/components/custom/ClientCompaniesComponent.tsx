@@ -5,7 +5,7 @@ import { partnerShipCompaniesData } from "@/lib/eng/partnerShipCompaniesData"
 
 const ClientCompaniesComponent = () => {
   return (
-    <section className="w-[90%] mx-auto py-8 lg:py-10 px-2">
+    <section className="w-[100%] mx-auto  ">
       <Marquee
         gradient={true}
         gradientColor="rgba(229, 243, 255, 0.22)"

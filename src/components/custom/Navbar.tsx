@@ -74,6 +74,7 @@ const Navbar = () => {
             <InnerNavbar
               navItem={selectedNavBar}
               handleSelectedNavBarLeave={handleNavBarLeave}
+              selectedNavBar={setSelectedNavBar}
             />
           )}
           <Link href="/contact-us">
