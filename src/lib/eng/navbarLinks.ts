@@ -412,118 +412,118 @@ export const navbarLinks: NavbarLinksTypes[] = [
       },
 
       // IOT
-      {
-        id: 8,
-        label: "Internet of Things(IOT)",
-        url: "/services/iot-development-company",
-        assets: [
-          {
-            id: 1,
-            label: "IoT Development",
-            image: IoTDevelopment,
-            url: "/services/iot-development-company",
-          },
-          {
-            id: 2,
-            label: "Industrial IoT Solutions",
-            image: IndustrialIoTSolutions,
-            url: "/services/industrial-iot-solutions",
-          },
-          {
-            id: 3,
-            label: "Firmware Development",
-            image: FirmwareDevelopment,
-            url: "/services/firmware-development-company",
-          },
-          {
-            id: 4,
-            label: "IoT Healthcare Software",
-            image: IoTHealthcareSoftware,
-            url: "/services/iot-healthcare-software-development",
-          },
-          {
-            id: 5,
-            label: "IoT Product Development",
-            image: IoTProductDevelopment,
-            url: "/services/iot-product-development",
-          },
-          {
-            id: 6,
-            label: "Hardware Design",
-            image: HardwareDesign,
-            url: "/services/iot-hardware-design-services",
-          },
-        ],
-      },
+      // {
+      //   id: 8,
+      //   label: "Internet of Things(IOT)",
+      //   url: "/services/iot-development-company",
+      //   assets: [
+      //     {
+      //       id: 1,
+      //       label: "IoT Development",
+      //       image: IoTDevelopment,
+      //       url: "/services/iot-development-company",
+      //     },
+      //     {
+      //       id: 2,
+      //       label: "Industrial IoT Solutions",
+      //       image: IndustrialIoTSolutions,
+      //       url: "/services/industrial-iot-solutions",
+      //     },
+      //     {
+      //       id: 3,
+      //       label: "Firmware Development",
+      //       image: FirmwareDevelopment,
+      //       url: "/services/firmware-development-company",
+      //     },
+      //     {
+      //       id: 4,
+      //       label: "IoT Healthcare Software",
+      //       image: IoTHealthcareSoftware,
+      //       url: "/services/iot-healthcare-software-development",
+      //     },
+      //     {
+      //       id: 5,
+      //       label: "IoT Product Development",
+      //       image: IoTProductDevelopment,
+      //       url: "/services/iot-product-development",
+      //     },
+      //     {
+      //       id: 6,
+      //       label: "Hardware Design",
+      //       image: HardwareDesign,
+      //       url: "/services/iot-hardware-design-services",
+      //     },
+      //   ],
+      // },
 
       // Web3
-      {
-        id: 4,
-        label: "Web3",
-        url: "/services/web3-development-company",
-        assets: [
-          {
-            id: 1,
-            label: "Web3 Development",
-            image: Web3Development,
-            url: "/services/web3-development-company",
-          },
-          // {
-          //   id: 2,
-          //   label: "State of Web3",
-          //   image: StateofWeb3,
-          //   url: "/services/current-state-of-web3",
-          // },
-          {
-            id: 3,
-            label: "Rust Development",
-            image: RustDevelopment,
-            url: "/services/web3-rust-development-company",
-          },
-          {
-            id: 4,
-            label: "Web3 Game Development",
-            image: Web3Development,
-            url: "/services/web3-game-development",
-          },
-          {
-            id: 5,
-            label: "Metaverse Development",
-            image: MetaverseDevelopment,
-            url: "/services/web3-metaverse-development-company",
-          },
-          // {
-          //   id: 6,
-          //   label: "Metaverse Application",
-          //   image: MetaverseApplication,
-          //   url: "/services/web3-application-development",
-          // },
-          // {
-          //   id: 7,
-          //   label: "Metaverse Gaming Space",
-          //   image: MetaverseGamingSpace,
-          //   url: "/services/metaverse/gaming-space-development",
-          // },
-          // {
-          //   id: 8,
-          //   label: "Metaverse Avatar Development",
-          //   image: MetaverseAvatarDevelopment,
-          //   url: "/services/metaverse/avatar-development",
-          // },
-          // {
-          //   id: 9,
-          //   label: "NFT Marketplace Development",
-          //   image: NFTMarketplaceDevelopment,
-          //   url: "/services/nft-marketplace-development-company",
-          // },
-          // {
-          //   id: 10,
-          //   label: "NFT Marketplace Solution",
-          //   image: NFTMarketplaceSolution,
-          //   url: "/services/nft-marketplace",
-          // },
-        ],
-      },
+      // {
+      //   id: 4,
+      //   label: "Web3",
+      //   url: "/services/web3-development-company",
+      //   assets: [
+      //     {
+      //       id: 1,
+      //       label: "Web3 Development",
+      //       image: Web3Development,
+      //       url: "/services/web3-development-company",
+      //     },
+      //     // {
+      //     //   id: 2,
+      //     //   label: "State of Web3",
+      //     //   image: StateofWeb3,
+      //     //   url: "/services/current-state-of-web3",
+      //     // },
+      //     {
+      //       id: 3,
+      //       label: "Rust Development",
+      //       image: RustDevelopment,
+      //       url: "/services/web3-rust-development-company",
+      //     },
+      //     {
+      //       id: 4,
+      //       label: "Web3 Game Development",
+      //       image: Web3Development,
+      //       url: "/services/web3-game-development",
+      //     },
+      //     {
+      //       id: 5,
+      //       label: "Metaverse Development",
+      //       image: MetaverseDevelopment,
+      //       url: "/services/web3-metaverse-development-company",
+      //     },
+      //     // {
+      //     //   id: 6,
+      //     //   label: "Metaverse Application",
+      //     //   image: MetaverseApplication,
+      //     //   url: "/services/web3-application-development",
+      //     // },
+      //     // {
+      //     //   id: 7,
+      //     //   label: "Metaverse Gaming Space",
+      //     //   image: MetaverseGamingSpace,
+      //     //   url: "/services/metaverse/gaming-space-development",
+      //     // },
+      //     // {
+      //     //   id: 8,
+      //     //   label: "Metaverse Avatar Development",
+      //     //   image: MetaverseAvatarDevelopment,
+      //     //   url: "/services/metaverse/avatar-development",
+      //     // },
+      //     // {
+      //     //   id: 9,
+      //     //   label: "NFT Marketplace Development",
+      //     //   image: NFTMarketplaceDevelopment,
+      //     //   url: "/services/nft-marketplace-development-company",
+      //     // },
+      //     // {
+      //     //   id: 10,
+      //     //   label: "NFT Marketplace Solution",
+      //     //   image: NFTMarketplaceSolution,
+      //     //   url: "/services/nft-marketplace",
+      //     // },
+      //   ],
+      // },
 
       // BlockChain
       // {

@@ -9,19 +9,19 @@ export const companyExperienceData: CompanyExperienceDataType = [
   {
     id: 1,
     initialValue: 1,
-    totalCount: 72,
-    label: "AI Developers",
+    totalCount: 15,
+    label: "Client Partnerships Built",
   },
   {
     id: 2,
     initialValue: 0,
-    totalCount: 18,
+    totalCount: 20,
     label: "Software Product Delivered",
   },
   {
     id: 3,
     initialValue: 0,
-    totalCount: 22,
+    totalCount: 15,
     label: "AI Solutions",
   },
   {
