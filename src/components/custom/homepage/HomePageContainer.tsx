@@ -65,7 +65,7 @@ const HomePageContainer = () => {
           description="Let's discuss your ideas. We will send you an NDA before we talk. All the information is kept confidential."
           onFormSubmit={formSubmitHandler}
         />
-        <InsightsComponent />
+        {/* <InsightsComponent /> */}
       </div>
     </div>
   )

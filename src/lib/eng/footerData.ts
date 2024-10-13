@@ -10,6 +10,11 @@ export const footerData = [
         label: "About Us",
         url: "/about",
       },
+      {
+        id: 2,
+        label: "Contact Us",
+        url: "/contact-us",
+      },
       //   {
       //     id: 2,
       //     label: "Partners",
@@ -37,129 +42,125 @@ export const footerData = [
       //   },
     ],
   },
-  // {
-  //   id: 2,
-  //   label: "Services",
-  //   subcategories: [
-  //     {
-  //       id: 1,
-  //       label: "Generative AI",
-  //       url: "/",
-  //     },
-  //     {
-  //       id: 2,
-  //       label: "AI",
-  //       url: "/",
-  //     },
-  //     {
-  //       id: 3,
-  //       label: "Software development",
-  //       url: "/",
-  //     },
-  //     {
-  //       id: 4,
-  //       label: "Game Development",
-  //       url: "/",
-  //     },
-  //     {
-  //       id: 5,
-  //       label: "Talent Acquisition",
-  //       url: "/",
-  //     },
-  //     {
-  //       id: 6,
-  //       label: "IoT",
-  //       url: "/",
-  //     },
-  // {
-  //   id: 7,
-  //   label: "Web3",
-  //   url: "/",
-  // },
-  // {
-  //   id: 8,
-  //   label: "Blockchain",
-  //   url: "/",
-  // },
-  //   ],
-  // },
-  // {
-  //   id: 5,
-  //   label: "Generative AI",
-  //   subcategories: [
-  //     {
-  //       id: 1,
-  //       label: "Generative AI Development",
-  //       url: "/",
-  //     },
-  //     {
-  //       id: 2,
-  //       label: "Generative AI Consulting",
-  //       url: "/",
-  //     },
-  //     {
-  //       id: 3,
-  //       label: "Generative AI Integration",
-  //       url: "/",
-  //     },
-  // {
-  //     id: 4,
-  //     label: "Case Studies",
-  //     url: "/",
-  // },
-  // {
-  //     id: 5,
-  //     label: "Work",
-  //     url: "/",
-  // },
-  // {
-  //     id: 6,
-  //     label: "Community",
-  //     url: "/",
-  // },
-  //   ],
-  // },
-  // {
-  //   id: 6,
-  //   label: "Insights",
-  //   subcategories: [
-  //     {
-  //       id: 1,
-  //       label: "AI Use Cases",
-  //       url: "/",
-  //     },
-  //     {
-  //       id: 2,
-  //       label: "Conversational AI",
-  //       url: "/",
-  //     },
-  //     {
-  //       id: 3,
-  //       label: "Private LLM",
-  //       url: "/",
-  //     },
-  // {
-  //     id: 4,
-  //     label: "Case Studies",
-  //     url: "/",
-  // },
-  // {
-  //     id: 5,
-  //     label: "Work",
-  //     url: "/",
-  // },
-  // {
-  //     id: 6,
-  //     label: "Community",
-  //     url: "/",
-  // },
-  //   ],
-  // },
+  {
+    id: 5,
+    label: "Generative AI",
+    subcategories: [
+      {
+        id: 1,
+        label: "Generative AI Development",
+        url: "/services/generative-ai-development-company",
+      },
+      {
+        id: 2,
+        label: "Generative AI Consulting",
+        url: "/services/generative-ai-consulting-company",
+      },
+      {
+        id: 3,
+        label: "Generative AI Integration",
+        url: "/services/generative-ai-integration-service",
+      },
+      // {
+      //   id: 4,
+      //   label: "Case Studies",
+      //   url: "/",
+      // },
+      // {
+      //   id: 5,
+      //   label: "Work",
+      //   url: "/",
+      // },
+      // {
+      //   id: 6,
+      //   label: "Community",
+      //   url: "/",
+      // },
+    ],
+  },
+  {
+    id: 2,
+    label: "Services",
+    subcategories: [
+      {
+        id: 1,
+        label: "Generative AI",
+        url: "/services/generative-ai-development-company",
+      },
+      {
+        id: 2,
+        label: "AI Software Developemnt",
+        url: "/services/ai-development",
+      },
+      {
+        id: 3,
+        label: "Software development",
+        url: "/services/software-development-company",
+      },
+      {
+        id: 4,
+        label: "Game Development",
+        url: "/services/game-development",
+      },
+      {
+        id: 5,
+        label: "Talent Acquisition",
+        url: "/services/hire-machine-learning-developers",
+      },
+      // {
+      //   id: 6,
+      //   label: "IoT",
+      //   url: "/",
+      // },
+      // {
+      //   id: 7,
+      //   label: "Web3",
+      //   url: "/",
+      // },
+      // {
+      //   id: 8,
+      //   label: "Blockchain",
+      //   url: "/",
+      // },
+    ],
+  },
+
+  {
+    id: 6,
+    label: "Product Develeopment Services",
+    subcategories: [
+      {
+        id: 1,
+        label: "Sass Development",
+        url: "/ai-products/sass",
+      },
+      {
+        id: 2,
+        label: "Sales Bot Development",
+        url: "/ai-products/sales_bot",
+      },
+      {
+        id: 3,
+        label: "Page Analytics Development",
+        url: "/ai-products/page_analytics",
+      },
+      {
+        id: 4,
+        label: "Outreach AI Solutions",
+        url: "/ai-products/outreach_automation",
+      },
+      {
+        id: 5,
+        label: "Custom AI Solutions",
+        url: "/ai-products/custom",
+      },
+    ],
+  },
 ]
 
 export const footerContactUsData = {
   phone: "9942105301",
-  contactWebsites: ["jerome.ignatius@adrig.co.in"],
+  contactWebsites: ["contact@adrig.co.in"],
   socialMedia: [
     // {
     //   id: 1,

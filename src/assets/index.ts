@@ -22,10 +22,15 @@ import MachineLearningIcon from "@/assets/images/Machine-Learning-icon.svg"
 import ManufacturingIcon from "@/assets/images/Manufacturing-icon.svg"
 // //ai products
 import AICopilotForSales from "@/assets/images/navbar/AI_PRODUCTS/AI_Copilot_For_Sales.svg"
+import PageAnalytics from "@/assets/images/navbar/AI_PRODUCTS/analytics.png"
+import SalesBot from "@/assets/images/navbar/AI_PRODUCTS/bot.png"
 import ComputerVisionERP from "@/assets/images/navbar/AI_PRODUCTS/ComputerVisionERP.png"
 // AI Products
 import Eyeq from "@/assets/images/navbar/AI_PRODUCTS/Eyeq.png"
+import CustomAi from "@/assets/images/navbar/AI_PRODUCTS/innovation.png"
+import Outreach from "@/assets/images/navbar/AI_PRODUCTS/outreach-ad-reach.png"
 import Predicis from "@/assets/images/navbar/AI_PRODUCTS/Predicis.png"
+import Sass from "@/assets/images/navbar/AI_PRODUCTS/saas.png"
 //Services
 //Artificail Intalligence & ML
 import AIasaService from "@/assets/images/navbar/SERVICES/Artificail Intalligence & ML/AI as a Service.svg"
@@ -115,11 +120,13 @@ import Web3Development from "@/assets/images/navbar/SERVICES/Web3/Web3 Developme
 import Web3GameDevelopment from "@/assets/images/navbar/SERVICES/Web3/Web3 Game Development.svg"
 import AWS from "@/assets/images/partnershipCompanies/AWS.png"
 import Azure from "@/assets/images/partnershipCompanies/Azure.png"
+import CGC from "@/assets/images/partnershipCompanies/cgc-black.png"
 //partnership companies
 import DataDrone from "@/assets/images/partnershipCompanies/DataDrone.png"
 import ElanEnterprises from "@/assets/images/partnershipCompanies/ElanEnterprises.png"
 import GCP from "@/assets/images/partnershipCompanies/GCP.png"
 import LifcoBooks from "@/assets/images/partnershipCompanies/LifcoBooks.png"
+import VMinds from "@/assets/images/partnershipCompanies/vminds-black.png"
 import ProjectModelIcon from "@/assets/images/Project-Based-Model-Icon.svg"
 import RetailEcommerceIcon from "@/assets/images/Retail-E-commerce-icon.svg"
 import SoftwareHome from "@/assets/images/softwarehome.svg"
@@ -178,6 +185,11 @@ export {
   Eyeq,
   Predicis,
   ComputerVisionERP,
+  Sass,
+  SalesBot,
+  PageAnalytics,
+  Outreach,
+  CustomAi,
 
   ////Services
   AIasaService,
@@ -265,7 +277,8 @@ export {
   ElanEnterprises,
   GCP,
   LifcoBooks,
-
+  CGC,
+  VMinds,
   //well-wishers
   DebashisDas,
   Bansali,
