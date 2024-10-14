@@ -1,6 +1,7 @@
 "use client"
 
 import React from "react"
+import { formSubmitHandler } from "@/lib/formSubmitHandler"
 import ConversationForm from "../ConversationForm"
 import RightArrowTransitionButton from "../RightArrowTransitionButton"
 
@@ -119,7 +120,7 @@ const EyeQContainer = () => {
         <ConversationForm
           title="What Can We Build for You?"
           description="Let's discuss your ideas. We will send you an NDA before we talk. All the information is kept confidential."
-          onFormSubmit={() => {}}
+          onFormSubmit={formSubmitHandler}
         />
       </div>
     </div>

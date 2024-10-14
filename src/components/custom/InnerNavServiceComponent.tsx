@@ -6,9 +6,10 @@ import NavItemCardsContainer from "./NavItemCardsContainer"
 
 type Props = {
   navItem: NavbarLinksTypes
+  selectedNavBar: any
 }
 
-const InnerNavServiceComponent = ({ navItem }: Props) => {
+const InnerNavServiceComponent = ({ navItem, selectedNavBar }: Props) => {
   const item = navItem.assets ? navItem.assets[0] : ({} as SubLink)
 
   const [selectedInnerNavBar, setSelectedInnerNavBar] =
@@ -41,6 +42,7 @@ const InnerNavServiceComponent = ({ navItem }: Props) => {
             <NavItemCardsContainer
               count={4}
               navItem={selectedInnerNavBar as SubLink}
+              selectedNavBar={selectedNavBar}
             />
           ) : null}
         </div>

@@ -47,6 +47,7 @@ const ConversationForm = ({ title, description, onFormSubmit }: Props) => {
 
   function onSubmit(values: z.infer<typeof formSchema>) {
     onFormSubmit(values)
+    form.reset()
   }
 
   return (

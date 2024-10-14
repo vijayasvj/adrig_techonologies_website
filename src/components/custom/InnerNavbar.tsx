@@ -6,9 +6,14 @@ import NavItemCardsContainer from "./NavItemCardsContainer"
 type Props = {
   navItem: NavbarLinksTypes
   handleSelectedNavBarLeave: () => void
+  selectedNavBar: any
 }
 
-const InnerNavbar = ({ navItem, handleSelectedNavBarLeave }: Props) => {
+const InnerNavbar = ({
+  navItem,
+  handleSelectedNavBarLeave,
+  selectedNavBar,
+}: Props) => {
   return (
     navItem.assets && (
       <div
@@ -17,10 +22,17 @@ const InnerNavbar = ({ navItem, handleSelectedNavBarLeave }: Props) => {
       >
         {navItem.assets[0].image ? (
           <section className="px-12 pb-10 pt-6 w-full grid grid-cols-3 gap-4 text-xs xl:text-md font-bold`">
-            <NavItemCardsContainer count={3} navItem={navItem} />
+            <NavItemCardsContainer
+              count={3}
+              navItem={navItem}
+              selectedNavBar={selectedNavBar}
+            />
           </section>
         ) : (
-          <InnerNavServiceComponent navItem={navItem} />
+          <InnerNavServiceComponent
+            navItem={navItem}
+            selectedNavBar={selectedNavBar}
+          />
         )}
       </div>
     )

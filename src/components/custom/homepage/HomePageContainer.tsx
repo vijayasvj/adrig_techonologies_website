@@ -4,6 +4,7 @@ import React from "react"
 import Image from "next/image"
 import { HomepageClientGraph } from "@/assets"
 import { engagementModelData } from "@/lib/eng/engagementModelsData"
+import { formSubmitHandler } from "@/lib/formSubmitHandler"
 import {
   CompanyExperience,
   HeroSection,
@@ -16,10 +17,6 @@ import ConversationForm from "../ConversationForm"
 import InsightsComponent from "../InsightsComponent"
 
 const HomePageContainer = () => {
-  const formSubmitHandler = (data: any) => {
-    console.log(data)
-  }
-
   return (
     <div className="w-full flex flex-col items-center space-y-12 pb-10">
       <HeroSection />
