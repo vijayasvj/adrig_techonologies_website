@@ -21,7 +21,7 @@ const NavItemCardsContainer = <T extends SubLink | NavbarLinksTypes>({
           <Link
             key={item.id}
             href={item.url}
-            className="col-span-1 flex flex-col items-start space-y-2"
+            className="col-span-1 flex flex-col p-2 space-y-2 hover:bg-slate-300 hover:rounded-lg"
             onClick={() => {
               selectedNavBar(true)
             }}
@@ -31,7 +31,7 @@ const NavItemCardsContainer = <T extends SubLink | NavbarLinksTypes>({
                 <Image
                   src={item.image}
                   alt={item.label}
-                  className="w-[120px] xl:w-[240px] xl:h-[140px] object-cover"
+                  className="w-[100px] xl:w-[180px] xl:h-[140px] object-contain "
                 />
               )}
               <span className="text-center">{item.label}</span>
