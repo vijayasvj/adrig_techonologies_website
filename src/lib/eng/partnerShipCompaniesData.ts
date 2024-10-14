@@ -5,6 +5,8 @@ import {
   ElanEnterprises,
   GCP,
   LifcoBooks,
+  CGC,
+  VMinds,
 } from "@/assets"
 
 export const partnerShipCompaniesData = [
@@ -31,5 +33,13 @@ export const partnerShipCompaniesData = [
   {
     id: 6,
     image: ElanEnterprises,
+  },
+  {
+    id: 7,
+    image: CGC,
+  },
+  {
+    id: 8,
+    image: VMinds,
   },
 ]
