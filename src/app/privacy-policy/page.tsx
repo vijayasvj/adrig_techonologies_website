@@ -20,10 +20,11 @@ const PrivacyPolicy = () => {
         </p>
 
         <p className="text-gray-800 mb-4">
-          This Privacy Notice for ADRIG AI Technologies Private Limited ("we,"
-          "us," or "our"), describes how and why we might access, collect,
-          store, use, and/or share ("process") your personal information when
-          you use our services ("Services"), including when you:
+          This Privacy Notice for ADRIG AI Technologies Private Limited
+          (&quot;we,&quot; &quot;us,&quot; or &quot;our&quot;), describes how
+          and why we might access, collect, store, use, and/or share
+          (&quot;process&quot;) your personal information when you use our
+          services (&quot;Services&quot;), including when you:
         </p>
 
         <ul className="list-disc list-inside text-gray-800 space-y-3">
@@ -102,10 +103,10 @@ const PrivacyPolicy = () => {
 
           <p className="text-gray-700">
             <strong>Do we process any sensitive personal information?</strong>{" "}
-            Some of the information may be considered "special" or "sensitive"
-            in certain jurisdictions, for example your racial or ethnic origins,
-            sexual orientation, and religious beliefs. We do not process
-            sensitive personal information.
+            Some of the information may be considered &quot;special&quot; or
+            &quot;sensitive&quot; in certain jurisdictions, for example your
+            racial or ethnic origins, sexual orientation, and religious beliefs.
+            We do not process sensitive personal information.
           </p>
 
           <p className="text-gray-700">
@@ -362,7 +363,7 @@ const PrivacyPolicy = () => {
               device, either continuously or while you are using our mobile
               application(s), to provide certain location-based services. If you
               wish to change our access or permissions, you may do so in your
-              device's settings.
+              device&apos;s settings.
             </li>
           </ul>
 
@@ -370,9 +371,9 @@ const PrivacyPolicy = () => {
             <li>
               <em>Mobile Device Access.</em> We may request access or permission
               to certain features from your mobile device, including your mobile
-              device's camera, contacts, microphone, reminders, sensors,
+              device&apos;s camera, contacts, microphone, reminders, sensors,
               storage, and other features. If you wish to change our access or
-              permissions, you may do so in your device's settings.
+              permissions, you may do so in your device&apos;s settings.
             </li>
           </ul>
 
@@ -398,7 +399,7 @@ const PrivacyPolicy = () => {
               <em>Push Notifications.</em> We may request to send you push
               notifications regarding your account or certain features of the
               application(s). If you wish to opt out from receiving these types
-              of communications, you may turn them off in your device's
+              of communications, you may turn them off in your device&apos;s
               settings.
             </li>
           </ul>
@@ -463,8 +464,8 @@ const PrivacyPolicy = () => {
             the Services (such as the date/time stamps associated with your
             usage, pages and files viewed, searches, and other actions you take
             such as which features you use), device event information (such as
-            system activity, error reports (sometimes called "crash dumps"), and
-            hardware settings).
+            system activity, error reports (sometimes called &quot;crash
+            dumps&quot;), and hardware settings).
           </li>
           <li>
             <strong>Device Data:</strong> We collect device data such as
@@ -478,7 +479,7 @@ const PrivacyPolicy = () => {
           </li>
           <li>
             <strong>Location Data:</strong> We collect location data such as
-            information about your device's location, which can be either
+            information about your device&apos;s location, which can be either
             precise or imprecise. How much information we collect depends on the
             type and settings of the device you use to access the Services. For
             example, we may use GPS and other technologies to collect
@@ -609,7 +610,9 @@ const PrivacyPolicy = () => {
             about your use of our Services.
           </li>
           <li>
-            <strong>To save or protect an individual's vital interest.</strong>{" "}
+            <strong>
+              To save or protect an individual&apos;s vital interest.
+            </strong>{" "}
             We may process your information when necessary to save or protect an
             individual’s vital interest, such as to prevent harm.
           </li>
@@ -768,483 +771,1129 @@ const PrivacyPolicy = () => {
       </div>
 
       <div className="max-w-3xl mx-auto p-6 sm:p-8 bg-white ">
-      <h2 className="text-2xl font-bold mb-4">4. WHEN AND WITH WHOM DO WE SHARE YOUR PERSONAL INFORMATION?</h2>
-      <p className="text-base mb-4">
-        <strong><em>In Short:</em></strong><em> We may share information in specific situations described in this section and/or with the following third parties.</em>
-      </p>
+        <h2 className="text-2xl font-bold mb-4">
+          4. WHEN AND WITH WHOM DO WE SHARE YOUR PERSONAL INFORMATION?
+        </h2>
+        <p className="text-base mb-4">
+          <strong>
+            <em>In Short:</em>
+          </strong>
+          <em>
+            {" "}
+            We may share information in specific situations described in this
+            section and/or with the following third parties.
+          </em>
+        </p>
 
-      <p className="text-base mb-4">
-        We may need to share your personal information in the following situations:
-      </p>
+        <p className="text-base mb-4">
+          We may need to share your personal information in the following
+          situations:
+        </p>
 
-      <ul className="list-disc pl-6 mb-4">
-        <li className="text-base mb-2">
-          <strong>Business Transfers.</strong> We may share or transfer your information in connection with, or during negotiations of, any merger, sale of company assets, financing, or acquisition of all or a portion of our business to another company.
-        </li>
-        <li className="text-base mb-2">
-          <strong>When we use Google Maps Platform APIs.</strong> We may share your information with certain Google Maps Platform APIs (e.g., Google Maps API, Places API). Google Maps uses GPS, Wi-Fi, and cell towers to estimate your location. GPS is accurate to about 20 meters, while Wi-Fi and cell towers help improve accuracy when GPS signals are weak, like indoors. This data helps Google Maps provide directions, but it is not always perfectly precise. We obtain and store on your device ("cache") your location. You may revoke your consent anytime by contacting us at the contact details provided at the end of this document.
-        </li>
-        <li className="text-base mb-2">
-          <strong>Business Partners.</strong> We may share your information with our business partners to offer you certain products, services, or promotions.
-        </li>
-        <li className="text-base mb-2">
-          <strong>Other Users.</strong> When you share personal information (for example, by posting comments, contributions, or other content to the Services) or otherwise interact with public areas of the Services, such personal information may be viewed by all users and may be publicly made available outside the Services in perpetuity. If you interact with other users of our Services and register for our Services through a social network (such as Facebook), your contacts on the social network will see your name, profile photo, and descriptions of your activity. Similarly, other users will be able to view descriptions of your activity, communicate with you within our Services, and view your profile.
-        </li>
-        <li className="text-base mb-2">
-          <strong>Offer Wall.</strong> Our application(s) may display a third-party hosted "offer wall." Such an offer wall allows third-party advertisers to offer virtual currency, gifts, or other items to users in return for the acceptance and completion of an advertisement offer. Such an offer wall may appear in our application(s) and be displayed to you based on certain data, such as your geographic area or demographic information. When you click on an offer wall, you will be brought to an external website belonging to other persons and will leave our application(s). A unique identifier, such as your user ID, will be shared with the offer wall provider in order to prevent fraud and properly credit your account with the relevant reward.
-        </li>
-      </ul>
+        <ul className="list-disc pl-6 mb-4">
+          <li className="text-base mb-2">
+            <strong>Business Transfers.</strong> We may share or transfer your
+            information in connection with, or during negotiations of, any
+            merger, sale of company assets, financing, or acquisition of all or
+            a portion of our business to another company.
+          </li>
+          <li className="text-base mb-2">
+            <strong>When we use Google Maps Platform APIs.</strong> We may share
+            your information with certain Google Maps Platform APIs (e.g.,
+            Google Maps API, Places API). Google Maps uses GPS, Wi-Fi, and cell
+            towers to estimate your location. GPS is accurate to about 20
+            meters, while Wi-Fi and cell towers help improve accuracy when GPS
+            signals are weak, like indoors. This data helps Google Maps provide
+            directions, but it is not always perfectly precise. We obtain and
+            store on your device (&quot;cache&quot;) your location. You may
+            revoke your consent anytime by contacting us at the contact details
+            provided at the end of this document.
+          </li>
+          <li className="text-base mb-2">
+            <strong>Business Partners.</strong> We may share your information
+            with our business partners to offer you certain products, services,
+            or promotions.
+          </li>
+          <li className="text-base mb-2">
+            <strong>Other Users.</strong> When you share personal information
+            (for example, by posting comments, contributions, or other content
+            to the Services) or otherwise interact with public areas of the
+            Services, such personal information may be viewed by all users and
+            may be publicly made available outside the Services in perpetuity.
+            If you interact with other users of our Services and register for
+            our Services through a social network (such as Facebook), your
+            contacts on the social network will see your name, profile photo,
+            and descriptions of your activity. Similarly, other users will be
+            able to view descriptions of your activity, communicate with you
+            within our Services, and view your profile.
+          </li>
+          <li className="text-base mb-2">
+            <strong>Offer Wall.</strong> Our application(s) may display a
+            third-party hosted &quot;offer wall.&quot; Such an offer wall allows
+            third-party advertisers to offer virtual currency, gifts, or other
+            items to users in return for the acceptance and completion of an
+            advertisement offer. Such an offer wall may appear in our
+            application(s) and be displayed to you based on certain data, such
+            as your geographic area or demographic information. When you click
+            on an offer wall, you will be brought to an external website
+            belonging to other persons and will leave our application(s). A
+            unique identifier, such as your user ID, will be shared with the
+            offer wall provider in order to prevent fraud and properly credit
+            your account with the relevant reward.
+          </li>
+        </ul>
       </div>
 
       <div className="max-w-3xl mx-auto p-6 sm:p-8 bg-white ">
-      <h2 className="text-2xl font-bold mb-4">5. DO WE USE COOKIES AND OTHER TRACKING TECHNOLOGIES?</h2>
-      <p className="text-base mb-4">
-        <strong><em>In Short:</em></strong><em> We may use cookies and other tracking technologies to collect and store your information.</em>
-      </p>
+        <h2 className="text-2xl font-bold mb-4">
+          5. DO WE USE COOKIES AND OTHER TRACKING TECHNOLOGIES?
+        </h2>
+        <p className="text-base mb-4">
+          <strong>
+            <em>In Short:</em>
+          </strong>
+          <em>
+            {" "}
+            We may use cookies and other tracking technologies to collect and
+            store your information.
+          </em>
+        </p>
 
-      <p className="text-base mb-4">
-        We may use cookies and similar tracking technologies (like web beacons and pixels) to gather information when you interact with our Services. Some online tracking technologies help us maintain the security of our Services and your account, prevent crashes, fix bugs, save your preferences, and assist with basic site functions.
-      </p>
+        <p className="text-base mb-4">
+          We may use cookies and similar tracking technologies (like web beacons
+          and pixels) to gather information when you interact with our Services.
+          Some online tracking technologies help us maintain the security of our
+          Services and your account, prevent crashes, fix bugs, save your
+          preferences, and assist with basic site functions.
+        </p>
 
-      <p className="text-base mb-4">
-        We also permit third parties and service providers to use online tracking technologies on our Services for analytics and advertising, including to help manage and display advertisements, to tailor advertisements to your interests, or to send abandoned shopping cart reminders (depending on your communication preferences). The third parties and service providers use their technology to provide advertising about products and services tailored to your interests which may appear either on our Services or on other websites.
-      </p>
+        <p className="text-base mb-4">
+          We also permit third parties and service providers to use online
+          tracking technologies on our Services for analytics and advertising,
+          including to help manage and display advertisements, to tailor
+          advertisements to your interests, or to send abandoned shopping cart
+          reminders (depending on your communication preferences). The third
+          parties and service providers use their technology to provide
+          advertising about products and services tailored to your interests
+          which may appear either on our Services or on other websites.
+        </p>
 
-      <p className="text-base mb-4">
-        To the extent these online tracking technologies are deemed to be a "sale"/"sharing" (which includes targeted advertising, as defined under the applicable laws) under applicable US state laws, you can opt out of these online tracking technologies by submitting a request as described below under section "<a href="#uslaws" className="text-blue-500 underline">DO UNITED STATES RESIDENTS HAVE SPECIFIC PRIVACY RIGHTS?</a>".
-      </p>
+        <p className="text-base mb-4">
+          To the extent these online tracking technologies are deemed to be a
+          &quot;sale&quot;/&quot;sharing&quot; (which includes targeted
+          advertising, as defined under the applicable laws) under applicable US
+          state laws, you can opt out of these online tracking technologies by
+          submitting a request as described below under section &quot;
+          <a href="#uslaws" className="text-blue-500 underline">
+            DO UNITED STATES RESIDENTS HAVE SPECIFIC PRIVACY RIGHTS?
+          </a>
+          &quot;.
+        </p>
 
-      <p className="text-base mb-4">
-        Specific information about how we use such technologies and how you can refuse certain cookies is set out in our Cookie Notice.
-      </p>
+        <p className="text-base mb-4">
+          Specific information about how we use such technologies and how you
+          can refuse certain cookies is set out in our Cookie Notice.
+        </p>
 
-      <h3 className="text-xl font-bold mb-2">Google Analytics</h3>
-      <p className="text-base mb-4">
-        We may share your information with Google Analytics to track and analyze the use of the Services. To opt out of being tracked by Google Analytics across the Services, visit <a href="https://tools.google.com/dlpage/gaoptout" rel="noopener noreferrer" target="_blank" className="text-blue-500 underline">https://tools.google.com/dlpage/gaoptout</a>. For more information on the privacy practices of Google, please visit the <a href="https://policies.google.com/privacy" rel="noopener noreferrer" target="_blank" className="text-blue-500 underline">Google Privacy & Terms page</a>.
-      </p>
+        <h3 className="text-xl font-bold mb-2">Google Analytics</h3>
+        <p className="text-base mb-4">
+          We may share your information with Google Analytics to track and
+          analyze the use of the Services. To opt out of being tracked by Google
+          Analytics across the Services, visit{" "}
+          <a
+            href="https://tools.google.com/dlpage/gaoptout"
+            rel="noopener noreferrer"
+            target="_blank"
+            className="text-blue-500 underline"
+          >
+            https://tools.google.com/dlpage/gaoptout
+          </a>
+          . For more information on the privacy practices of Google, please
+          visit the{" "}
+          <a
+            href="https://policies.google.com/privacy"
+            rel="noopener noreferrer"
+            target="_blank"
+            className="text-blue-500 underline"
+          >
+            Google Privacy & Terms page
+          </a>
+          .
+        </p>
       </div>
 
       <div className="max-w-3xl mx-auto p-6 sm:p-8 bg-white ">
-      <h2 className="text-2xl font-bold mb-4">6. DO WE OFFER ARTIFICIAL INTELLIGENCE-BASED PRODUCTS?</h2>
-      <p className="text-base mb-4">
-        <strong><em>In Short:</em></strong><em> We offer products, features, or tools powered by artificial intelligence, machine learning, or similar technologies.</em>
-      </p>
+        <h2 className="text-2xl font-bold mb-4">
+          6. DO WE OFFER ARTIFICIAL INTELLIGENCE-BASED PRODUCTS?
+        </h2>
+        <p className="text-base mb-4">
+          <strong>
+            <em>In Short:</em>
+          </strong>
+          <em>
+            {" "}
+            We offer products, features, or tools powered by artificial
+            intelligence, machine learning, or similar technologies.
+          </em>
+        </p>
 
-      <p className="text-base mb-4">
-        As part of our Services, we offer products, features, or tools powered by artificial intelligence, machine learning, or similar technologies (collectively, "AI Products"). These tools are designed to enhance your experience and provide you with innovative solutions. The terms in this Privacy Notice govern your use of the AI Products within our Services.
-      </p>
+        <p className="text-base mb-4">
+          As part of our Services, we offer products, features, or tools powered
+          by artificial intelligence, machine learning, or similar technologies
+          (collectively, &quot;AI Products&quot;). These tools are designed to
+          enhance your experience and provide you with innovative solutions. The
+          terms in this Privacy Notice govern your use of the AI Products within
+          our Services.
+        </p>
 
-      <p className="text-base mb-4">
-        <strong>Use of AI Technologies</strong>
-      </p>
+        <p className="text-base mb-4">
+          <strong>Use of AI Technologies</strong>
+        </p>
 
-      <p className="text-base mb-4">
-        We provide the AI Products through third-party service providers ("AI Service Providers"), including OpenAI, Google Cloud AI, IBM Watson, Amazon Web Services (AWS) AI and Anthropic. As outlined in this Privacy Notice, your input, output, and personal information will be shared with and processed by these AI Service Providers to enable your use of our AI Products for purposes outlined in "<a href="#legalbases" className="text-blue-500 underline">WHAT LEGAL BASES DO WE RELY ON TO PROCESS YOUR PERSONAL INFORMATION?</a>". You must not use the AI Products in any way that violates the terms or policies of any AI Service Provider.
-      </p>
+        <p className="text-base mb-4">
+          We provide the AI Products through third-party service providers
+          (&quot;AI Service Providers&quot;), including OpenAI, Google Cloud AI,
+          IBM Watson, Amazon Web Services (AWS) AI and Anthropic. As outlined in
+          this Privacy Notice, your input, output, and personal information will
+          be shared with and processed by these AI Service Providers to enable
+          your use of our AI Products for purposes outlined in &quot;
+          <a href="#legalbases" className="text-blue-500 underline">
+            WHAT LEGAL BASES DO WE RELY ON TO PROCESS YOUR PERSONAL INFORMATION?
+          </a>
+          &quot;. You must not use the AI Products in any way that violates the terms
+          or policies of any AI Service Provider.
+        </p>
 
-      <p className="text-base mb-4">
-        <strong>Our AI Products</strong>
-      </p>
+        <p className="text-base mb-4">
+          <strong>Our AI Products</strong>
+        </p>
 
-      <p className="text-base mb-4">
-        Our AI Products are designed for the following functions:
-      </p>
+        <p className="text-base mb-4">
+          Our AI Products are designed for the following functions:
+        </p>
 
-      <ul className="list-disc pl-6 mb-4">
-        <li className="text-base mb-2">AI bots</li>
-        <li className="text-base mb-2">AI automation</li>
-        <li className="text-base mb-2">AI predictive analytics</li>
-        <li className="text-base mb-2">AI translation</li>
-        <li className="text-base mb-2">AI deployment</li>
-        <li className="text-base mb-2">AI document generation</li>
-        <li className="text-base mb-2">AI development</li>
-        <li className="text-base mb-2">AI insights</li>
-        <li className="text-base mb-2">AI applications</li>
-      </ul>
+        <ul className="list-disc pl-6 mb-4">
+          <li className="text-base mb-2">AI bots</li>
+          <li className="text-base mb-2">AI automation</li>
+          <li className="text-base mb-2">AI predictive analytics</li>
+          <li className="text-base mb-2">AI translation</li>
+          <li className="text-base mb-2">AI deployment</li>
+          <li className="text-base mb-2">AI document generation</li>
+          <li className="text-base mb-2">AI development</li>
+          <li className="text-base mb-2">AI insights</li>
+          <li className="text-base mb-2">AI applications</li>
+        </ul>
 
-      <p className="text-base mb-4">
-        <strong>How We Process Your Data Using AI</strong>
-      </p>
+        <p className="text-base mb-4">
+          <strong>How We Process Your Data Using AI</strong>
+        </p>
 
-      <p className="text-base mb-4">
-        All personal information processed using our AI Products is handled in line with our Privacy Notice and our agreement with third parties. This ensures high security and safeguards your personal information throughout the process, giving you peace of mind about your data's safety.
-      </p>
+        <p className="text-base mb-4">
+          All personal information processed using our AI Products is handled in
+          line with our Privacy Notice and our agreement with third parties.
+          This ensures high security and safeguards your personal information
+          throughout the process, giving you peace of mind about your
+          data&quot;s safety.
+        </p>
       </div>
 
       <div className="max-w-3xl mx-auto p-6 sm:p-8 bg-white ">
-      <h2 className="text-2xl font-bold mb-4">7. HOW DO WE HANDLE YOUR SOCIAL LOGINS?</h2>
-      <p className="text-base mb-4">
-        <strong><em>In Short: </em></strong><em>If you choose to register or log in to our Services using a social media account, we may have access to certain information about you.</em>
-      </p>
+        <h2 className="text-2xl font-bold mb-4">
+          7. HOW DO WE HANDLE YOUR SOCIAL LOGINS?
+        </h2>
+        <p className="text-base mb-4">
+          <strong>
+            <em>In Short: </em>
+          </strong>
+          <em>
+            If you choose to register or log in to our Services using a social
+            media account, we may have access to certain information about you.
+          </em>
+        </p>
 
-      <p className="text-base mb-4">
-        Our Services offer you the ability to register and log in using your third-party social media account details (like your Facebook or X logins). Where you choose to do this, we will receive certain profile information about you from your social media provider. The profile information we receive may vary depending on the social media provider concerned, but will often include your name, email address, friends list, and profile picture, as well as other information you choose to make public on such a social media platform. If you log in using Facebook, we may also request access to other permissions related to your account, such as your friends, check-ins, and likes, and you may choose to grant or deny us access to each individual permission.
-      </p>
+        <p className="text-base mb-4">
+          Our Services offer you the ability to register and log in using your
+          third-party social media account details (like your Facebook or X
+          logins). Where you choose to do this, we will receive certain profile
+          information about you from your social media provider. The profile
+          information we receive may vary depending on the social media provider
+          concerned, but will often include your name, email address, friends
+          list, and profile picture, as well as other information you choose to
+          make public on such a social media platform. If you log in using
+          Facebook, we may also request access to other permissions related to
+          your account, such as your friends, check-ins, and likes, and you may
+          choose to grant or deny us access to each individual permission.
+        </p>
 
-      <p className="text-base mb-4">
-        We will use the information we receive only for the purposes that are described in this Privacy Notice or that are otherwise made clear to you on the relevant Services. Please note that we do not control, and are not responsible for, other uses of your personal information by your third-party social media provider. We recommend that you review their privacy notice to understand how they collect, use, and share your personal information, and how you can set your privacy preferences on their sites and apps.
-      </p>
+        <p className="text-base mb-4">
+          We will use the information we receive only for the purposes that are
+          described in this Privacy Notice or that are otherwise made clear to
+          you on the relevant Services. Please note that we do not control, and
+          are not responsible for, other uses of your personal information by
+          your third-party social media provider. We recommend that you review
+          their privacy notice to understand how they collect, use, and share
+          your personal information, and how you can set your privacy
+          preferences on their sites and apps.
+        </p>
       </div>
       <div className="max-w-3xl mx-auto p-6 sm:p-8 bg-white ">
-      <h2 className="text-2xl font-bold mb-4">8. HOW LONG DO WE KEEP YOUR INFORMATION?</h2>
-      <p className="text-base mb-4">
-        <strong><em>In Short: </em></strong><em>We keep your information for as long as necessary to fulfill the purposes outlined in this Privacy Notice unless otherwise required by law.</em>
-      </p>
+        <h2 className="text-2xl font-bold mb-4">
+          8. HOW LONG DO WE KEEP YOUR INFORMATION?
+        </h2>
+        <p className="text-base mb-4">
+          <strong>
+            <em>In Short: </em>
+          </strong>
+          <em>
+            We keep your information for as long as necessary to fulfill the
+            purposes outlined in this Privacy Notice unless otherwise required
+            by law.
+          </em>
+        </p>
 
-      <p className="text-base mb-4">
-        We will only keep your personal information for as long as it is necessary for the purposes set out in this Privacy Notice, unless a longer retention period is required or permitted by law (such as tax, accounting, or other legal requirements). No purpose in this notice will require us keeping your personal information for longer than three (3) months past the termination of the user's account.
-      </p>
+        <p className="text-base mb-4">
+          We will only keep your personal information for as long as it is
+          necessary for the purposes set out in this Privacy Notice, unless a
+          longer retention period is required or permitted by law (such as tax,
+          accounting, or other legal requirements). No purpose in this notice
+          will require us keeping your personal information for longer than
+          three (3) months past the termination of the user&apos;s account.
+        </p>
 
-      <p className="text-base mb-4">
-        When we have no ongoing legitimate business need to process your personal information, we will either delete or anonymize such information, or, if this is not possible (for example, because your personal information has been stored in backup archives), then we will securely store your personal information and isolate it from any further processing until deletion is possible.
-      </p>
+        <p className="text-base mb-4">
+          When we have no ongoing legitimate business need to process your
+          personal information, we will either delete or anonymize such
+          information, or, if this is not possible (for example, because your
+          personal information has been stored in backup archives), then we will
+          securely store your personal information and isolate it from any
+          further processing until deletion is possible.
+        </p>
       </div>
       <div className="max-w-3xl mx-auto p-6 sm:p-8 bg-white ">
-      <h2 className="text-2xl font-bold mb-4">9. DO WE COLLECT INFORMATION FROM MINORS?</h2>
-      <p className="text-base mb-4">
-        <strong><em>In Short:</em></strong><em> We do not knowingly collect data from or market to children under 18 years of age.</em>
-      </p>
+        <h2 className="text-2xl font-bold mb-4">
+          9. DO WE COLLECT INFORMATION FROM MINORS?
+        </h2>
+        <p className="text-base mb-4">
+          <strong>
+            <em>In Short:</em>
+          </strong>
+          <em>
+            {" "}
+            We do not knowingly collect data from or market to children under 18
+            years of age.
+          </em>
+        </p>
 
-      <p className="text-base mb-4">
-        We do not knowingly collect, solicit data from, or market to children under 18 years of age, nor do we knowingly sell such personal information. By using the Services, you represent that you are at least 18 or that you are the parent or guardian of such a minor and consent to such minor dependent’s use of the Services. If we learn that personal information from users less than 18 years of age has been collected, we will deactivate the account and take reasonable measures to promptly delete such data from our records. If you become aware of any data we may have collected from children under age 18, please contact us at <a href="mailto:contact@adrig.co.in" className="text-blue-500 underline">contact@adrig.co.in</a>.
-      </p>
+        <p className="text-base mb-4">
+          We do not knowingly collect, solicit data from, or market to children
+          under 18 years of age, nor do we knowingly sell such personal
+          information. By using the Services, you represent that you are at
+          least 18 or that you are the parent or guardian of such a minor and
+          consent to such minor dependent’s use of the Services. If we learn
+          that personal information from users less than 18 years of age has
+          been collected, we will deactivate the account and take reasonable
+          measures to promptly delete such data from our records. If you become
+          aware of any data we may have collected from children under age 18,
+          please contact us at{" "}
+          <a
+            href="mailto:contact@adrig.co.in"
+            className="text-blue-500 underline"
+          >
+            contact@adrig.co.in
+          </a>
+          .
+        </p>
 
-      <h2 className="text-2xl font-bold mb-4">10. WHAT ARE YOUR PRIVACY RIGHTS?</h2>
-      <p className="text-base mb-4">
-        <strong><em>In Short:</em></strong><em> Depending on your state of residence in the US or in some regions, such as the European Economic Area (EEA), United Kingdom (UK), Switzerland, and Canada, you have rights that allow you greater access to and control over your personal information. You may review, change, or terminate your account at any time, depending on your country, province, or state of residence.</em>
-      </p>
+        <h2 className="text-2xl font-bold mb-4">
+          10. WHAT ARE YOUR PRIVACY RIGHTS?
+        </h2>
+        <p className="text-base mb-4">
+          <strong>
+            <em>In Short:</em>
+          </strong>
+          <em>
+            {" "}
+            Depending on your state of residence in the US or in some regions,
+            such as the European Economic Area (EEA), United Kingdom (UK),
+            Switzerland, and Canada, you have rights that allow you greater
+            access to and control over your personal information. You may
+            review, change, or terminate your account at any time, depending on
+            your country, province, or state of residence.
+          </em>
+        </p>
 
-      <p className="text-base mb-4">
-        In some regions (like the EEA, UK, Switzerland, and Canada), you have certain rights under applicable data protection laws. These may include the right (i) to request access and obtain a copy of your personal information, (ii) to request rectification or erasure; (iii) to restrict the processing of your personal information; (iv) if applicable, to data portability; and (v) not to be subject to automated decision-making. In certain circumstances, you may also have the right to object to the processing of your personal information. You can make such a request by contacting us by using the contact details provided in the section "<a href="#contact" className="text-blue-500 underline">HOW CAN YOU CONTACT US ABOUT THIS NOTICE?</a>" below.
-      </p>
+        <p className="text-base mb-4">
+          In some regions (like the EEA, UK, Switzerland, and Canada), you have
+          certain rights under applicable data protection laws. These may
+          include the right (i) to request access and obtain a copy of your
+          personal information, (ii) to request rectification or erasure; (iii)
+          to restrict the processing of your personal information; (iv) if
+          applicable, to data portability; and (v) not to be subject to
+          automated decision-making. In certain circumstances, you may also have
+          the right to object to the processing of your personal information.
+          You can make such a request by contacting us by using the contact
+          details provided in the section &quot;
+          <a href="#contact" className="text-blue-500 underline">
+            HOW CAN YOU CONTACT US ABOUT THIS NOTICE?
+          </a>
+          &quot; below.
+        </p>
 
-      <p className="text-base mb-4">
-        We will consider and act upon any request in accordance with applicable data protection laws.
-      </p>
+        <p className="text-base mb-4">
+          We will consider and act upon any request in accordance with
+          applicable data protection laws.
+        </p>
 
-      <p className="text-base mb-4">
-        If you are located in the EEA or UK and you believe we are unlawfully processing your personal information, you also have the right to complain to your <a href="https://ec.europa.eu/justice/data-protection/bodies/authorities/index_en.htm" rel="noopener noreferrer" target="_blank" className="text-blue-500 underline">Member State data protection authority</a> or <a href="https://ico.org.uk/make-a-complaint/data-protection-complaints/data-protection-complaints/" rel="noopener noreferrer" target="_blank" className="text-blue-500 underline">UK data protection authority</a>.
-      </p>
+        <p className="text-base mb-4">
+          If you are located in the EEA or UK and you believe we are unlawfully
+          processing your personal information, you also have the right to
+          complain to your{" "}
+          <a
+            href="https://ec.europa.eu/justice/data-protection/bodies/authorities/index_en.htm"
+            rel="noopener noreferrer"
+            target="_blank"
+            className="text-blue-500 underline"
+          >
+            Member State data protection authority
+          </a>{" "}
+          or{" "}
+          <a
+            href="https://ico.org.uk/make-a-complaint/data-protection-complaints/data-protection-complaints/"
+            rel="noopener noreferrer"
+            target="_blank"
+            className="text-blue-500 underline"
+          >
+            UK data protection authority
+          </a>
+          .
+        </p>
 
-      <p className="text-base mb-4">
-        If you are located in Switzerland, you may contact the <a href="https://www.edoeb.admin.ch/edoeb/en/home.html" rel="noopener noreferrer" target="_blank" className="text-blue-500 underline">Federal Data Protection and Information Commissioner</a>.
-      </p>
+        <p className="text-base mb-4">
+          If you are located in Switzerland, you may contact the{" "}
+          <a
+            href="https://www.edoeb.admin.ch/edoeb/en/home.html"
+            rel="noopener noreferrer"
+            target="_blank"
+            className="text-blue-500 underline"
+          >
+            Federal Data Protection and Information Commissioner
+          </a>
+          .
+        </p>
 
-      <p className="text-base mb-4">
-        <strong><u>Withdrawing your consent:</u></strong> If we are relying on your consent to process your personal information, which may be express and/or implied consent depending on the applicable law, you have the right to withdraw your consent at any time. You can withdraw your consent at any time by contacting us by using the contact details provided in the section "<a href="#contact" className="text-blue-500 underline">HOW CAN YOU CONTACT US ABOUT THIS NOTICE?</a>" below or updating your preferences.
-      </p>
+        <p className="text-base mb-4">
+          <strong>
+            <u>Withdrawing your consent:</u>
+          </strong>{" "}
+          If we are relying on your consent to process your personal
+          information, which may be express and/or implied consent depending on
+          the applicable law, you have the right to withdraw your consent at any
+          time. You can withdraw your consent at any time by contacting us by
+          using the contact details provided in the section &quot;
+          <a href="#contact" className="text-blue-500 underline">
+            HOW CAN YOU CONTACT US ABOUT THIS NOTICE?
+          </a>
+          &quot; below or updating your preferences.
+        </p>
 
-      <p className="text-base mb-4">
-        However, please note that this will not affect the lawfulness of the processing before its withdrawal nor, when applicable law allows, will it affect the processing of your personal information conducted in reliance on lawful processing grounds other than consent.
-      </p>
+        <p className="text-base mb-4">
+          However, please note that this will not affect the lawfulness of the
+          processing before its withdrawal nor, when applicable law allows, will
+          it affect the processing of your personal information conducted in
+          reliance on lawful processing grounds other than consent.
+        </p>
 
-      <p className="text-base mb-4">
-        <strong><u>Opting out of marketing and promotional communications:</u></strong> You can unsubscribe from our marketing and promotional communications at any time by clicking on the unsubscribe link in the emails that we send, replying "STOP" or "UNSUBSCRIBE" to the SMS messages that we send, or by contacting us using the details provided in the section "<a href="#contact" className="text-blue-500 underline">HOW CAN YOU CONTACT US ABOUT THIS NOTICE?</a>" below. You will then be removed from the marketing lists. However, we may still communicate with you — for example, to send you service-related messages that are necessary for the administration and use of your account, to respond to service requests, or for other non-marketing purposes.
-      </p>
+        <p className="text-base mb-4">
+          <strong>
+            <u>Opting out of marketing and promotional communications:</u>
+          </strong>{" "}
+          You can unsubscribe from our marketing and promotional communications
+          at any time by clicking on the unsubscribe link in the emails that we
+          send, replying &quot;STOP&quot; or &quot;UNSUBSCRIBE&quot; to the SMS
+          messages that we send, or by contacting us using the details provided
+          in the section &quot;
+          <a href="#contact" className="text-blue-500 underline">
+            HOW CAN YOU CONTACT US ABOUT THIS NOTICE?
+          </a>
+          &quot; below. You will then be removed from the marketing lists.
+          However, we may still communicate with you — for example, to send you
+          service-related messages that are necessary for the administration and
+          use of your account, to respond to service requests, or for other
+          non-marketing purposes.
+        </p>
 
-      <p className="text-base mb-4">
-        No mobile information will be shared with third parties or affiliates for marketing or promotional purposes. Information sharing to subcontractors in support services, such as customer service, is permitted. All other use case categories exclude text messaging originator opt-in data and consent; this information will not be shared with third parties.
-      </p>
+        <p className="text-base mb-4">
+          No mobile information will be shared with third parties or affiliates
+          for marketing or promotional purposes. Information sharing to
+          subcontractors in support services, such as customer service, is
+          permitted. All other use case categories exclude text messaging
+          originator opt-in data and consent; this information will not be
+          shared with third parties.
+        </p>
 
-      <h3 className="text-xl font-bold mb-2">Account Information</h3>
-      <p className="text-base mb-4">
-        If you would at any time like to review or change the information in your account or terminate your account, you can:
-      </p>
-      <ul className="list-disc pl-6 mb-4">
-        <li className="text-base mb-2">Log in to your account settings and update your user account.</li>
-      </ul>
+        <h3 className="text-xl font-bold mb-2">Account Information</h3>
+        <p className="text-base mb-4">
+          If you would at any time like to review or change the information in
+          your account or terminate your account, you can:
+        </p>
+        <ul className="list-disc pl-6 mb-4">
+          <li className="text-base mb-2">
+            Log in to your account settings and update your user account.
+          </li>
+        </ul>
 
-      <p className="text-base mb-4">
-        Upon your request to terminate your account, we will deactivate or delete your account and information from our active databases. However, we may retain some information in our files to prevent fraud, troubleshoot problems, assist with any investigations, enforce our legal terms and/or comply with applicable legal requirements.
-      </p>
+        <p className="text-base mb-4">
+          Upon your request to terminate your account, we will deactivate or
+          delete your account and information from our active databases.
+          However, we may retain some information in our files to prevent fraud,
+          troubleshoot problems, assist with any investigations, enforce our
+          legal terms and/or comply with applicable legal requirements.
+        </p>
 
-      <p className="text-base mb-4">
-        <strong><u>Cookies and similar technologies:</u></strong> Most Web browsers are set to accept cookies by default. If you prefer, you can usually choose to set your browser to remove cookies and to reject cookies. If you choose to remove cookies or reject cookies, this could affect certain features or services of our Services.
-      </p>
+        <p className="text-base mb-4">
+          <strong>
+            <u>Cookies and similar technologies:</u>
+          </strong>{" "}
+          Most Web browsers are set to accept cookies by default. If you prefer,
+          you can usually choose to set your browser to remove cookies and to
+          reject cookies. If you choose to remove cookies or reject cookies,
+          this could affect certain features or services of our Services.
+        </p>
 
-      <p className="text-base mb-4">
-        If you have questions or comments about your privacy rights, you may email us at <a href="mailto:contact@adrig.co.in" className="text-blue-500 underline">contact@adrig.co.in</a>.
-      </p>
+        <p className="text-base mb-4">
+          If you have questions or comments about your privacy rights, you may
+          email us at{" "}
+          <a
+            href="mailto:contact@adrig.co.in"
+            className="text-blue-500 underline"
+          >
+            contact@adrig.co.in
+          </a>
+          .
+        </p>
       </div>
       <div className="max-w-3xl mx-auto p-6 sm:p-8 bg-white ">
-      <h2 className="text-2xl font-bold mb-4">11. CONTROLS FOR DO-NOT-TRACK FEATURES</h2>
-      <p className="text-base mb-4">
-        Most web browsers and some mobile operating systems and mobile applications include a Do-Not-Track ("DNT") feature or setting you can activate to signal your privacy preference not to have data about your online browsing activities monitored and collected. At this stage, no uniform technology standard for recognizing and implementing DNT signals has been finalized. As such, we do not currently respond to DNT browser signals or any other mechanism that automatically communicates your choice not to be tracked online. If a standard for online tracking is adopted that we must follow in the future, we will inform you about that practice in a revised version of this Privacy Notice.
-      </p>
+        <h2 className="text-2xl font-bold mb-4">
+          11. CONTROLS FOR DO-NOT-TRACK FEATURES
+        </h2>
+        <p className="text-base mb-4">
+          Most web browsers and some mobile operating systems and mobile
+          applications include a Do-Not-Track (&quot;DNT&quot;) feature or
+          setting you can activate to signal your privacy preference not to have
+          data about your online browsing activities monitored and collected. At
+          this stage, no uniform technology standard for recognizing and
+          implementing DNT signals has been finalized. As such, we do not
+          currently respond to DNT browser signals or any other mechanism that
+          automatically communicates your choice not to be tracked online. If a
+          standard for online tracking is adopted that we must follow in the
+          future, we will inform you about that practice in a revised version of
+          this Privacy Notice.
+        </p>
 
-      <p className="text-base mb-4">
-        California law requires us to let you know how we respond to web browser DNT signals. Because there currently is not an industry or legal standard for recognizing or honoring DNT signals, we do not respond to them at this time.
-      </p>
+        <p className="text-base mb-4">
+          California law requires us to let you know how we respond to web
+          browser DNT signals. Because there currently is not an industry or
+          legal standard for recognizing or honoring DNT signals, we do not
+          respond to them at this time.
+        </p>
 
-      <h2 className="text-2xl font-bold mb-4">12. DO UNITED STATES RESIDENTS HAVE SPECIFIC PRIVACY RIGHTS?</h2>
-      <p className="text-base mb-4">
-        <strong><em>In Short: </em></strong><em>If you are a resident of California, Colorado, Connecticut, Delaware, Florida, Indiana, Iowa, Kentucky, Minnesota, Montana, Nebraska, New Hampshire, New Jersey, Oregon, Tennessee, Texas, Utah, or Virginia, you may have the right to request access to and receive details about the personal information we maintain about you and how we have processed it, correct inaccuracies, get a copy of, or delete your personal information. You may also have the right to withdraw your consent to our processing of your personal information. These rights may be limited in some circumstances by applicable law. More information is provided below.</em>
-      </p>
+        <h2 className="text-2xl font-bold mb-4">
+          12. DO UNITED STATES RESIDENTS HAVE SPECIFIC PRIVACY RIGHTS?
+        </h2>
+        <p className="text-base mb-4">
+          <strong>
+            <em>In Short: </em>
+          </strong>
+          <em>
+            If you are a resident of California, Colorado, Connecticut,
+            Delaware, Florida, Indiana, Iowa, Kentucky, Minnesota, Montana,
+            Nebraska, New Hampshire, New Jersey, Oregon, Tennessee, Texas, Utah,
+            or Virginia, you may have the right to request access to and receive
+            details about the personal information we maintain about you and how
+            we have processed it, correct inaccuracies, get a copy of, or delete
+            your personal information. You may also have the right to withdraw
+            your consent to our processing of your personal information. These
+            rights may be limited in some circumstances by applicable law. More
+            information is provided below.
+          </em>
+        </p>
       </div>
       <div className="max-w-3xl mx-auto p-6 sm:p-8 bg-white ">
-      <h3 className="text-xl font-bold mb-2">Categories of Personal Information We Collect</h3>
-      <p className="text-base mb-4">We have collected the following categories of personal information in the past twelve (12) months:</p>
+        <h3 className="text-xl font-bold mb-2">
+          Categories of Personal Information We Collect
+        </h3>
+        <p className="text-base mb-4">
+          We have collected the following categories of personal information in
+          the past twelve (12) months:
+        </p>
 
-      <table className="w-full border-collapse table-auto">
-        <thead>
-          <tr>
-            <th className="border px-4 py-2 text-left">Category</th>
-            <th className="border px-4 py-2 text-left">Examples</th>
-            <th className="border px-4 py-2 text-center">Collected</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td className="border px-4 py-2">A. Identifiers</td>
-            <td className="border px-4 py-2">Contact details, such as real name, alias, postal address, telephone or mobile contact number, unique personal identifier, online identifier, Internet Protocol address, email address, and account name</td>
-            <td className="border px-4 py-2 text-center">NO</td>
-          </tr>
-          <tr>
-            <td className="border px-4 py-2">B. Personal information as defined in the California Customer Records statute</td>
-            <td className="border px-4 py-2">Name, contact information, education, employment, employment history, and financial information</td>
-            <td className="border px-4 py-2 text-center">NO</td>
-          </tr>
-          <tr>
-            <td className="border px-4 py-2">C. Protected classification characteristics under state or federal law</td>
-            <td className="border px-4 py-2">Gender, age, date of birth, race and ethnicity, national origin, marital status, and other demographic data</td>
-            <td className="border px-4 py-2 text-center">NO</td>
-          </tr>
-          <tr>
-            <td className="border px-4 py-2">D. Commercial information</td>
-            <td className="border px-4 py-2">Transaction information, purchase history, financial details, and payment information</td>
-            <td className="border px-4 py-2 text-center">NO</td>
-          </tr>
-          <tr>
-            <td className="border px-4 py-2">E. Biometric information</td>
-            <td className="border px-4 py-2">Fingerprints and voiceprints</td>
-            <td className="border px-4 py-2 text-center">NO</td>
-          </tr>
-          <tr>
-            <td className="border px-4 py-2">F. Internet or other similar network activity</td>
-            <td className="border px-4 py-2">Browsing history, search history, online behavior, interest data, and interactions with our and other websites, applications, systems, and advertisements</td>
-            <td className="border px-4 py-2 text-center">NO</td>
-          </tr>
-          <tr>
-            <td className="border px-4 py-2">G. Geolocation data</td>
-            <td className="border px-4 py-2">Device location</td>
-            <td className="border px-4 py-2 text-center">YES</td>
-          </tr>
-          <tr>
-            <td className="border px-4 py-2">H. Audio, electronic, sensory, or similar information</td>
-            <td className="border px-4 py-2">Images and audio, video or call recordings created in connection with our business activities</td>
-            <td className="border px-4 py-2 text-center">NO</td>
-          </tr>
-          <tr>
-            <td className="border px-4 py-2">I. Professional or employment-related information</td>
-            <td className="border px-4 py-2">Business contact details in order to provide you our Services at a business level or job title, work history, and professional qualifications if you apply for a job with us</td>
-            <td className="border px-4 py-2 text-center">NO</td>
-          </tr>
-          <tr>
-            <td className="border px-4 py-2">J. Education Information</td>
-            <td className="border px-4 py-2">Student records and directory information</td>
-            <td className="border px-4 py-2 text-center">NO</td>
-          </tr>
-          <tr>
-            <td className="border px-4 py-2">K. Inferences drawn from collected personal information</td>
-            <td className="border px-4 py-2">Inferences drawn from any of the collected personal information listed above to create a profile or summary about, for example, an individual’s preferences and characteristics</td>
-            <td className="border px-4 py-2 text-center">NO</td>
-          </tr>
-          <tr>
-            <td className="border px-4 py-2">L. Sensitive personal Information</td>
-            <td className="border px-4 py-2"></td>
-            <td className="border px-4 py-2 text-center">NO</td>
-          </tr>
-        </tbody>
-      </table>
+        <table className="w-full border-collapse table-auto">
+          <thead>
+            <tr>
+              <th className="border px-4 py-2 text-left">Category</th>
+              <th className="border px-4 py-2 text-left">Examples</th>
+              <th className="border px-4 py-2 text-center">Collected</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td className="border px-4 py-2">A. Identifiers</td>
+              <td className="border px-4 py-2">
+                Contact details, such as real name, alias, postal address,
+                telephone or mobile contact number, unique personal identifier,
+                online identifier, Internet Protocol address, email address, and
+                account name
+              </td>
+              <td className="border px-4 py-2 text-center">NO</td>
+            </tr>
+            <tr>
+              <td className="border px-4 py-2">
+                B. Personal information as defined in the California Customer
+                Records statute
+              </td>
+              <td className="border px-4 py-2">
+                Name, contact information, education, employment, employment
+                history, and financial information
+              </td>
+              <td className="border px-4 py-2 text-center">NO</td>
+            </tr>
+            <tr>
+              <td className="border px-4 py-2">
+                C. Protected classification characteristics under state or
+                federal law
+              </td>
+              <td className="border px-4 py-2">
+                Gender, age, date of birth, race and ethnicity, national origin,
+                marital status, and other demographic data
+              </td>
+              <td className="border px-4 py-2 text-center">NO</td>
+            </tr>
+            <tr>
+              <td className="border px-4 py-2">D. Commercial information</td>
+              <td className="border px-4 py-2">
+                Transaction information, purchase history, financial details,
+                and payment information
+              </td>
+              <td className="border px-4 py-2 text-center">NO</td>
+            </tr>
+            <tr>
+              <td className="border px-4 py-2">E. Biometric information</td>
+              <td className="border px-4 py-2">Fingerprints and voiceprints</td>
+              <td className="border px-4 py-2 text-center">NO</td>
+            </tr>
+            <tr>
+              <td className="border px-4 py-2">
+                F. Internet or other similar network activity
+              </td>
+              <td className="border px-4 py-2">
+                Browsing history, search history, online behavior, interest
+                data, and interactions with our and other websites,
+                applications, systems, and advertisements
+              </td>
+              <td className="border px-4 py-2 text-center">NO</td>
+            </tr>
+            <tr>
+              <td className="border px-4 py-2">G. Geolocation data</td>
+              <td className="border px-4 py-2">Device location</td>
+              <td className="border px-4 py-2 text-center">YES</td>
+            </tr>
+            <tr>
+              <td className="border px-4 py-2">
+                H. Audio, electronic, sensory, or similar information
+              </td>
+              <td className="border px-4 py-2">
+                Images and audio, video or call recordings created in connection
+                with our business activities
+              </td>
+              <td className="border px-4 py-2 text-center">NO</td>
+            </tr>
+            <tr>
+              <td className="border px-4 py-2">
+                I. Professional or employment-related information
+              </td>
+              <td className="border px-4 py-2">
+                Business contact details in order to provide you our Services at
+                a business level or job title, work history, and professional
+                qualifications if you apply for a job with us
+              </td>
+              <td className="border px-4 py-2 text-center">NO</td>
+            </tr>
+            <tr>
+              <td className="border px-4 py-2">J. Education Information</td>
+              <td className="border px-4 py-2">
+                Student records and directory information
+              </td>
+              <td className="border px-4 py-2 text-center">NO</td>
+            </tr>
+            <tr>
+              <td className="border px-4 py-2">
+                K. Inferences drawn from collected personal information
+              </td>
+              <td className="border px-4 py-2">
+                Inferences drawn from any of the collected personal information
+                listed above to create a profile or summary about, for example,
+                an individual’s preferences and characteristics
+              </td>
+              <td className="border px-4 py-2 text-center">NO</td>
+            </tr>
+            <tr>
+              <td className="border px-4 py-2">
+                L. Sensitive personal Information
+              </td>
+              <td className="border px-4 py-2"></td>
+              <td className="border px-4 py-2 text-center">NO</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
       <div className="max-w-3xl mx-auto p-6 sm:p-8 bg-white ">
-      <p className="text-base mb-4">
-        We may also collect other personal information outside of these categories through instances where you interact with us in person, online, or by phone or mail in the context of:
-      </p>
-      <ul className="list-disc pl-6 mb-4">
-        <li className="text-base mb-2">Receiving help through our customer support channels;</li>
-        <li className="text-base mb-2">Participation in customer surveys or contests; and</li>
-        <li className="text-base mb-2">Facilitation in the delivery of our Services and to respond to your inquiries.</li>
-      </ul>
+        <p className="text-base mb-4">
+          We may also collect other personal information outside of these
+          categories through instances where you interact with us in person,
+          online, or by phone or mail in the context of:
+        </p>
+        <ul className="list-disc pl-6 mb-4">
+          <li className="text-base mb-2">
+            Receiving help through our customer support channels;
+          </li>
+          <li className="text-base mb-2">
+            Participation in customer surveys or contests; and
+          </li>
+          <li className="text-base mb-2">
+            Facilitation in the delivery of our Services and to respond to your
+            inquiries.
+          </li>
+        </ul>
 
-      <p className="text-base mb-4">
-        We will use and retain the collected personal information as needed to provide the Services or for:
-      </p>
-      <ul className="list-disc pl-6 mb-4">
-        <li className="text-base mb-2">Category G - As long as the user has an account with us</li>
-        <li className="text-base mb-2">Category H - As long as the user has an account with us</li>
-      </ul>
+        <p className="text-base mb-4">
+          We will use and retain the collected personal information as needed to
+          provide the Services or for:
+        </p>
+        <ul className="list-disc pl-6 mb-4">
+          <li className="text-base mb-2">
+            Category G - As long as the user has an account with us
+          </li>
+          <li className="text-base mb-2">
+            Category H - As long as the user has an account with us
+          </li>
+        </ul>
 
-      <h3 className="text-xl font-bold mb-2">Sources of Personal Information</h3>
-      <p className="text-base mb-4">
-        Learn more about the sources of personal information we collect in "<a href="#infocollect" className="text-blue-500 underline">WHAT INFORMATION DO WE COLLECT?</a>"
-      </p>
+        <h3 className="text-xl font-bold mb-2">
+          Sources of Personal Information
+        </h3>
+        <p className="text-base mb-4">
+          Learn more about the sources of personal information we collect in &quot;
+          <a href="#infocollect" className="text-blue-500 underline">
+            WHAT INFORMATION DO WE COLLECT?
+          </a>
+          &quot;
+        </p>
 
-      <h3 className="text-xl font-bold mb-2">How We Use and Share Personal Information</h3>
-      <p className="text-base mb-4">
-        Learn more about how we use your personal information in the section, "<a href="#infouse" className="text-blue-500 underline">HOW DO WE PROCESS YOUR INFORMATION?</a>"
-      </p>
+        <h3 className="text-xl font-bold mb-2">
+          How We Use and Share Personal Information
+        </h3>
+        <p className="text-base mb-4">
+          Learn more about how we use your personal information in the section,
+          &quot;
+          <a href="#infouse" className="text-blue-500 underline">
+            HOW DO WE PROCESS YOUR INFORMATION?
+          </a>
+          &quot;
+        </p>
 
-      <p className="text-base mb-4">
-        <strong>Will your information be shared with anyone else?</strong>
-      </p>
+        <p className="text-base mb-4">
+          <strong>Will your information be shared with anyone else?</strong>
+        </p>
 
-      <p className="text-base mb-4">
-        We may disclose your personal information with our service providers pursuant to a written contract between us and each service provider. Learn more about how we disclose personal information to in the section, "<a href="#whoshare" className="text-blue-500 underline">WHEN AND WITH WHOM DO WE SHARE YOUR PERSONAL INFORMATION?</a>"
-      </p>
+        <p className="text-base mb-4">
+          We may disclose your personal information with our service providers
+          pursuant to a written contract between us and each service provider.
+          Learn more about how we disclose personal information to in the
+          section,  &quot;
+          <a href="#whoshare" className="text-blue-500 underline">
+            WHEN AND WITH WHOM DO WE SHARE YOUR PERSONAL INFORMATION?
+          </a>
+          &quot;
+        </p>
 
-      <p className="text-base mb-4">
-        We may use your personal information for our own business purposes, such as for undertaking internal research for technological development and demonstration. This is not considered to be "selling" of your personal information.
-      </p>
+        <p className="text-base mb-4">
+          We may use your personal information for our own business purposes,
+          such as for undertaking internal research for technological
+          development and demonstration. This is not considered to be  &quot;selling &quot;
+          of your personal information.
+        </p>
 
-      <p className="text-base mb-4">
-        We have not disclosed, sold, or shared any personal information to third parties for a business or commercial purpose in the preceding twelve (12) months. We will not sell or share personal information in the future belonging to website visitors, users, and other consumers.
-      </p>
+        <p className="text-base mb-4">
+          We have not disclosed, sold, or shared any personal information to
+          third parties for a business or commercial purpose in the preceding
+          twelve (12) months. We will not sell or share personal information in
+          the future belonging to website visitors, users, and other consumers.
+        </p>
       </div>
       <div className="max-w-3xl mx-auto p-6 sm:p-8 bg-white ">
-      <h3 className="text-xl font-bold mb-2">Your Rights</h3>
-      <p className="text-base mb-4">
-        You have rights under certain US state data protection laws. However, these rights are not absolute, and in certain cases, we may decline your request as permitted by law. These rights include:
-      </p>
-      <ul className="list-disc pl-6 mb-4">
-        <li className="text-base mb-2"><strong>Right to know</strong> whether or not we are processing your personal data</li>
-        <li className="text-base mb-2"><strong>Right to access</strong> your personal data</li>
-        <li className="text-base mb-2"><strong>Right to correct</strong> inaccuracies in your personal data</li>
-        <li className="text-base mb-2"><strong>Right to request</strong> the deletion of your personal data</li>
-        <li className="text-base mb-2"><strong>Right to obtain a copy</strong> of the personal data you previously shared with us</li>
-        <li className="text-base mb-2"><strong>Right to non-discrimination</strong> for exercising your rights</li>
-        <li className="text-base mb-2">
-          <strong>Right to opt out</strong> of the processing of your personal data if it is used for targeted advertising (or sharing as defined under California’s privacy law), the sale of personal data, or profiling in furtherance of decisions that produce legal or similarly significant effects ("profiling")
-        </li>
-      </ul>
+        <h3 className="text-xl font-bold mb-2">Your Rights</h3>
+        <p className="text-base mb-4">
+          You have rights under certain US state data protection laws. However,
+          these rights are not absolute, and in certain cases, we may decline
+          your request as permitted by law. These rights include:
+        </p>
+        <ul className="list-disc pl-6 mb-4">
+          <li className="text-base mb-2">
+            <strong>Right to know</strong> whether or not we are processing your
+            personal data
+          </li>
+          <li className="text-base mb-2">
+            <strong>Right to access</strong> your personal data
+          </li>
+          <li className="text-base mb-2">
+            <strong>Right to correct</strong> inaccuracies in your personal data
+          </li>
+          <li className="text-base mb-2">
+            <strong>Right to request</strong> the deletion of your personal data
+          </li>
+          <li className="text-base mb-2">
+            <strong>Right to obtain a copy</strong> of the personal data you
+            previously shared with us
+          </li>
+          <li className="text-base mb-2">
+            <strong>Right to non-discrimination</strong> for exercising your
+            rights
+          </li>
+          <li className="text-base mb-2">
+            <strong>Right to opt out</strong> of the processing of your personal
+            data if it is used for targeted advertising (or sharing as defined
+            under California’s privacy law), the sale of personal data, or
+            profiling in furtherance of decisions that produce legal or
+            similarly significant effects ( &quot;profiling &quot;)
+          </li>
+        </ul>
 
-      <p className="text-base mb-4">Depending upon the state where you live, you may also have the following rights:</p>
-      <ul className="list-disc pl-6 mb-4">
-        <li className="text-base mb-2">
-          Right to access the categories of personal data being processed (as permitted by applicable law, including Minnesota’s privacy law)
-        </li>
-        <li className="text-base mb-2">
-          Right to obtain a list of the categories of third parties to which we have disclosed personal data (as permitted by applicable law, including California's and Delaware's privacy law)
-        </li>
-        <li className="text-base mb-2">
-          Right to obtain a list of specific third parties to which we have disclosed personal data (as permitted by applicable law, including Minnesota's and Oregon's privacy law)
-        </li>
-        <li className="text-base mb-2">
-          Right to review, understand, question, and correct how personal data has been profiled (as permitted by applicable law, including Minnesota’s privacy law)
-        </li>
-        <li className="text-base mb-2">
-          Right to limit use and disclosure of sensitive personal data (as permitted by applicable law, including California’s privacy law)
-        </li>
-        <li className="text-base mb-2">
-          Right to opt out of the collection of sensitive data and personal data collected through the operation of a voice or facial recognition feature (as permitted by applicable law, including Florida’s privacy law)
-        </li>
-      </ul>
+        <p className="text-base mb-4">
+          Depending upon the state where you live, you may also have the
+          following rights:
+        </p>
+        <ul className="list-disc pl-6 mb-4">
+          <li className="text-base mb-2">
+            Right to access the categories of personal data being processed (as
+            permitted by applicable law, including Minnesota’s privacy law)
+          </li>
+          <li className="text-base mb-2">
+            Right to obtain a list of the categories of third parties to which
+            we have disclosed personal data (as permitted by applicable law,
+            including California&apos;s and Delaware&apos;s privacy law)
+          </li>
+          <li className="text-base mb-2">
+            Right to obtain a list of specific third parties to which we have
+            disclosed personal data (as permitted by applicable law, including
+            Minnesota&apos;s and Oregon&apos;s privacy law)
+          </li>
+          <li className="text-base mb-2">
+            Right to review, understand, question, and correct how personal data
+            has been profiled (as permitted by applicable law, including
+            Minnesota’s privacy law)
+          </li>
+          <li className="text-base mb-2">
+            Right to limit use and disclosure of sensitive personal data (as
+            permitted by applicable law, including California’s privacy law)
+          </li>
+          <li className="text-base mb-2">
+            Right to opt out of the collection of sensitive data and personal
+            data collected through the operation of a voice or facial
+            recognition feature (as permitted by applicable law, including
+            Florida’s privacy law)
+          </li>
+        </ul>
       </div>
       <div className="max-w-3xl mx-auto p-6 sm:p-8 bg-white ">
-      <h3 className="text-xl font-bold mb-2">How to Exercise Your Rights</h3>
-      <p className="text-base mb-4">
-        To exercise these rights, you can contact us by submitting a <a href="https://app.termly.io/notify/186825a0-ea5f-478f-8a9a-14a618f16ea9" rel="noopener noreferrer" target="_blank" className="text-blue-500 underline">data subject access request</a>, by emailing us at <a href="mailto:contact@adrig.co.in" className="text-blue-500 underline">contact@adrig.co.in</a>, or by referring to the contact details at the bottom of this document.
-      </p>
+        <h3 className="text-xl font-bold mb-2">How to Exercise Your Rights</h3>
+        <p className="text-base mb-4">
+          To exercise these rights, you can contact us by submitting a{" "}
+          <a
+            href="https://app.termly.io/notify/186825a0-ea5f-478f-8a9a-14a618f16ea9"
+            rel="noopener noreferrer"
+            target="_blank"
+            className="text-blue-500 underline"
+          >
+            data subject access request
+          </a>
+          , by emailing us at{" "}
+          <a
+            href="mailto:contact@adrig.co.in"
+            className="text-blue-500 underline"
+          >
+            contact@adrig.co.in
+          </a>
+          , or by referring to the contact details at the bottom of this
+          document.
+        </p>
 
-      <p className="text-base mb-4">
-        Under certain US state data protection laws, you can designate an authorized agent to make a request on your behalf. We may deny a request from an authorized agent that does not submit proof that they have been validly authorized to act on your behalf in accordance with applicable laws.
-      </p>
+        <p className="text-base mb-4">
+          Under certain US state data protection laws, you can designate an
+          authorized agent to make a request on your behalf. We may deny a
+          request from an authorized agent that does not submit proof that they
+          have been validly authorized to act on your behalf in accordance with
+          applicable laws.
+        </p>
 
-      <h3 className="text-xl font-bold mb-2">Request Verification</h3>
-      <p className="text-base mb-4">
-        Upon receiving your request, we will need to verify your identity to determine you are the same person about whom we have the information in our system. We will only use personal information provided in your request to verify your identity or authority to make the request. However, if we cannot verify your identity from the information already maintained by us, we may request that you provide additional information for the purposes of verifying your identity and for security or fraud-prevention purposes.
-      </p>
+        <h3 className="text-xl font-bold mb-2">Request Verification</h3>
+        <p className="text-base mb-4">
+          Upon receiving your request, we will need to verify your identity to
+          determine you are the same person about whom we have the information
+          in our system. We will only use personal information provided in your
+          request to verify your identity or authority to make the request.
+          However, if we cannot verify your identity from the information
+          already maintained by us, we may request that you provide additional
+          information for the purposes of verifying your identity and for
+          security or fraud-prevention purposes.
+        </p>
 
-      <p className="text-base mb-4">
-        If you submit the request through an authorized agent, we may need to collect additional information to verify your identity before processing your request and the agent will need to provide a written and signed permission from you to submit such request on your behalf.
-      </p>
+        <p className="text-base mb-4">
+          If you submit the request through an authorized agent, we may need to
+          collect additional information to verify your identity before
+          processing your request and the agent will need to provide a written
+          and signed permission from you to submit such request on your behalf.
+        </p>
 
-      <h3 className="text-xl font-bold mb-2">Appeals</h3>
-      <p className="text-base mb-4">
-        Under certain US state data protection laws, if we decline to take action regarding your request, you may appeal our decision by emailing us at <a href="mailto:contact@adrig.co.in" className="text-blue-500 underline">contact@adrig.co.in</a>. We will inform you in writing of any action taken or not taken in response to the appeal, including a written explanation of the reasons for the decisions. If your appeal is denied, you may submit a complaint to your state attorney general.
-      </p>
+        <h3 className="text-xl font-bold mb-2">Appeals</h3>
+        <p className="text-base mb-4">
+          Under certain US state data protection laws, if we decline to take
+          action regarding your request, you may appeal our decision by emailing
+          us at{" "}
+          <a
+            href="mailto:contact@adrig.co.in"
+            className="text-blue-500 underline"
+          >
+            contact@adrig.co.in
+          </a>
+          . We will inform you in writing of any action taken or not taken in
+          response to the appeal, including a written explanation of the reasons
+          for the decisions. If your appeal is denied, you may submit a
+          complaint to your state attorney general.
+        </p>
 
-      <h3 className="text-xl font-bold mb-2">California "Shine The Light" Law</h3>
-      <p className="text-base mb-4">
-        California Civil Code Section 1798.83, also known as the "Shine The Light" law, permits our users who are California residents to request and obtain from us, once a year and free of charge, information about categories of personal information (if any) we disclosed to third parties for direct marketing purposes and the names and addresses of all third parties with which we shared personal information in the immediately preceding calendar year. If you are a California resident and would like to make such a request, please submit your request in writing to us by using the contact details provided in the section "<a href="#contact" className="text-blue-500 underline">HOW CAN YOU CONTACT US ABOUT THIS NOTICE?</a>".
-      </p>
+        <h3 className="text-xl font-bold mb-2">
+          California  &quot;Shine The Light&quot; Law
+        </h3>
+        <p className="text-base mb-4">
+          California Civil Code Section 1798.83, also known as the  &quot;Shine The
+          Light &quot; law, permits our users who are California residents to request
+          and obtain from us, once a year and free of charge, information about
+          categories of personal information (if any) we disclosed to third
+          parties for direct marketing purposes and the names and addresses of
+          all third parties with which we shared personal information in the
+          immediately preceding calendar year. If you are a California resident
+          and would like to make such a request, please submit your request in
+          writing to us by using the contact details provided in the section  &quot;
+          <a href="#contact" className="text-blue-500 underline">
+            HOW CAN YOU CONTACT US ABOUT THIS NOTICE?
+          </a>
+          &quot;.
+        </p>
       </div>
 
       <div className="max-w-3xl mx-auto p-6 sm:p-8 bg-white ">
-      <h2 className="text-2xl font-bold mb-4">13. DO OTHER REGIONS HAVE SPECIFIC PRIVACY RIGHTS?</h2>
-      <p className="text-base mb-4">
-        <em><strong>In Short:</strong> You may have additional rights based on the country you reside in.</em>
-      </p>
+        <h2 className="text-2xl font-bold mb-4">
+          13. DO OTHER REGIONS HAVE SPECIFIC PRIVACY RIGHTS?
+        </h2>
+        <p className="text-base mb-4">
+          <em>
+            <strong>In Short:</strong> You may have additional rights based on
+            the country you reside in.
+          </em>
+        </p>
 
-      <h3 className="text-xl font-bold mb-2">Australia and New Zealand</h3>
-      <p className="text-base mb-4">
-        We collect and process your personal information under the obligations and conditions set by Australia's Privacy Act 1988 and New Zealand's Privacy Act 2020 (Privacy Act).
-      </p>
+        <h3 className="text-xl font-bold mb-2">Australia and New Zealand</h3>
+        <p className="text-base mb-4">
+          We collect and process your personal information under the obligations
+          and conditions set by Australia&apos;s Privacy Act 1988 and New Zealand&apos;s
+          Privacy Act 2020 (Privacy Act).
+        </p>
 
-      <p className="text-base mb-4">
-        This Privacy Notice satisfies the notice requirements defined in both Privacy Acts, in particular: what personal information we collect from you, from which sources, for which purposes, and other recipients of your personal information.
-      </p>
+        <p className="text-base mb-4">
+          This Privacy Notice satisfies the notice requirements defined in both
+          Privacy Acts, in particular: what personal information we collect from
+          you, from which sources, for which purposes, and other recipients of
+          your personal information.
+        </p>
 
-      <p className="text-base mb-4">
-        If you do not wish to provide the personal information necessary to fulfill their applicable purpose, it may affect our ability to provide our services, in particular:
-      </p>
-      <ul className="list-disc pl-6 mb-4">
-        <li className="text-base mb-2">offer you the products or services that you want</li>
-        <li className="text-base mb-2">respond to or help with your requests</li>
-        <li className="text-base mb-2">manage your account with us</li>
-        <li className="text-base mb-2">confirm your identity and protect your account</li>
-      </ul>
+        <p className="text-base mb-4">
+          If you do not wish to provide the personal information necessary to
+          fulfill their applicable purpose, it may affect our ability to provide
+          our services, in particular:
+        </p>
+        <ul className="list-disc pl-6 mb-4">
+          <li className="text-base mb-2">
+            offer you the products or services that you want
+          </li>
+          <li className="text-base mb-2">
+            respond to or help with your requests
+          </li>
+          <li className="text-base mb-2">manage your account with us</li>
+          <li className="text-base mb-2">
+            confirm your identity and protect your account
+          </li>
+        </ul>
 
-      <p className="text-base mb-4">
-        At any time, you have the right to request access to or correction of your personal information. You can make such a request by contacting us by using the contact details provided in the section "<a href="#request" className="text-blue-500 underline">HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE COLLECT FROM YOU?</a>".
-      </p>
+        <p className="text-base mb-4">
+          At any time, you have the right to request access to or correction of
+          your personal information. You can make such a request by contacting
+          us by using the contact details provided in the section  &quot;
+          <a href="#request" className="text-blue-500 underline">
+            HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE COLLECT FROM YOU?
+          </a>
+          &quot;.
+        </p>
 
-      <p className="text-base mb-4">
-        If you believe we are unlawfully processing your personal information, you have the right to submit a complaint about a breach of the Australian Privacy Principles to the <a href="https://www.oaic.gov.au/privacy/privacy-complaints/lodge-a-privacy-complaint-with-us" rel="noopener noreferrer" target="_blank" className="text-blue-500 underline">Office of the Australian Information Commissioner</a> and a breach of New Zealand's Privacy Principles to the <a href="https://www.privacy.org.nz/your-rights/making-a-complaint/" rel="noopener noreferrer" target="_blank" className="text-blue-500 underline">Office of New Zealand Privacy Commissioner</a>.
-      </p>
+        <p className="text-base mb-4">
+          If you believe we are unlawfully processing your personal information,
+          you have the right to submit a complaint about a breach of the
+          Australian Privacy Principles to the{" "}
+          <a
+            href="https://www.oaic.gov.au/privacy/privacy-complaints/lodge-a-privacy-complaint-with-us"
+            rel="noopener noreferrer"
+            target="_blank"
+            className="text-blue-500 underline"
+          >
+            Office of the Australian Information Commissioner
+          </a>{" "}
+          and a breach of New Zealand&apos;s Privacy Principles to the{" "}
+          <a
+            href="https://www.privacy.org.nz/your-rights/making-a-complaint/"
+            rel="noopener noreferrer"
+            target="_blank"
+            className="text-blue-500 underline"
+          >
+            Office of New Zealand Privacy Commissioner
+          </a>
+          .
+        </p>
 
-      <h3 className="text-xl font-bold mb-2">Republic of South Africa</h3>
-      <p className="text-base mb-4">
-        At any time, you have the right to request access to or correction of your personal information. You can make such a request by contacting us by using the contact details provided in the section "<a href="#request" className="text-blue-500 underline">HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE COLLECT FROM YOU?</a>".
-      </p>
+        <h3 className="text-xl font-bold mb-2">Republic of South Africa</h3>
+        <p className="text-base mb-4">
+          At any time, you have the right to request access to or correction of
+          your personal information. You can make such a request by contacting
+          us by using the contact details provided in the section  &quot;
+          <a href="#request" className="text-blue-500 underline">
+            HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE COLLECT FROM YOU?
+          </a>
+          &quot;.
+        </p>
 
-      <p className="text-base mb-4">
-        If you are unsatisfied with the manner in which we address any complaint with regard to our processing of personal information, you can contact the office of the regulator, the details of which are:
-      </p>
+        <p className="text-base mb-4">
+          If you are unsatisfied with the manner in which we address any
+          complaint with regard to our processing of personal information, you
+          can contact the office of the regulator, the details of which are:
+        </p>
 
-      <a href="https://inforegulator.org.za/" rel="noopener noreferrer" target="_blank" className="text-blue-500 underline">The Information Regulator (South Africa)</a>
-      <p className="text-base mb-4">General enquiries: <a href="mailto:enquiries@inforegulator.org.za" rel="noopener noreferrer" target="_blank" className="text-blue-500 underline">enquiries@inforegulator.org.za</a></p>
-      <p className="text-base mb-4">Complaints (complete POPIA/PAIA form 5): <a href="mailto:PAIAComplaints@inforegulator.org.za" rel="noopener noreferrer" target="_blank" className="text-blue-500 underline">PAIAComplaints@inforegulator.org.za</a> & <a href="mailto:POPIAComplaints@inforegulator.org.za" rel="noopener noreferrer" target="_blank" className="text-blue-500 underline">POPIAComplaints@inforegulator.org.za</a></p>
+        <a
+          href="https://inforegulator.org.za/"
+          rel="noopener noreferrer"
+          target="_blank"
+          className="text-blue-500 underline"
+        >
+          The Information Regulator (South Africa)
+        </a>
+        <p className="text-base mb-4">
+          General enquiries:{" "}
+          <a
+            href="mailto:enquiries@inforegulator.org.za"
+            rel="noopener noreferrer"
+            target="_blank"
+            className="text-blue-500 underline"
+          >
+            enquiries@inforegulator.org.za
+          </a>
+        </p>
+        <p className="text-base mb-4">
+          Complaints (complete POPIA/PAIA form 5):{" "}
+          <a
+            href="mailto:PAIAComplaints@inforegulator.org.za"
+            rel="noopener noreferrer"
+            target="_blank"
+            className="text-blue-500 underline"
+          >
+            PAIAComplaints@inforegulator.org.za
+          </a>{" "}
+          &{" "}
+          <a
+            href="mailto:POPIAComplaints@inforegulator.org.za"
+            rel="noopener noreferrer"
+            target="_blank"
+            className="text-blue-500 underline"
+          >
+            POPIAComplaints@inforegulator.org.za
+          </a>
+        </p>
 
-      <h2 className="text-2xl font-bold mb-4">14. DO WE MAKE UPDATES TO THIS NOTICE?</h2>
-      <p className="text-base mb-4">
-        <em><strong>In Short: </strong>Yes, we will update this notice as necessary to stay compliant with relevant laws.</em>
-      </p>
+        <h2 className="text-2xl font-bold mb-4">
+          14. DO WE MAKE UPDATES TO THIS NOTICE?
+        </h2>
+        <p className="text-base mb-4">
+          <em>
+            <strong>In Short: </strong>Yes, we will update this notice as
+            necessary to stay compliant with relevant laws.
+          </em>
+        </p>
 
-      <p className="text-base mb-4">
-        We may update this Privacy Notice from time to time. The updated version will be indicated by an updated "Revised" date at the top of this Privacy Notice. If we make material changes to this Privacy Notice, we may notify you either by prominently posting a notice of such changes or by directly sending you a notification. We encourage you to review this Privacy Notice frequently to be informed of how we are protecting your information.
-      </p>
+        <p className="text-base mb-4">
+          We may update this Privacy Notice from time to time. The updated
+          version will be indicated by an updated  &quot;Revised&quot; date at the top of
+          this Privacy Notice. If we make material changes to this Privacy
+          Notice, we may notify you either by prominently posting a notice of
+          such changes or by directly sending you a notification. We encourage
+          you to review this Privacy Notice frequently to be informed of how we
+          are protecting your information.
+        </p>
       </div>
       <div className="max-w-3xl mx-auto p-6 sm:p-8 bg-white ">
-      <h2 className="text-2xl font-bold mb-4">15. HOW CAN YOU CONTACT US ABOUT THIS NOTICE?</h2>
-      <p className="text-base mb-4">
-        If you have questions or comments about this notice, you may email us at <a href="mailto:contact@adrig.co.in" className="text-blue-500 underline">contact@adrig.co.in</a> or contact us by post at:
-      </p>
+        <h2 className="text-2xl font-bold mb-4">
+          15. HOW CAN YOU CONTACT US ABOUT THIS NOTICE?
+        </h2>
+        <p className="text-base mb-4">
+          If you have questions or comments about this notice, you may email us
+          at{" "}
+          <a
+            href="mailto:contact@adrig.co.in"
+            className="text-blue-500 underline"
+          >
+            contact@adrig.co.in
+          </a>{" "}
+          or contact us by post at:
+        </p>
 
-      <p className="text-base mb-4">
-        ADRIG AI Technologies Private Limited
-        <br />
-        No. 2, Sangothi amman kovil 3rd cross street, Sembakkam, Chennai
-        <br />
-        Chennai, Tamil Nadu 600073
-        <br />
-        India
-      </p>
+        <p className="text-base mb-4">
+          ADRIG AI Technologies Private Limited
+          <br />
+          No. 2, Sangothi amman kovil 3rd cross street, Sembakkam, Chennai
+          <br />
+          Chennai, Tamil Nadu 600073
+          <br />
+          India
+        </p>
 
-      <h2 className="text-2xl font-bold mb-4">16. HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE COLLECT FROM YOU?</h2>
-      <p className="text-base mb-4">
-        Based on the applicable laws of your country or state of residence in the US, you may have the right to request access to the personal information we collect from you, details about how we have processed it, correct inaccuracies, or delete your personal information. You may also have the right to withdraw your consent to our processing of your personal information. These rights may be limited in some circumstances by applicable law. To request to review, update, or delete your personal information, please fill out and submit a <a href="https://app.termly.io/notify/186825a0-ea5f-478f-8a9a-14a618f16ea9" rel="noopener noreferrer" target="_blank" className="text-blue-500 underline">data subject access request</a>.
-      </p>
+        <h2 className="text-2xl font-bold mb-4">
+          16. HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE COLLECT FROM
+          YOU?
+        </h2>
+        <p className="text-base mb-4">
+          Based on the applicable laws of your country or state of residence in
+          the US, you may have the right to request access to the personal
+          information we collect from you, details about how we have processed
+          it, correct inaccuracies, or delete your personal information. You may
+          also have the right to withdraw your consent to our processing of your
+          personal information. These rights may be limited in some
+          circumstances by applicable law. To request to review, update, or
+          delete your personal information, please fill out and submit a{" "}
+          <a
+            href="https://app.termly.io/notify/186825a0-ea5f-478f-8a9a-14a618f16ea9"
+            rel="noopener noreferrer"
+            target="_blank"
+            className="text-blue-500 underline"
+          >
+            data subject access request
+          </a>
+          .
+        </p>
       </div>
     </div>
   )
