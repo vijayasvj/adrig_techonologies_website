@@ -77,6 +77,10 @@ const Navbar = () => {
               selectedNavBar={setSelectedNavBar}
             />
           )}
+          <Link
+            href={"/case-study"}
+            className="flex items-center uppercase space-x-2 cursor-pointer"
+          >Case Studies</Link>
           <Link href="/contact-us">
             <Button className="uppercase bg-blue-700 hover:bg-blue-800 text-white px-4 py-1 lg:py-2 font-medium">
               Contact Us
