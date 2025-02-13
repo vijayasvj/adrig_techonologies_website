@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const BlogPage: React.FC = () => {
   return (
@@ -102,12 +103,13 @@ const BlogPage: React.FC = () => {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 py-3">
           {[1, 2, 3].map((item) => (
-            <img
+            <Image
               key={item}
               src={`/images/${item}.png`}
               alt={`Meeting with Southern Railways - ${item}`}
               className="w-full h-64 object-cover rounded-lg"
             />
+
           ))}
         </div>
       </section>

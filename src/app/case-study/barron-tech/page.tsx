@@ -30,13 +30,13 @@ const BlogPage: React.FC = () => {
           {/* Section 2 */}
           <section className="mb-12">
             <h2 className="text-2xl font-bold text-gray-900 mb-4">The Solution with ADRIG AI Technologies</h2>
-            <p className="text-gray-700 leading-relaxed mb-6">To address these challenges, ADRIG AI Technologies developed a comprehensive application tailored to Barron Tech's needs. The solution combined real-time GPS tracking with an advanced employee management system, ensuring accurate travel data and streamlined administrative processes.</p>
+            <p className="text-gray-700 leading-relaxed mb-6">To address these challenges, ADRIG AI Technologies developed a comprehensive application tailored to {"Barron Tech's"} needs. The solution combined real-time GPS tracking with an advanced employee management system, ensuring accurate travel data and streamlined administrative processes.</p>
 
             <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-1 gap-6">
               <div className="bg-gray-100 p-6 rounded-lg">
                 <h3 className="font-semibold text-gray-900">Key Features of the Solution:</h3>
                 <ul className="text-gray-700 mt-2 list-disc pl-5">
-                  <li>Real-Time GPS Tracking: The application tracks employees' movements in real time, providing precise data on distances traveled.</li>
+                  <li>Real-Time GPS Tracking: The application tracks {"employees'"} movements in real time, providing precise data on distances traveled.</li>
                   <li>Automated Reimbursement Calculations: The system calculates reimbursements based on actual distances traveled, eliminating the potential for fraudulent claims.</li>
                   <li>Comprehensive Employee Management: Integrated features for tracking attendance, leaves, and performance metrics.</li>
                   <li>User-Friendly Interface: A responsive web application that offers easy navigation for both employees and management.</li>
@@ -87,7 +87,7 @@ const BlogPage: React.FC = () => {
           {/* Section 5 */}
           <section>
             <h2 className="text-2xl font-bold text-gray-900 mb-4">Why It Matters</h2>
-            <p className="text-gray-700 leading-relaxed">This project demonstrates ADRIG AI Technologies' ability to deliver tailored solutions that address specific operational challenges. By leveraging advanced tracking technologies and automation, we helped Barron Tech Serv Pvt Ltd enhance transparency, improve financial accuracy, and achieve greater operational efficiency.</p>
+            <p className="text-gray-700 leading-relaxed">This project demonstrates ADRIG AI {"Technologies'"} ability to deliver tailored solutions that address specific operational challenges. By leveraging advanced tracking technologies and automation, we helped Barron Tech Serv Pvt Ltd enhance transparency, improve financial accuracy, and achieve greater operational efficiency.</p>
           </section>
         </div>
       </div>

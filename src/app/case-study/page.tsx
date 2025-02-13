@@ -7,18 +7,17 @@ interface ContentCardPropsType {
   index: number;
 }
 
-const bgColors = [
-  "bg-gradient-to-tr from-blue-400 to-purple-500",
-  "bg-gradient-to-tr from-green-400 to-teal-500",
-  "bg-gradient-to-tr from-red-400 to-orange-500",
-  "bg-gradient-to-br from-indigo-400 to-blue-500",
-  "bg-gradient-to-br from-yellow-400 to-amber-500",
-  "bg-gradient-to-br from-pink-400 to-rose-500",
-  "bg-gradient-to-t from-cyan-400 to-sky-500",
-  "bg-gradient-to-b from-lime-400 to-green-500"
-];
-
 function ContentCard({ title, link, index }: ContentCardPropsType) {
+  const bgColors = [
+    "bg-gradient-to-tr from-blue-400 to-purple-500",
+    "bg-gradient-to-tr from-green-400 to-teal-500",
+    "bg-gradient-to-tr from-red-400 to-orange-500",
+    "bg-gradient-to-br from-indigo-400 to-blue-500",
+    "bg-gradient-to-br from-yellow-400 to-amber-500",
+    "bg-gradient-to-br from-pink-400 to-rose-500",
+    "bg-gradient-to-t from-cyan-400 to-sky-500",
+    "bg-gradient-to-b from-lime-400 to-green-500"
+  ];
   return (
     <Link href={link}>
       <div
@@ -41,7 +40,7 @@ const contents = [
   { title: "EYEQ", link: "" }
 ];
 
-export function BlogSection11() {
+function CaseStudy() {
   return (
     <section className="container mx-auto px-8 py-16 lg:py-24">
       <h2 className="text-3xl font-bold text-gray-800 lg:text-4xl">Case Studies</h2>
@@ -58,4 +57,4 @@ export function BlogSection11() {
   );
 }
 
-export default BlogSection11;
+export default CaseStudy;
