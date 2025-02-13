@@ -87,6 +87,15 @@
   }
 }
 
+/* Add this to your global CSS or Tailwind config */
+.card {
+  transition: transform 0.3s ease-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
 body {
   overflow-x: hidden;
   scroll-behavior: smooth;

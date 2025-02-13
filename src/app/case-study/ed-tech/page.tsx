@@ -1,29 +1,22 @@
-import CaseStudyLayout from "@/components/custom/case-study/CaseStudyLayout";
+const partnerships = [
+  { name: "VIT Chennai", program: "VIT Chennai Workshop" },
+  { name: "SRM Kattankulathur", program: "SRM Kattankulathur Mentorship Program" },
+  { name: "St. Joseph’s Group of Institutions", program: "St. Joseph’s College Workshop" },
+  { name: "Sairam College of Engineering", program: "Sairam College Judging Session" },
+  { name: "DMI Group of Institutions", program: "DMI Group Educational Partnership" },
+];
 
-export default function SouthernRailwaysCaseStudy() {
+export default function EdTechPartnerships() {
   return (
-    <CaseStudyLayout
-      client="Southern Railways"
-      title="Optimizing Rail Management with AI"
-      industry="Transportation"
-      location="India"
-      services="AI-driven Scheduling, Predictive Maintenance"
-      duration="6 months"
-      challenge="Southern Railways struggled with outdated scheduling systems, causing delays and inefficiencies."
-      approach={{
-        rootCause: "We analyzed existing workflows and identified bottlenecks in scheduling and maintenance.",
-        solution: "Implemented AI-driven predictive scheduling and real-time maintenance alerts.",
-        execution: "Deployed the system in phases, trained staff, and optimized performance based on feedback."
-      }}
-      results={{
-        quantitative1: "Reduced delays by 40%",
-        quantitative2: "Saved $200,000 in annual maintenance costs",
-        qualitative: "Enhanced passenger experience and operational efficiency"
-      }}
-      testimonial={{
-        quote: "The AI-driven system transformed our operations. Delays have dropped significantly!",
-        author: "John Doe, Operations Manager, Southern Railways"
-      }}
-    />
+    <div className="p-6 flex flex-col items-center gap-6 min-h-screen bg-gray-50 justify-center">
+      {partnerships.map((partner, index) => (
+        <div key={index} className="shadow-xl border border-gray-300 rounded-2xl p-6 text-center flex flex-col items-center bg-white w-full max-w-md">
+          <h3 className="text-2xl font-semibold mb-3 text-gray-900">{partner.name}</h3>
+          <span className="bg-blue-500 text-white px-6 py-2 text-sm rounded-full text-center">
+            {partner.program}
+          </span>
+        </div>
+      ))}
+    </div>
   );
 }

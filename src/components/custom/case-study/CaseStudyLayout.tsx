@@ -47,7 +47,7 @@ export default function CaseStudyLayout({
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
       >
-        {client} Case Study: {title}
+        {client} : {title}
       </motion.h1>
 
       <motion.p 
